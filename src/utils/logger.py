@@ -60,7 +60,7 @@ class Logger:
     def _setup_console_handler(self):
         """设置控制台日志处理器"""
         console_handler = logging.StreamHandler()
-        console_handler.setLevel(logging.INFO)
+        console_handler.setLevel(logging.DEBUG)  # 修改为调试级别，以显示更多日志
         
         formatter = logging.Formatter(
             '%(asctime)s - %(levelname)s - %(message)s'
@@ -86,7 +86,7 @@ class Logger:
                 self.callback(log_entry, record.levelname)
         
         handler = UIHandler(callback)
-        handler.setLevel(logging.INFO)
+        handler.setLevel(logging.DEBUG)  # 修改为调试级别，以显示更多日志
         formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         

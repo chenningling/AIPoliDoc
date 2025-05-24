@@ -198,11 +198,46 @@ class AIConnector:
             json_start = content.find('{')
             json_end = content.rfind('}')
             
+            app_logger.debug(f"JSON内容起始位置: {json_start}, 结束位置: {json_end}")
+            
             if json_start >= 0 and json_end >= 0:
                 json_content = content[json_start:json_end+1]
-                formatting_instructions = json.loads(json_content)
-                app_logger.info("成功解析AI响应")
-                return True, formatting_instructions
+                app_logger.debug(f"提取的JSON内容长度: {len(json_content)}")
+                app_logger.debug(f"JSON内容前50个字符: {json_content[:50]}...")
+                
+                try:
+                    formatting_instructions = json.loads(json_content)
+                    app_logger.info("成功解析AI响应")
+                    
+                    # 记录解析后的结构信息
+                    elements = formatting_instructions.get('elements', [])
+                    app_logger.info(f"结构验证完成，共{len(elements)}个元素")
+                    
+                    # 检查elements是否为列表
+                    if not isinstance(elements, list):
+                        app_logger.error(f"elements不是列表类型: {type(elements)}")
+                        return False, "响应格式错误: elements不是列表类型"
+                    
+                    # 检查每个元素的结构
+                    for i, elem in enumerate(elements):
+                        if not isinstance(elem, dict):
+                            app_logger.error(f"元素 {i} 不是字典类型: {type(elem)}")
+                            return False, f"响应格式错误: 元素 {i} 不是字典类型"
+                        
+                        # 检查必要字段
+                        if 'content' not in elem:
+                            app_logger.error(f"元素 {i} 缺少content字段")
+                            return False, f"响应格式错误: 元素 {i} 缺少content字段"
+                        
+                        if 'format' not in elem:
+                            app_logger.error(f"元素 {i} 缺少format字段")
+                            return False, f"响应格式错误: 元素 {i} 缺少format字段"
+                    
+                    return True, formatting_instructions
+                except json.JSONDecodeError as e:
+                    error_msg = f"JSON解析错误: {str(e)}\n提取的JSON内容: {json_content[:100]}..."
+                    app_logger.error(error_msg)
+                    return False, error_msg
             else:
                 error_msg = "无法在AI响应中找到有效的JSON内容"
                 app_logger.error(error_msg)
