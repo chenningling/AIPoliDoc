@@ -1,0 +1,30 @@
+{
+    "name": "默认模板",
+    "description": "基本排版模板，适用于一般文档",
+    "rules": {
+        "标题": {
+            "font": "黑体",
+            "size": "小二",
+            "bold": true,
+            "line_spacing": 1.0
+        },
+        "一级标题": {
+            "font": "黑体",
+            "size": "五号",
+            "bold": true,
+            "line_spacing": 1.5
+        },
+        "二级标题": {
+            "font": "宋体",
+            "size": "五号",
+            "bold": true,
+            "line_spacing": 1.5
+        },
+        "正文": {
+            "font": "宋体",
+            "size": "五号",
+            "bold": false,
+            "line_spacing": 19
+        }
+    }
+}

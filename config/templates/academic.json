@@ -1,0 +1,54 @@
+{
+    "name": "研究论文格式",
+    "description": "学术研究论文的标准排版格式",
+    "rules": {
+        "标题": {
+            "font": "黑体",
+            "size": "小二",
+            "bold": true,
+            "line_spacing": 1.0
+        },
+        "单位、姓名": {
+            "font": "楷体",
+            "size": "四号",
+            "bold": false,
+            "line_spacing": 1.0
+        },
+        "摘要": {
+            "font": "仿宋",
+            "size": "五号",
+            "bold": false,
+            "line_spacing": 1.5
+        },
+        "关键词": {
+            "font": "黑体",
+            "size": "五号",
+            "bold": true,
+            "line_spacing": 1.5
+        },
+        "一级标题": {
+            "font": "黑体",
+            "size": "五号",
+            "bold": true,
+            "line_spacing": 1.5
+        },
+        "二级标题": {
+            "font": "宋体",
+            "size": "五号",
+            "bold": true,
+            "line_spacing": 1.5
+        },
+        "正文": {
+            "font": "宋体",
+            "size": "五号",
+            "bold": false,
+            "line_spacing": 19
+        },
+        "参考文献": {
+            "font": "楷体",
+            "size": "五号",
+            "bold": false,
+            "line_spacing": 1.5
+        }
+    }
+}

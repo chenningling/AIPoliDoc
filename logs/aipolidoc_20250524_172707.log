@@ -1,0 +1,64 @@
+2025-05-24 17:27:07,879 - AIPoliDoc - DEBUG - 加载配置文件: config/api_config.json
+2025-05-24 17:27:07,882 - AIPoliDoc - DEBUG - 加载配置文件: config/app_config.json
+2025-05-24 17:27:07,895 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-24 17:27:07,902 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-24 17:27:07,902 - AIPoliDoc - INFO - 配置管理器初始化完成
+2025-05-24 17:27:10,157 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-24 17:27:10,162 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-24 17:27:10,162 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-24 17:27:10,162 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-24 17:27:10,850 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-24 17:27:10,851 - AIPoliDoc - INFO - 应用程序启动完成
+2025-05-24 17:27:11,078 - AIPoliDoc - INFO - AI Word文档自动排版工具启动成功
+2025-05-24 17:27:22,114 - AIPoliDoc - INFO - 已选择文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-24 17:27:26,148 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-24 17:27:35,197 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-24 17:27:38,425 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-24 17:27:38,431 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-24 17:27:38,431 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-24 17:28:45,109 - AIPoliDoc - INFO - 已设置保存位置: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-24 17:28:45,111 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-24 17:30:02,071 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-24 17:30:02,075 - AIPoliDoc - INFO - 正在测试API连接...
+2025-05-24 17:30:06,261 - AIPoliDoc - INFO - API配置验证成功
+2025-05-24 17:30:07,877 - AIPoliDoc - INFO - API连接测试成功
+2025-05-24 17:30:10,630 - AIPoliDoc - DEBUG - 保存配置文件: config/api_config.json
+2025-05-24 17:30:10,630 - AIPoliDoc - INFO - API配置已更新
+2025-05-24 17:30:10,675 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-24 17:30:10,676 - AIPoliDoc - INFO - API配置已更新
+2025-05-24 17:30:16,359 - AIPoliDoc - INFO - API配置验证成功
+2025-05-24 17:30:16,369 - AIPoliDoc - INFO - 开始排版任务
+2025-05-24 17:30:16,413 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-24 17:30:16,423 - AIPoliDoc - DEBUG - 文档包含 11 个段落
+2025-05-24 17:30:16,428 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 1 个潜在标题
+2025-05-24 17:30:16,428 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-24 17:30:16,428 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-24 17:30:16,428 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-24 17:31:13,247 - AIPoliDoc - INFO - AI API请求成功
+2025-05-24 17:31:13,250 - AIPoliDoc - INFO - 成功解析AI响应
+2025-05-24 17:31:13,251 - AIPoliDoc - INFO - 结构验证完成，共11个元素
+2025-05-24 17:31:13,284 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_backup_20250524173113.docx
+2025-05-24 17:31:13,308 - AIPoliDoc - DEBUG - 应用格式到元素: 标题, 内容: AI时代，该怎样看待学习？（青年观）...
+2025-05-24 17:31:13,309 - AIPoliDoc - DEBUG - 应用格式到元素: 单位、姓名, 内容: 孟祥夫《人民日报》（2025年04月13...
+2025-05-24 17:31:13,310 - AIPoliDoc - DEBUG - 应用格式到元素: 正文, 内容: “现在，人工智能这么强大，啥都会，孩子还...
+2025-05-24 17:31:13,311 - AIPoliDoc - DEBUG - 应用格式到元素: 正文, 内容: 人工智能来势汹汹，一些年轻人在网上发问，...
+2025-05-24 17:31:13,313 - AIPoliDoc - DEBUG - 应用格式到元素: 正文, 内容: 有了AI“加持”，努力学习就没有意义了吗...
+2025-05-24 17:31:13,314 - AIPoliDoc - DEBUG - 应用格式到元素: 正文, 内容: 提示词本身就是知识。想要AI生成高质量的...
+2025-05-24 17:31:13,315 - AIPoliDoc - DEBUG - 应用格式到元素: 正文, 内容: 学习的过程，是刷新认知、重塑自我的过程。...
+2025-05-24 17:31:13,316 - AIPoliDoc - DEBUG - 应用格式到元素: 正文, 内容: 然而，倘若一味依赖AI获取答案，忽视甚至...
+2025-05-24 17:31:13,317 - AIPoliDoc - DEBUG - 应用格式到元素: 正文, 内容: AI是个人能力和水平的“放大器”，一个人...
+2025-05-24 17:31:13,318 - AIPoliDoc - DEBUG - 应用格式到元素: 正文, 内容: 拥有超强能力，AI更有助于我们更好学习、...
+2025-05-24 17:31:13,319 - AIPoliDoc - DEBUG - 应用格式到元素: 正文, 内容: 未来已来。在技术飞快发展、科技日新月异的...
+2025-05-24 17:31:13,320 - AIPoliDoc - DEBUG - 生成输出文件路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_已排版.docx
+2025-05-24 17:31:13,334 - AIPoliDoc - INFO - 成功应用排版格式并保存到: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_已排版.docx
+2025-05-24 17:31:17,128 - AIPoliDoc - INFO - 排版任务成功完成，输出文件: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_已排版.docx
+2025-05-24 17:32:02,079 - AIPoliDoc - INFO - API配置验证成功
+2025-05-24 17:32:02,095 - AIPoliDoc - INFO - 开始排版任务
+2025-05-24 17:32:02,113 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-24 17:32:02,123 - AIPoliDoc - DEBUG - 文档包含 11 个段落
+2025-05-24 17:32:02,123 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 1 个潜在标题
+2025-05-24 17:32:02,123 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-24 17:32:02,124 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-24 17:32:02,124 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-24 17:32:58,813 - AIPoliDoc - INFO - AI API请求成功
+2025-05-24 17:32:58,816 - AIPoliDoc - INFO - 成功解析AI响应

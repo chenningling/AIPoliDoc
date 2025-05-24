@@ -1,0 +1,7 @@
+# 依赖包列表
+python-docx>=0.8.11    # Word文档处理
+PyQt6>=6.4.0           # GUI界面
+requests>=2.28.1       # HTTP请求
+pillow>=9.3.0          # 图像处理
+chardet>=5.0.0         # 字符编码检测
+json5>=0.9.10          # JSON处理
