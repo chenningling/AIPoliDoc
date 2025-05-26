@@ -27,9 +27,13 @@ class DocProcessor:
             "黑体": "SimHei",
             "楷体": "KaiTi",
             "仿宋": "FangSong",
-            "微软雅黑": "Microsoft YaHei",
+            "微软雅黑": "Microsoft YaHei UI",  # 修改为常用的微软雅黑UI字体
+            "微软雅黑 UI": "Microsoft YaHei UI",  # 添加带UI的字体名称
             "Times New Roman": "Times New Roman"
         }
+        
+        # 记录可用字体信息
+        app_logger.debug(f"初始化字体映射: {self.font_mapping}")
         self.font_size_mapping = {
             "小二": Pt(18),
             "三号": Pt(16),
@@ -80,12 +84,13 @@ class DocProcessor:
         
         return self.paragraphs_text
     
-    def apply_formatting(self, formatting_instructions):
+    def apply_formatting(self, formatting_instructions, custom_save_path=None):
         """
         根据排版指令应用格式
         
         Args:
             formatting_instructions: 排版指令，包含元素类型和格式信息
+            custom_save_path: 自定义保存路径，如果指定则使用该路径
             
         Returns:
             是否成功应用格式
@@ -95,6 +100,9 @@ class DocProcessor:
             return False
         
         try:
+            # 记录格式化指令，方便调试
+            app_logger.debug(f"格式化指令: {formatting_instructions}")
+            
             # 检查formatting_instructions结构
             if not isinstance(formatting_instructions, dict):
                 app_logger.error(f"排版指令不是字典类型: {type(formatting_instructions)}")
@@ -106,6 +114,10 @@ class DocProcessor:
                 return False
             
             app_logger.info(f"开始应用排版格式，共有 {len(elements)} 个元素")
+            
+            # 记录自定义保存路径
+            if custom_save_path:
+                app_logger.info(f"使用自定义保存路径: {custom_save_path}")
             
             # 备份原始文档
             backup_path = backup_file(self.input_file)
@@ -130,15 +142,26 @@ class DocProcessor:
             
             # 生成输出文件名
             try:
-                self.output_file = generate_output_filename(self.input_file)
+                self.output_file = generate_output_filename(self.input_file, custom_save_path)
                 app_logger.debug(f"生成输出文件名: {self.output_file}")
             except Exception as e:
                 app_logger.error(f"生成输出文件名失败: {str(e)}")
-                self.output_file = self.input_file.replace('.docx', '_已排版.docx')
+                # 如果指定了自定义保存路径，则使用该路径
+                if custom_save_path and os.path.isdir(custom_save_path):
+                    filename = os.path.basename(self.input_file).replace('.docx', '_已排版.docx')
+                    self.output_file = os.path.join(custom_save_path, filename)
+                else:
+                    self.output_file = self.input_file.replace('.docx', '_已排版.docx')
                 app_logger.debug(f"使用默认输出文件名: {self.output_file}")
             
             # 保存文档
             try:
+                # 确保输出目录存在
+                output_dir = os.path.dirname(self.output_file)
+                if not os.path.exists(output_dir):
+                    os.makedirs(output_dir)
+                    app_logger.debug(f"创建输出目录: {output_dir}")
+                
                 new_doc.save(self.output_file)
                 app_logger.info(f"成功应用排版格式并保存到: {self.output_file}")
                 return True

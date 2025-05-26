@@ -1,0 +1,5 @@
+2025-05-26 14:58:43,070 - AIPoliDoc - DEBUG - 加载配置文件: config/api_config.json
+2025-05-26 14:58:43,074 - AIPoliDoc - DEBUG - 加载配置文件: config/app_config.json
+2025-05-26 14:58:43,083 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 14:58:43,096 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 14:58:43,097 - AIPoliDoc - INFO - 配置管理器初始化完成

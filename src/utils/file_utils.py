@@ -10,29 +10,49 @@ import shutil
 from datetime import datetime
 from .logger import app_logger
 
-def generate_output_filename(input_file):
+def generate_output_filename(input_file, custom_save_path=None):
     """
     生成输出文件名
     
     Args:
         input_file: 输入文件路径
+        custom_save_path: 自定义保存路径，如果指定则使用该路径
         
     Returns:
         输出文件路径
     """
     # 获取文件名和扩展名
-    dir_path = os.path.dirname(input_file)
     filename, ext = os.path.splitext(os.path.basename(input_file))
     
     # 初始输出文件名
     output_filename = f"{filename}_已排版{ext}"
-    output_path = os.path.join(dir_path, output_filename)
+    
+    # 如果指定了自定义保存路径，则使用该路径
+    if custom_save_path and os.path.isdir(custom_save_path):
+        app_logger.debug(f"使用自定义保存路径: {custom_save_path}")
+        output_dir = custom_save_path
+    else:
+        # 否则使用原文件所在目录
+        output_dir = os.path.dirname(input_file)
+        app_logger.debug(f"使用原文件目录作为保存路径: {output_dir}")
+    
+    # 确保输出目录存在
+    if not os.path.exists(output_dir):
+        try:
+            os.makedirs(output_dir)
+            app_logger.debug(f"创建输出目录: {output_dir}")
+        except Exception as e:
+            app_logger.error(f"创建输出目录失败: {output_dir}, 错误: {str(e)}")
+            # 如果创建目录失败，则使用原文件目录
+            output_dir = os.path.dirname(input_file)
+    
+    output_path = os.path.join(output_dir, output_filename)
     
     # 如果文件已存在，添加时间戳
     if os.path.exists(output_path):
         timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
         output_filename = f"{filename}_已排版_{timestamp}{ext}"
-        output_path = os.path.join(dir_path, output_filename)
+        output_path = os.path.join(output_dir, output_filename)
     
     app_logger.debug(f"生成输出文件路径: {output_path}")
     return output_path

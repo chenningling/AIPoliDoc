@@ -1,0 +1,682 @@
+2025-05-26 15:03:08,139 - AIPoliDoc - DEBUG - 加载配置文件: config/api_config.json
+2025-05-26 15:03:08,142 - AIPoliDoc - DEBUG - 加载配置文件: config/app_config.json
+2025-05-26 15:03:08,151 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 15:03:08,166 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 15:03:08,166 - AIPoliDoc - INFO - 配置管理器初始化完成
+2025-05-26 15:03:08,965 - AIPoliDoc - DEBUG - 初始化字体映射: {'宋体': 'SimSun', '黑体': 'SimHei', '楷体': 'KaiTi', '仿宋': 'FangSong', '微软雅黑': 'Microsoft YaHei UI', '微软雅黑 UI': 'Microsoft YaHei UI', 'Times New Roman': 'Times New Roman'}
+2025-05-26 15:03:08,972 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 15:03:08,981 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 15:03:08,981 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 15:03:08,981 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-26 15:03:09,755 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 15:03:09,757 - AIPoliDoc - INFO - 应用程序启动完成
+2025-05-26 15:03:10,176 - AIPoliDoc - INFO - AI Word文档自动排版工具启动成功
+2025-05-26 15:03:30,179 - AIPoliDoc - INFO - 已选择文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/未排版/人工智能在学术论文排版中的应用研究.docx
+2025-05-26 15:03:37,983 - AIPoliDoc - INFO - API配置验证成功
+2025-05-26 15:03:37,992 - AIPoliDoc - INFO - 开始排版任务
+2025-05-26 15:03:38,039 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/未排版/人工智能在学术论文排版中的应用研究.docx
+2025-05-26 15:03:38,050 - AIPoliDoc - DEBUG - 文档包含 79 个段落
+2025-05-26 15:03:38,061 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 17 个潜在标题
+2025-05-26 15:03:38,062 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-26 15:03:38,063 - AIPoliDoc - DEBUG - 文档长度: 1757 字符, 规则数量: 5
+2025-05-26 15:03:38,063 - AIPoliDoc - DEBUG - 生成的提示词长度: 2802 字符
+2025-05-26 15:03:38,068 - AIPoliDoc - DEBUG - 提示词开头: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+# 人工智能在学术论文排版中的应用研究  
+
+**中国科学技术大学·智能计算研究所** 张学术  
+
+
+
+## 摘要  
+
+随着学术论文数量的快速增长，传统排版方式已无法满足高效、规范的出版需求。本...
+2025-05-26 15:03:38,076 - AIPoliDoc - DEBUG - 提示词结尾: ...type": "标题",
+      "content": "文本内容",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "line_spacing": 1.0
+      }
+    },
+    ...
+  ]
+}
+
+请确保返回的JSON格式正确，可以被解析。只返回JSON内容，不要有其他说明文字。
+
+2025-05-26 15:03:38,123 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-26 15:03:38,124 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-26 15:03:38,125 - AIPoliDoc - DEBUG - 请求头信息: {'Content-Type': 'application/json', 'Authorization': 'Bearer sk-c7d66ad568c849ffbd6563762abc0fdf'}
+2025-05-26 15:03:38,192 - AIPoliDoc - DEBUG - 提示词预览: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+# 人工智能在学术论文排版中的应用研究  
+
+**中国科学技术大学·智能计算研究所** 张学术  
+
+
+
+## 摘要  
+
+随着学术论文数量的快速增长，传统排版方式已无法满足高效、规范的出版需求。本...
+2025-05-26 15:03:38,200 - AIPoliDoc - DEBUG - 使用模型: deepseek-chat
+2025-05-26 15:03:38,201 - AIPoliDoc - INFO - 开始发送请求，超时时间设置为180秒
+2025-05-26 15:06:38,781 - AIPoliDoc - INFO - 收到响应，状态码: 200
+2025-05-26 15:06:38,786 - AIPoliDoc - INFO - AI API请求成功
+2025-05-26 15:06:38,788 - AIPoliDoc - DEBUG - 响应内容预览: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "人工智能在学术论文排版中的应用研究",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0
+      ...
+2025-05-26 15:06:38,789 - AIPoliDoc - DEBUG - 响应使用的模型: deepseek-chat
+2025-05-26 15:06:38,790 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1398, 'completion_tokens': 4096, 'total_tokens': 5494, 'prompt_tokens_details': {'cached_tokens': 1344}, 'prompt_cache_hit_tokens': 1344, 'prompt_cache_miss_tokens': 54}
+2025-05-26 15:06:38,794 - AIPoliDoc - DEBUG - 响应完整结构的键: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-26 15:06:38,797 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1398, 'completion_tokens': 4096, 'total_tokens': 5494, 'prompt_tokens_details': {'cached_tokens': 1344}, 'prompt_cache_hit_tokens': 1344, 'prompt_cache_miss_tokens': 54}
+2025-05-26 15:06:38,798 - AIPoliDoc - DEBUG - 原始响应内容长度: 11603 字符
+2025-05-26 15:06:38,799 - AIPoliDoc - DEBUG - 响应内容开头: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "人工智能在学术论文排版中的应用研究",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0
+      ...
+2025-05-26 15:06:38,800 - AIPoliDoc - DEBUG - 响应内容结尾: ...,
+    {
+      "type": "正文",
+      "content": "[1] 李智能. 深度学习在文档处理中的应用[M]. 北京: 科学出版社, 2022.",
+      "format": {
+        "font": "微软雅黑",
+        "size": "五号",
+        "bold": false,
+        "line_spacing
+2025-05-26 15:06:38,801 - AIPoliDoc - DEBUG - JSON内容起始位置: 0, 结束位置: 11402
+2025-05-26 15:06:38,803 - AIPoliDoc - DEBUG - 提取的JSON内容长度: 11403 字符
+2025-05-26 15:06:38,804 - AIPoliDoc - DEBUG - JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 15:06:38,805 - AIPoliDoc - WARNING - 原始JSON解析失败，尝试修复: Expecting ',' delimiter: line 572 column 6 (char 11403)
+2025-05-26 15:06:38,806 - AIPoliDoc - DEBUG - 开始修复JSON格式
+2025-05-26 15:06:38,812 - AIPoliDoc - INFO - 添加 1 个缺失的右花括号
+2025-05-26 15:06:38,813 - AIPoliDoc - INFO - 添加 1 个缺失的右方括号
+2025-05-26 15:06:38,816 - AIPoliDoc - WARNING - 无法修复JSON格式，返回原始字符串
+2025-05-26 15:06:38,824 - AIPoliDoc - DEBUG - 尝试修复后的JSON内容长度: 11403 字符
+2025-05-26 15:06:38,825 - AIPoliDoc - DEBUG - 修复后的JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 15:06:38,827 - AIPoliDoc - ERROR - 修复后的JSON仍然无法解析: Expecting ',' delimiter: line 572 column 6 (char 11403)
+2025-05-26 15:06:38,828 - AIPoliDoc - ERROR - JSON解析失败: Expecting ',' delimiter: line 572 column 6 (char 11403)
+2025-05-26 15:06:38,829 - AIPoliDoc - ERROR - 解析失败位置附近的内容: ...": true,
+        "line_spacing": 1.5
+      }
+    }...
+2025-05-26 15:06:38,829 - AIPoliDoc - ERROR - 解析失败位置: 11403, 行: 572, 列: 6
+2025-05-26 15:07:09,470 - AIPoliDoc - ERROR - 排版任务失败: 解析AI响应失败
+2025-05-26 15:07:24,004 - AIPoliDoc - INFO - 已选择文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-26 15:07:29,956 - AIPoliDoc - INFO - API配置验证成功
+2025-05-26 15:07:29,970 - AIPoliDoc - INFO - 开始排版任务
+2025-05-26 15:07:30,002 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-26 15:07:30,011 - AIPoliDoc - DEBUG - 文档包含 11 个段落
+2025-05-26 15:07:30,012 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 1 个潜在标题
+2025-05-26 15:07:30,013 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-26 15:07:30,014 - AIPoliDoc - DEBUG - 文档长度: 1181 字符, 规则数量: 5
+2025-05-26 15:07:30,015 - AIPoliDoc - DEBUG - 生成的提示词长度: 2226 字符
+2025-05-26 15:07:30,016 - AIPoliDoc - DEBUG - 提示词开头: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+AI时代，该怎样看待学习？（青年观）
+
+孟祥夫《人民日报》（2025年04月13日 第 05 版）
+
+“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天...
+2025-05-26 15:07:30,019 - AIPoliDoc - DEBUG - 提示词结尾: ...type": "标题",
+      "content": "文本内容",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "line_spacing": 1.0
+      }
+    },
+    ...
+  ]
+}
+
+请确保返回的JSON格式正确，可以被解析。只返回JSON内容，不要有其他说明文字。
+
+2025-05-26 15:07:30,020 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-26 15:07:30,022 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-26 15:07:30,023 - AIPoliDoc - DEBUG - 请求头信息: {'Content-Type': 'application/json', 'Authorization': 'Bearer sk-c7d66ad568c849ffbd6563762abc0fdf'}
+2025-05-26 15:07:30,025 - AIPoliDoc - DEBUG - 提示词预览: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+AI时代，该怎样看待学习？（青年观）
+
+孟祥夫《人民日报》（2025年04月13日 第 05 版）
+
+“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天...
+2025-05-26 15:07:30,026 - AIPoliDoc - DEBUG - 使用模型: deepseek-chat
+2025-05-26 15:07:30,027 - AIPoliDoc - INFO - 开始发送请求，超时时间设置为180秒
+2025-05-26 15:08:43,319 - AIPoliDoc - INFO - 收到响应，状态码: 200
+2025-05-26 15:08:43,322 - AIPoliDoc - INFO - AI API请求成功
+2025-05-26 15:08:43,324 - AIPoliDoc - DEBUG - 响应内容预览: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "AI时代，该怎样看待学习？（青年观）",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0
+     ...
+2025-05-26 15:08:43,325 - AIPoliDoc - DEBUG - 响应使用的模型: deepseek-chat
+2025-05-26 15:08:43,327 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1145, 'completion_tokens': 1701, 'total_tokens': 2846, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1145}
+2025-05-26 15:08:43,329 - AIPoliDoc - DEBUG - 响应完整结构的键: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-26 15:08:43,332 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1145, 'completion_tokens': 1701, 'total_tokens': 2846, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1145}
+2025-05-26 15:08:43,333 - AIPoliDoc - DEBUG - 原始响应内容长度: 4351 字符
+2025-05-26 15:08:43,334 - AIPoliDoc - DEBUG - 响应内容开头: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "AI时代，该怎样看待学习？（青年观）",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0
+     ...
+2025-05-26 15:08:43,335 - AIPoliDoc - DEBUG - 响应内容结尾: ...今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。",
+      "format": {
+        "font": "微软雅黑",
+        "size": "五号",
+        "bold": false,
+        "line_spacing": 19.0
+      }
+    }
+  ]
+}
+2025-05-26 15:08:43,338 - AIPoliDoc - DEBUG - JSON内容起始位置: 0, 结束位置: 4350
+2025-05-26 15:08:43,339 - AIPoliDoc - DEBUG - 提取的JSON内容长度: 4351 字符
+2025-05-26 15:08:43,340 - AIPoliDoc - DEBUG - JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 15:08:43,341 - AIPoliDoc - DEBUG - JSON解析成功，得到字典类型数据
+2025-05-26 15:08:43,342 - AIPoliDoc - DEBUG - 格式化指令的键: ['elements']
+2025-05-26 15:08:43,343 - AIPoliDoc - DEBUG - 元素数量: 18
+2025-05-26 15:08:43,345 - AIPoliDoc - DEBUG - 前三个元素类型: ['标题', '一级标题', '正文']
+2025-05-26 15:08:43,346 - AIPoliDoc - INFO - 结构验证完成，共18个元素
+2025-05-26 15:08:43,347 - AIPoliDoc - DEBUG - 格式化指令: {'elements': [{'type': '标题', 'content': 'AI时代，该怎样看待学习？（青年观）', 'format': {'font': '黑体', 'size': '小二', 'bold': True, 'line_spacing': 1.0}}, {'type': '一级标题', 'content': '孟祥夫《人民日报》（2025年04月13日 第 05 版）', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说道，言语间透着些许困惑和无奈。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '正文', 'content': '人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……面对人工智能这一似乎没有能力边界的新事物，部分年轻人难免有本领恐慌和危机感。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '一级标题', 'content': '有了AI“加持”，努力学习就没有意义了吗？其实不然。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供的“提示词”来生成回答。提示词越详细、准确，答案就越充分。反之，如果提示词大而化之、模棱两可，提供给AI的有用信息有限，回答也就相应地简单甚至敷衍。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '一级标题', 'content': '提示词本身就是知识。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠缺，AI也难以有效发挥作用。更何况，现阶段的人工智能技术并不完善，AI输出的信息，仍需人们辨别使用。如果缺乏独立思考能力、综合判断能力是难以辨别真伪的。从这个意义上说，要想AI为我所用，就要不断学习，进一步提高知识水平和综合能力。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '一级标题', 'content': '学习的过程，是刷新认知、重塑自我的过程。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '一级标题', 'content': '然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': 'AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以产生真正的智慧和洞见。一个人凡事靠AI，时间久了不一定会增加新知识，反倒原有的能力可能因用得少了而退步，以至于到最后，离开AI就寸步难行了。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '一级标题', 'content': 'AI是个人能力和水平的“放大器”，', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI越强大，我们越需要通过学习武装自己，建立起深厚的能力“护城河”。事实上，学习的知识、掌握的本领，都会成为我们更好应对复杂多变外部世界的有力武器。有了完备知识体系的赋能，无论技术如何发展变迁，我们都能赢得先机、掌握主动。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '一级标题', 'content': '拥有超强能力，AI更有助于我们更好学习、更高效学习。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查找资料、分析数据等方面具有强大能力，用好AI这一好帮手，人们能把更多时间和精力投入更高阶的思考和创作中，创造更多、更大价值。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '一级标题', 'content': '未来已来。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}]}
+2025-05-26 15:08:43,384 - AIPoliDoc - INFO - 开始应用排版格式，共有 18 个元素
+2025-05-26 15:08:43,389 - AIPoliDoc - INFO - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-26 15:08:43,394 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_backup_20250526150843.docx
+2025-05-26 15:08:43,396 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_backup_20250526150843.docx
+2025-05-26 15:08:43,419 - AIPoliDoc - DEBUG - 成功创建新文档
+2025-05-26 15:08:43,421 - AIPoliDoc - DEBUG - 处理第 1/18 个元素
+2025-05-26 15:08:43,421 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '标题', 'content': 'AI时代，该怎样看待学习？（青年观）', 'format': {'font': '黑体', 'size': '小二', 'bold': True, 'line_spacing': 1.0}}
+2025-05-26 15:08:43,422 - AIPoliDoc - DEBUG - 元素内容: AI时代，该怎样看待学习？（青年观）...
+2025-05-26 15:08:43,423 - AIPoliDoc - DEBUG - 元素类型: 标题
+2025-05-26 15:08:43,424 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '小二', 'bold': True, 'line_spacing': 1.0}
+2025-05-26 15:08:43,434 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,435 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,436 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:08:43,436 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:08:43,438 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,438 - AIPoliDoc - DEBUG - 原始字体大小: 小二
+2025-05-26 15:08:43,439 - AIPoliDoc - DEBUG - 映射后的字体大小: 228600
+2025-05-26 15:08:43,440 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:08:43,441 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,442 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,443 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,443 - AIPoliDoc - DEBUG - 设置行间距: 1.0
+2025-05-26 15:08:43,444 - AIPoliDoc - DEBUG - 设置单倍行间距
+2025-05-26 15:08:43,445 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,446 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,447 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,447 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,448 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,449 - AIPoliDoc - DEBUG - 完成元素处理: 标题, 内容: AI时代，该怎样看待学习？（青年观）...
+2025-05-26 15:08:43,450 - AIPoliDoc - DEBUG - 处理第 2/18 个元素
+2025-05-26 15:08:43,450 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '孟祥夫《人民日报》（2025年04月13日 第 05 版）', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:08:43,451 - AIPoliDoc - DEBUG - 元素内容: 孟祥夫《人民日报》（2025年04月13日 第 05 版）...
+2025-05-26 15:08:43,452 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:08:43,453 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:08:43,454 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,454 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,455 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:08:43,455 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:08:43,456 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,457 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,457 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,458 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:08:43,459 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,459 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,460 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,461 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:08:43,462 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:08:43,462 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,464 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,466 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,468 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,470 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,471 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 孟祥夫《人民日报》（2025年04月13...
+2025-05-26 15:08:43,475 - AIPoliDoc - DEBUG - 处理第 3/18 个元素
+2025-05-26 15:08:43,477 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说道，言语间透着些许困惑和无奈。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}
+2025-05-26 15:08:43,481 - AIPoliDoc - DEBUG - 元素内容: “现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说...
+2025-05-26 15:08:43,484 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:08:43,485 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}
+2025-05-26 15:08:43,487 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,490 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,491 - AIPoliDoc - DEBUG - 应用字体: 微软雅黑
+2025-05-26 15:08:43,493 - AIPoliDoc - DEBUG - 映射后的字体名称: Microsoft YaHei UI
+2025-05-26 15:08:43,495 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,497 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,500 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,503 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:08:43,505 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,507 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,509 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,511 - AIPoliDoc - DEBUG - 设置行间距: 19.0
+2025-05-26 15:08:43,513 - AIPoliDoc - DEBUG - 设置自定义行间距: 19.0磅
+2025-05-26 15:08:43,519 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,521 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,524 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:08:43,525 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,527 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,529 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,531 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: “现在，人工智能这么强大，啥都会，孩子还...
+2025-05-26 15:08:43,534 - AIPoliDoc - DEBUG - 处理第 4/18 个元素
+2025-05-26 15:08:43,537 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……面对人工智能这一似乎没有能力边界的新事物，部分年轻人难免有本领恐慌和危机感。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}
+2025-05-26 15:08:43,539 - AIPoliDoc - DEBUG - 元素内容: 人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……...
+2025-05-26 15:08:43,541 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:08:43,542 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}
+2025-05-26 15:08:43,544 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,545 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,547 - AIPoliDoc - DEBUG - 应用字体: 微软雅黑
+2025-05-26 15:08:43,548 - AIPoliDoc - DEBUG - 映射后的字体名称: Microsoft YaHei UI
+2025-05-26 15:08:43,549 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,550 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,552 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,554 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:08:43,555 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,557 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,558 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,559 - AIPoliDoc - DEBUG - 设置行间距: 19.0
+2025-05-26 15:08:43,561 - AIPoliDoc - DEBUG - 设置自定义行间距: 19.0磅
+2025-05-26 15:08:43,562 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,564 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,566 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:08:43,567 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,567 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,568 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,568 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 人工智能来势汹汹，一些年轻人在网上发问，...
+2025-05-26 15:08:43,569 - AIPoliDoc - DEBUG - 处理第 5/18 个元素
+2025-05-26 15:08:43,570 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '有了AI“加持”，努力学习就没有意义了吗？其实不然。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:08:43,570 - AIPoliDoc - DEBUG - 元素内容: 有了AI“加持”，努力学习就没有意义了吗？其实不然。...
+2025-05-26 15:08:43,571 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:08:43,572 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:08:43,573 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,574 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,574 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:08:43,575 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:08:43,575 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,576 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,576 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,577 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:08:43,578 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,579 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,579 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,580 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:08:43,581 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:08:43,581 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,582 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,582 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,583 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,583 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,584 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 有了AI“加持”，努力学习就没有意义了吗...
+2025-05-26 15:08:43,585 - AIPoliDoc - DEBUG - 处理第 6/18 个元素
+2025-05-26 15:08:43,585 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供的“提示词”来生成回答。提示词越详细、准确，答案就越充分。反之，如果提示词大而化之、模棱两可，提供给AI的有用信息有限，回答也就相应地简单甚至敷衍。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}
+2025-05-26 15:08:43,586 - AIPoliDoc - DEBUG - 元素内容: 正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供...
+2025-05-26 15:08:43,587 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:08:43,588 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}
+2025-05-26 15:08:43,588 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,589 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,590 - AIPoliDoc - DEBUG - 应用字体: 微软雅黑
+2025-05-26 15:08:43,590 - AIPoliDoc - DEBUG - 映射后的字体名称: Microsoft YaHei UI
+2025-05-26 15:08:43,591 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,592 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,592 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,593 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:08:43,594 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,594 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,595 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,595 - AIPoliDoc - DEBUG - 设置行间距: 19.0
+2025-05-26 15:08:43,596 - AIPoliDoc - DEBUG - 设置自定义行间距: 19.0磅
+2025-05-26 15:08:43,596 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,597 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,598 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:08:43,598 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,598 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,599 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,599 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 正如相关领域专家所言：“你是什么水平，A...
+2025-05-26 15:08:43,600 - AIPoliDoc - DEBUG - 处理第 7/18 个元素
+2025-05-26 15:08:43,600 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '提示词本身就是知识。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:08:43,601 - AIPoliDoc - DEBUG - 元素内容: 提示词本身就是知识。...
+2025-05-26 15:08:43,601 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:08:43,602 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:08:43,603 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,603 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,604 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:08:43,604 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:08:43,605 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,605 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,606 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,606 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:08:43,607 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,608 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,609 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,609 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:08:43,610 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:08:43,610 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,611 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,611 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,612 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,612 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,613 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 提示词本身就是知识。...
+2025-05-26 15:08:43,613 - AIPoliDoc - DEBUG - 处理第 8/18 个元素
+2025-05-26 15:08:43,614 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠缺，AI也难以有效发挥作用。更何况，现阶段的人工智能技术并不完善，AI输出的信息，仍需人们辨别使用。如果缺乏独立思考能力、综合判断能力是难以辨别真伪的。从这个意义上说，要想AI为我所用，就要不断学习，进一步提高知识水平和综合能力。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}
+2025-05-26 15:08:43,615 - AIPoliDoc - DEBUG - 元素内容: 想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠...
+2025-05-26 15:08:43,616 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:08:43,617 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}
+2025-05-26 15:08:43,617 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,618 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,619 - AIPoliDoc - DEBUG - 应用字体: 微软雅黑
+2025-05-26 15:08:43,619 - AIPoliDoc - DEBUG - 映射后的字体名称: Microsoft YaHei UI
+2025-05-26 15:08:43,620 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,620 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,621 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,622 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:08:43,622 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,623 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,623 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,624 - AIPoliDoc - DEBUG - 设置行间距: 19.0
+2025-05-26 15:08:43,625 - AIPoliDoc - DEBUG - 设置自定义行间距: 19.0磅
+2025-05-26 15:08:43,625 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,626 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,627 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:08:43,627 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,629 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,630 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,632 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 想要AI生成高质量的内容，离不开输入高质...
+2025-05-26 15:08:43,635 - AIPoliDoc - DEBUG - 处理第 9/18 个元素
+2025-05-26 15:08:43,637 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '学习的过程，是刷新认知、重塑自我的过程。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:08:43,640 - AIPoliDoc - DEBUG - 元素内容: 学习的过程，是刷新认知、重塑自我的过程。...
+2025-05-26 15:08:43,641 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:08:43,643 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:08:43,645 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,647 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,648 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:08:43,648 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:08:43,650 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,650 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,651 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,652 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:08:43,653 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,675 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,676 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,681 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:08:43,683 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:08:43,693 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,695 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,696 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,696 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,697 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,702 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 学习的过程，是刷新认知、重塑自我的过程。...
+2025-05-26 15:08:43,704 - AIPoliDoc - DEBUG - 处理第 10/18 个元素
+2025-05-26 15:08:43,706 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}
+2025-05-26 15:08:43,707 - AIPoliDoc - DEBUG - 元素内容: 随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。...
+2025-05-26 15:08:43,709 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:08:43,710 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}
+2025-05-26 15:08:43,711 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,711 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,712 - AIPoliDoc - DEBUG - 应用字体: 微软雅黑
+2025-05-26 15:08:43,712 - AIPoliDoc - DEBUG - 映射后的字体名称: Microsoft YaHei UI
+2025-05-26 15:08:43,722 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,723 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,726 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,728 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:08:43,731 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,732 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,734 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,735 - AIPoliDoc - DEBUG - 设置行间距: 19.0
+2025-05-26 15:08:43,736 - AIPoliDoc - DEBUG - 设置自定义行间距: 19.0磅
+2025-05-26 15:08:43,737 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,738 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,741 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:08:43,741 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,742 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,743 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,743 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 随着知识越来越丰富、眼界越来越开阔，一个...
+2025-05-26 15:08:43,744 - AIPoliDoc - DEBUG - 处理第 11/18 个元素
+2025-05-26 15:08:43,745 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:08:43,746 - AIPoliDoc - DEBUG - 元素内容: 然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。...
+2025-05-26 15:08:43,748 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:08:43,749 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:08:43,750 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,751 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,751 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:08:43,752 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:08:43,753 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,754 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,755 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,757 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:08:43,764 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,769 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,771 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,772 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:08:43,775 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:08:43,777 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,778 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,779 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,780 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,781 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,782 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 然而，倘若一味依赖AI获取答案，忽视甚至...
+2025-05-26 15:08:43,783 - AIPoliDoc - DEBUG - 处理第 12/18 个元素
+2025-05-26 15:08:43,784 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': 'AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以产生真正的智慧和洞见。一个人凡事靠AI，时间久了不一定会增加新知识，反倒原有的能力可能因用得少了而退步，以至于到最后，离开AI就寸步难行了。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}
+2025-05-26 15:08:43,785 - AIPoliDoc - DEBUG - 元素内容: AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以...
+2025-05-26 15:08:43,786 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:08:43,787 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}
+2025-05-26 15:08:43,788 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,789 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,790 - AIPoliDoc - DEBUG - 应用字体: 微软雅黑
+2025-05-26 15:08:43,791 - AIPoliDoc - DEBUG - 映射后的字体名称: Microsoft YaHei UI
+2025-05-26 15:08:43,792 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,792 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,793 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,794 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:08:43,795 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,795 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,796 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,797 - AIPoliDoc - DEBUG - 设置行间距: 19.0
+2025-05-26 15:08:43,799 - AIPoliDoc - DEBUG - 设置自定义行间距: 19.0磅
+2025-05-26 15:08:43,799 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,801 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,802 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:08:43,802 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,803 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,804 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,805 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: AI在手，一个人看上去无所不知、无所不晓...
+2025-05-26 15:08:43,805 - AIPoliDoc - DEBUG - 处理第 13/18 个元素
+2025-05-26 15:08:43,806 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': 'AI是个人能力和水平的“放大器”，', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:08:43,807 - AIPoliDoc - DEBUG - 元素内容: AI是个人能力和水平的“放大器”，...
+2025-05-26 15:08:43,807 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:08:43,808 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:08:43,808 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,809 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,810 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:08:43,811 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:08:43,811 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,812 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,812 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,813 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:08:43,814 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,815 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,817 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,818 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:08:43,819 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:08:43,819 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,820 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,821 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,822 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,823 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,823 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: AI是个人能力和水平的“放大器”，...
+2025-05-26 15:08:43,824 - AIPoliDoc - DEBUG - 处理第 14/18 个元素
+2025-05-26 15:08:43,825 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI越强大，我们越需要通过学习武装自己，建立起深厚的能力“护城河”。事实上，学习的知识、掌握的本领，都会成为我们更好应对复杂多变外部世界的有力武器。有了完备知识体系的赋能，无论技术如何发展变迁，我们都能赢得先机、掌握主动。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}
+2025-05-26 15:08:43,826 - AIPoliDoc - DEBUG - 元素内容: 一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI...
+2025-05-26 15:08:43,827 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:08:43,827 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}
+2025-05-26 15:08:43,828 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,829 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,830 - AIPoliDoc - DEBUG - 应用字体: 微软雅黑
+2025-05-26 15:08:43,831 - AIPoliDoc - DEBUG - 映射后的字体名称: Microsoft YaHei UI
+2025-05-26 15:08:43,833 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,834 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,835 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,836 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:08:43,837 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,838 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,839 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,840 - AIPoliDoc - DEBUG - 设置行间距: 19.0
+2025-05-26 15:08:43,841 - AIPoliDoc - DEBUG - 设置自定义行间距: 19.0磅
+2025-05-26 15:08:43,842 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,843 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,844 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:08:43,844 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,845 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,845 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,846 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 一个人的知识体系越完善，掌握的技能越多，...
+2025-05-26 15:08:43,847 - AIPoliDoc - DEBUG - 处理第 15/18 个元素
+2025-05-26 15:08:43,848 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '拥有超强能力，AI更有助于我们更好学习、更高效学习。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:08:43,849 - AIPoliDoc - DEBUG - 元素内容: 拥有超强能力，AI更有助于我们更好学习、更高效学习。...
+2025-05-26 15:08:43,849 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:08:43,850 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:08:43,850 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,851 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,852 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:08:43,852 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:08:43,853 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,854 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,854 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,855 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:08:43,856 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,856 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,857 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,857 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:08:43,858 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:08:43,858 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,859 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,860 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,860 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,861 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,861 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 拥有超强能力，AI更有助于我们更好学习、...
+2025-05-26 15:08:43,862 - AIPoliDoc - DEBUG - 处理第 16/18 个元素
+2025-05-26 15:08:43,862 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查找资料、分析数据等方面具有强大能力，用好AI这一好帮手，人们能把更多时间和精力投入更高阶的思考和创作中，创造更多、更大价值。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}
+2025-05-26 15:08:43,863 - AIPoliDoc - DEBUG - 元素内容: 有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查...
+2025-05-26 15:08:43,864 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:08:43,865 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}
+2025-05-26 15:08:43,866 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,867 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,867 - AIPoliDoc - DEBUG - 应用字体: 微软雅黑
+2025-05-26 15:08:43,868 - AIPoliDoc - DEBUG - 映射后的字体名称: Microsoft YaHei UI
+2025-05-26 15:08:43,869 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,869 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,870 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,871 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:08:43,872 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,873 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,873 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,874 - AIPoliDoc - DEBUG - 设置行间距: 19.0
+2025-05-26 15:08:43,877 - AIPoliDoc - DEBUG - 设置自定义行间距: 19.0磅
+2025-05-26 15:08:43,877 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,878 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,879 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:08:43,880 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,881 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,881 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,882 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 有中学生在网上展示如何借助AI学习外语，...
+2025-05-26 15:08:43,883 - AIPoliDoc - DEBUG - 处理第 17/18 个元素
+2025-05-26 15:08:43,883 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '未来已来。', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:08:43,884 - AIPoliDoc - DEBUG - 元素内容: 未来已来。...
+2025-05-26 15:08:43,885 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:08:43,885 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:08:43,886 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,887 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,888 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:08:43,888 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:08:43,889 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,890 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,890 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,891 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:08:43,891 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,892 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,893 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,894 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:08:43,895 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:08:43,895 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,896 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,897 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,898 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,899 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,899 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 未来已来。...
+2025-05-26 15:08:43,900 - AIPoliDoc - DEBUG - 处理第 18/18 个元素
+2025-05-26 15:08:43,900 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}
+2025-05-26 15:08:43,901 - AIPoliDoc - DEBUG - 元素内容: 在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、...
+2025-05-26 15:08:43,902 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:08:43,903 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}
+2025-05-26 15:08:43,903 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:08:43,904 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:08:43,905 - AIPoliDoc - DEBUG - 应用字体: 微软雅黑
+2025-05-26 15:08:43,905 - AIPoliDoc - DEBUG - 映射后的字体名称: Microsoft YaHei UI
+2025-05-26 15:08:43,906 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:08:43,906 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:08:43,907 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:08:43,907 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:08:43,908 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:08:43,909 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:08:43,909 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:08:43,910 - AIPoliDoc - DEBUG - 设置行间距: 19.0
+2025-05-26 15:08:43,910 - AIPoliDoc - DEBUG - 设置自定义行间距: 19.0磅
+2025-05-26 15:08:43,911 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:08:43,911 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:08:43,912 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:08:43,912 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:08:43,913 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:08:43,914 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:08:43,915 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 在技术飞快发展、科技日新月异的今天要想不...
+2025-05-26 15:08:43,915 - AIPoliDoc - DEBUG - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-26 15:08:43,916 - AIPoliDoc - DEBUG - 生成输出文件路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526150843.docx
+2025-05-26 15:08:43,916 - AIPoliDoc - DEBUG - 生成输出文件名: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526150843.docx
+2025-05-26 15:08:43,934 - AIPoliDoc - INFO - 成功应用排版格式并保存到: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526150843.docx
+2025-05-26 15:08:46,808 - AIPoliDoc - INFO - 排版任务成功完成，输出文件: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526150843.docx
+2025-05-26 15:10:34,002 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 15:10:34,005 - AIPoliDoc - INFO - 应用程序正常关闭

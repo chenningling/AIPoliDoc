@@ -154,11 +154,31 @@ class FormatManager:
         self.templates[template_name] = template_content
         
         # 保存到文件
+        # 记录保存路径信息，方便调试
         template_file = os.path.join(self.templates_dir, f"{template_name}.json")
+        app_logger.debug(f"模板保存路径: {template_file}")
+        
         try:
+            # 确保模板目录存在
+            if not os.path.exists(self.templates_dir):
+                os.makedirs(self.templates_dir)
+                app_logger.debug(f"创建模板目录: {self.templates_dir}")
+            
+            # 先删除同名模板文件（如果存在）
+            if os.path.exists(template_file):
+                os.remove(template_file)
+                app_logger.debug(f"删除原模板文件: {template_file}")
+            
             with open(template_file, 'w', encoding='utf-8') as f:
                 json.dump(template_content, f, ensure_ascii=False, indent=4)
                 app_logger.info(f"保存模板: {template_name}")
+                
+                # 验证文件是否写入成功
+                if os.path.exists(template_file):
+                    app_logger.debug(f"模板文件写入成功: {template_file}")
+                else:
+                    app_logger.error(f"模板文件写入失败: {template_file}")
+                    
                 return True
         except Exception as e:
             app_logger.error(f"保存模板失败: {template_name}, 错误: {str(e)}")

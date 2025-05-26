@@ -32,7 +32,7 @@ class FormattingWorker(QThread):
     log_message = pyqtSignal(str)  # 日志消息信号
     task_completed = pyqtSignal(bool, str)  # 任务完成信号，参数为是否成功和消息
     
-    def __init__(self, doc_processor, ai_connector, format_manager, structure_analyzer, doc_path, template_name):
+    def __init__(self, doc_processor, ai_connector, format_manager, structure_analyzer, doc_path, template_name, save_path=None):
         super().__init__()
         self.doc_processor = doc_processor
         self.ai_connector = ai_connector
@@ -40,6 +40,7 @@ class FormattingWorker(QThread):
         self.structure_analyzer = structure_analyzer
         self.doc_path = doc_path
         self.template_name = template_name
+        self.save_path = save_path
         self.is_running = False
     
     def run(self):
@@ -113,10 +114,20 @@ class FormattingWorker(QThread):
             # 应用排版
             self.progress_updated.emit(85)
             self.log_message.emit("正在应用排版格式...")
-            if not self.doc_processor.apply_formatting(formatting_instructions):
-                self.log_message.emit("应用排版格式失败！")
-                self.task_completed.emit(False, "应用排版格式失败")
-                return
+            
+            # 使用自定义保存路径
+            if self.save_path:
+                self.log_message.emit(f"将使用自定义保存路径: {self.save_path}")
+                if not self.doc_processor.apply_formatting(formatting_instructions, self.save_path):
+                    self.log_message.emit("应用排版格式失败！")
+                    self.task_completed.emit(False, "应用排版格式失败")
+                    return
+            else:
+                self.log_message.emit("未指定保存路径，将保存到原文件目录")
+                if not self.doc_processor.apply_formatting(formatting_instructions):
+                    self.log_message.emit("应用排版格式失败！")
+                    self.task_completed.emit(False, "应用排版格式失败")
+                    return
             
             # 获取输出文件路径
             output_file = self.doc_processor.get_output_file()
@@ -478,9 +489,20 @@ class MainWindow(QMainWindow):
         
         dialog = TemplateEditorDialog(self, template_name, template)
         if dialog.exec():
-            # 重新加载模板列表
-            self.load_templates()
-            app_logger.info(f"模板 '{template_name}' 已更新")
+            # 重新加载所有模板
+            self.format_manager.load_templates()  # 先重新从文件系统加载模板
+            self.load_templates()  # 然后更新UI显示
+            
+            # 获取新的模板名称（可能已更改）
+            new_template_name = dialog.get_template_name()
+            if new_template_name != template_name:
+                app_logger.info(f"模板名称已从 '{template_name}' 更改为 '{new_template_name}'")
+                # 选中新的模板
+                index = self.template_combo.findText(new_template_name)
+                if index >= 0:
+                    self.template_combo.setCurrentIndex(index)
+            else:
+                app_logger.info(f"模板 '{template_name}' 已更新")
     
     def update_log(self, message, level="INFO"):
         """更新日志显示"""
@@ -525,6 +547,11 @@ class MainWindow(QMainWindow):
             QMessageBox.warning(self, "错误", "请先选择排版模板！")
             return
         
+        # 获取保存路径
+        save_path = self.save_path_value.text()
+        if save_path == "与源文件相同目录":
+            save_path = None
+        
         # 创建工作线程
         self.formatting_worker = FormattingWorker(
             self.doc_processor,
@@ -532,8 +559,15 @@ class MainWindow(QMainWindow):
             self.format_manager,
             self.structure_analyzer,
             doc_path,
-            template_name
+            template_name,
+            save_path
         )
+        
+        # 更新应用配置
+        if save_path and save_path != self.app_config.get("save_path", ""):
+            self.app_config["save_path"] = save_path
+            config_manager.save_app_config(self.app_config)
+            app_logger.debug(f"已更新保存路径配置: {save_path}")
         
         # 连接信号
         self.formatting_worker.progress_updated.connect(self.update_progress)

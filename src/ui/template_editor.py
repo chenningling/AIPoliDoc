@@ -348,10 +348,21 @@ class TemplateEditorDialog(QDialog):
         if success:
             app_logger.info(f"模板 '{name}' 已保存")
             QMessageBox.information(self, "保存成功", f"模板 '{name}' 已保存！")
+            # 保存当前模板名称，以便主窗口可以获取
+            self.template_name = name
             super().accept()
         else:
             app_logger.error(f"保存模板 '{name}' 失败")
-            QMessageBox.critical(self, "保存失败", f"保存模板 '{name}' 失败！")
+            QMessageBox.critical(self, "保存失败", f"模板 '{name}' 保存失败！")
+    
+    def get_template_name(self):
+        """
+        获取当前模板名称
+        
+        Returns:
+            str: 模板名称
+        """
+        return self.template_name
     
     def closeEvent(self, event):
         """
