@@ -296,6 +296,11 @@ class DocProcessor:
             
             if isinstance(line_spacing, (int, float)):
                 try:
+                    # 防止异常大的行间距值导致程序崩溃
+                    if line_spacing > 36.0 or line_spacing < 0.5:
+                        app_logger.warning(f"检测到异常行间距值: {line_spacing}，将使用默认值1.5")
+                        line_spacing = 1.5
+                    
                     if line_spacing == 1.0:
                         paragraph.paragraph_format.line_spacing_rule = WD_LINE_SPACING.SINGLE
                         app_logger.debug("设置单倍行间距")
@@ -306,7 +311,7 @@ class DocProcessor:
                         paragraph.paragraph_format.line_spacing_rule = WD_LINE_SPACING.DOUBLE
                         app_logger.debug("设置双倍行间距")
                     else:
-                        # 自定义行间距，妇19磅
+                        # 自定义行间距，安全值
                         paragraph.paragraph_format.line_spacing_rule = WD_LINE_SPACING.EXACTLY
                         paragraph.paragraph_format.line_spacing = Pt(line_spacing)
                         app_logger.debug(f"设置自定义行间距: {line_spacing}磅")

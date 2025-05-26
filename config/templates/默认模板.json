@@ -24,10 +24,16 @@
             "font": "微软雅黑",
             "size": "五号",
             "bold": false,
-            "line_spacing": 19.0
+            "line_spacing": 1.5
         },
         "三级标题": {
             "font": "宋体",
+            "size": "五号",
+            "bold": false,
+            "line_spacing": 1.5
+        },
+        "摘要": {
+            "font": "仿宋",
             "size": "五号",
             "bold": false,
             "line_spacing": 1.5

@@ -116,6 +116,30 @@ class TemplateEditorDialog(QDialog):
         # 按钮区域
         button_box = QDialogButtonBox(QDialogButtonBox.StandardButton.Save | 
                                      QDialogButtonBox.StandardButton.Cancel)
+        # 将按钮文本改为中文
+        save_button = button_box.button(QDialogButtonBox.StandardButton.Save)
+        cancel_button = button_box.button(QDialogButtonBox.StandardButton.Cancel)
+        if save_button:
+            save_button.setText("保存")
+            # 设置保存按钮为亮色
+            save_button.setStyleSheet("""
+                background-color: #2196F3;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                padding: 5px 15px;
+            """)
+        if cancel_button:
+            cancel_button.setText("取消")
+            # 设置取消按钮为灰色
+            cancel_button.setStyleSheet("""
+                background-color: #9E9E9E;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                padding: 5px 15px;
+            """)
+            
         button_box.accepted.connect(self.save_template)
         button_box.rejected.connect(self.reject)
         main_layout.addWidget(button_box)

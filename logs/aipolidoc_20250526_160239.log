@@ -1,0 +1,116 @@
+2025-05-26 16:02:39,978 - AIPoliDoc - DEBUG - 加载配置文件: config/api_config.json
+2025-05-26 16:02:39,982 - AIPoliDoc - DEBUG - 加载配置文件: config/app_config.json
+2025-05-26 16:02:39,992 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 16:02:40,006 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 16:02:40,007 - AIPoliDoc - INFO - 配置管理器初始化完成
+2025-05-26 16:02:41,574 - AIPoliDoc - DEBUG - 初始化字体映射: {'宋体': 'SimSun', '黑体': 'SimHei', '楷体': 'KaiTi', '仿宋': 'FangSong', '微软雅黑': 'Microsoft YaHei UI', '微软雅黑 UI': 'Microsoft YaHei UI', 'Times New Roman': 'Times New Roman'}
+2025-05-26 16:02:41,590 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 16:02:41,606 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 16:02:41,606 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 16:02:41,606 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-26 16:02:42,791 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 16:02:42,799 - AIPoliDoc - INFO - 应用程序启动完成
+2025-05-26 16:02:43,537 - AIPoliDoc - INFO - AI Word文档自动排版工具启动成功
+2025-05-26 16:02:59,941 - AIPoliDoc - INFO - 已选择文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-26 16:03:08,414 - AIPoliDoc - INFO - API配置验证成功
+2025-05-26 16:03:08,425 - AIPoliDoc - INFO - 开始排版任务
+2025-05-26 16:03:08,470 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-26 16:03:08,482 - AIPoliDoc - DEBUG - 文档包含 11 个段落
+2025-05-26 16:03:08,493 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 1 个潜在标题
+2025-05-26 16:03:08,512 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-26 16:03:08,513 - AIPoliDoc - DEBUG - 文档长度: 1181 字符, 规则数量: 6
+2025-05-26 16:03:08,514 - AIPoliDoc - DEBUG - 生成的提示词长度: 2350 字符
+2025-05-26 16:03:08,540 - AIPoliDoc - DEBUG - 提示词开头: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+AI时代，该怎样看待学习？（青年观）
+
+孟祥夫《人民日报》（2025年04月13日 第 05 版）
+
+“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一...
+2025-05-26 16:03:08,638 - AIPoliDoc - DEBUG - 提示词结尾: ...type": "标题",
+      "content": "文本内容",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "line_spacing": 1.0
+      }
+    },
+    ...
+  ]
+}
+
+请确保返回的JSON格式正确，可以被解析。只返回JSON内容，不要有其他说明文字。
+
+2025-05-26 16:03:08,640 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-26 16:03:08,641 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-26 16:03:08,642 - AIPoliDoc - DEBUG - 请求头信息: {'Content-Type': 'application/json', 'Authorization': 'Bearer sk-c7d66ad568c849ffbd6563762abc0fdf'}
+2025-05-26 16:03:08,660 - AIPoliDoc - DEBUG - 提示词预览: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+AI时代，该怎样看待学习？（青年观）
+
+孟祥夫《人民日报》（2025年04月13日 第 05 版）
+
+“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一...
+2025-05-26 16:03:08,661 - AIPoliDoc - DEBUG - 使用模型: deepseek-chat
+2025-05-26 16:03:08,662 - AIPoliDoc - INFO - 开始发送请求，超时时间设置为180秒
+2025-05-26 16:04:09,225 - AIPoliDoc - INFO - 收到响应，状态码: 200
+2025-05-26 16:04:09,227 - AIPoliDoc - INFO - AI API请求成功
+2025-05-26 16:04:09,232 - AIPoliDoc - DEBUG - 响应内容预览: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "AI时代，该怎样看待学习？（青年观）",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0
+     ...
+2025-05-26 16:04:09,233 - AIPoliDoc - DEBUG - 响应使用的模型: deepseek-chat
+2025-05-26 16:04:09,235 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1197, 'completion_tokens': 1295, 'total_tokens': 2492, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1197}
+2025-05-26 16:04:09,237 - AIPoliDoc - DEBUG - 响应完整结构的键: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-26 16:04:09,239 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1197, 'completion_tokens': 1295, 'total_tokens': 2492, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1197}
+2025-05-26 16:04:09,241 - AIPoliDoc - DEBUG - 原始响应内容长度: 3119 字符
+2025-05-26 16:04:09,242 - AIPoliDoc - DEBUG - 响应内容开头: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "AI时代，该怎样看待学习？（青年观）",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0
+     ...
+2025-05-26 16:04:09,243 - AIPoliDoc - DEBUG - 响应内容结尾: ...今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。",
+      "format": {
+        "font": "微软雅黑",
+        "size": "五号",
+        "bold": false,
+        "line_spacing": 19.0
+      }
+    }
+  ]
+}
+2025-05-26 16:04:09,272 - AIPoliDoc - DEBUG - JSON内容起始位置: 0, 结束位置: 3118
+2025-05-26 16:04:09,272 - AIPoliDoc - DEBUG - 提取的JSON内容长度: 3119 字符
+2025-05-26 16:04:09,273 - AIPoliDoc - DEBUG - JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 16:04:09,274 - AIPoliDoc - DEBUG - JSON解析成功，得到字典类型数据
+2025-05-26 16:04:09,276 - AIPoliDoc - DEBUG - 格式化指令的键: ['elements']
+2025-05-26 16:04:09,277 - AIPoliDoc - DEBUG - 元素数量: 11
+2025-05-26 16:04:09,278 - AIPoliDoc - DEBUG - 前三个元素类型: ['标题', '一级标题', '正文']
+2025-05-26 16:04:09,280 - AIPoliDoc - INFO - 结构验证完成，共11个元素
+2025-05-26 16:04:09,282 - AIPoliDoc - DEBUG - 格式化指令: {'elements': [{'type': '标题', 'content': 'AI时代，该怎样看待学习？（青年观）', 'format': {'font': '黑体', 'size': '小二', 'bold': True, 'line_spacing': 1.0}}, {'type': '一级标题', 'content': '孟祥夫《人民日报》（2025年04月13日 第 05 版）', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说道，言语间透着些许困惑和无奈。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '正文', 'content': '人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……面对人工智能这一似乎没有能力边界的新事物，部分年轻人难免有本领恐慌和危机感。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '正文', 'content': '有了AI“加持”，努力学习就没有意义了吗？其实不然。正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供的“提示词”来生成回答。提示词越详细、准确，答案就越充分。反之，如果提示词大而化之、模棱两可，提供给AI的有用信息有限，回答也就相应地简单甚至敷衍。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '正文', 'content': '提示词本身就是知识。想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠缺，AI也难以有效发挥作用。更何况，现阶段的人工智能技术并不完善，AI输出的信息，仍需人们辨别使用。如果缺乏独立思考能力、综合判断能力是难以辨别真伪的。从这个意义上说，要想AI为我所用，就要不断学习，进一步提高知识水平和综合能力。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '正文', 'content': '学习的过程，是刷新认知、重塑自我的过程。随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '正文', 'content': '然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以产生真正的智慧和洞见。一个人凡事靠AI，时间久了不一定会增加新知识，反倒原有的能力可能因用得少了而退步，以至于到最后，离开AI就寸步难行了。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '正文', 'content': 'AI是个人能力和水平的“放大器”，一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI越强大，我们越需要通过学习武装自己，建立起深厚的能力“护城河”。事实上，学习的知识、掌握的本领，都会成为我们更好应对复杂多变外部世界的有力武器。有了完备知识体系的赋能，无论技术如何发展变迁，我们都能赢得先机、掌握主动。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '正文', 'content': '拥有超强能力，AI更有助于我们更好学习、更高效学习。有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查找资料、分析数据等方面具有强大能力，用好AI这一好帮手，人们能把更多时间和精力投入更高阶的思考和创作中，创造更多、更大价值。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}, {'type': '正文', 'content': '未来已来。在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 19.0}}]}
+2025-05-26 16:04:09,309 - AIPoliDoc - INFO - 开始应用排版格式，共有 11 个元素
+2025-05-26 16:04:09,313 - AIPoliDoc - INFO - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-26 16:04:09,502 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_backup_20250526160409.docx

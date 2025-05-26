@@ -7,9 +7,11 @@
 import os
 import sys
 import time
+import subprocess
 from PyQt6.QtWidgets import (QMainWindow, QApplication, QWidget, QVBoxLayout, QHBoxLayout,
                            QLabel, QPushButton, QFileDialog, QProgressBar, QTextEdit,
-                           QComboBox, QGroupBox, QGridLayout, QMessageBox, QSplitter)
+                           QComboBox, QGroupBox, QGridLayout, QMessageBox, QSplitter,
+                           QDialog, QDialogButtonBox)
 from PyQt6.QtCore import Qt, QThread, pyqtSignal, QSize
 from PyQt6.QtGui import QFont, QIcon, QColor, QPalette
 
@@ -23,6 +25,60 @@ from ..utils.file_utils import is_valid_docx
 
 from .api_config_dialog import ApiConfigDialog
 from .template_editor import TemplateEditorDialog
+
+
+class FormattingCompleteDialog(QDialog):
+    """
+    排版完成对话框，显示成功消息并提供打开文档按钮
+    """
+    def __init__(self, parent=None, message=""):
+        super().__init__(parent)
+        self.message = message
+        self.setWindowTitle("排版完成")
+        self.setup_ui()
+        
+    def setup_ui(self):
+        # 创建布局
+        layout = QVBoxLayout(self)
+        
+        # 添加消息标签
+        message_label = QLabel(f"文档排版已完成！\n文件已保存为: {self.message}")
+        message_label.setWordWrap(True)
+        layout.addWidget(message_label)
+        
+        # 创建按钮盒子
+        button_box = QDialogButtonBox()
+        
+        # 添加标准按钮（确定）
+        self.ok_button = button_box.addButton(QDialogButtonBox.StandardButton.Ok)
+        
+        # 添加自定义按钮（打开文档）
+        self.open_doc_button = QPushButton("打开文档")
+        button_box.addButton(self.open_doc_button, QDialogButtonBox.ButtonRole.ActionRole)
+        
+        # 连接信号和槽
+        button_box.accepted.connect(self.accept)
+        self.open_doc_button.clicked.connect(self.open_document)
+        
+        layout.addWidget(button_box)
+        self.setLayout(layout)
+        
+    def open_document(self):
+        """打开已排版的文档"""
+        try:
+            # 根据操作系统选择打开方式
+            if sys.platform == "win32":
+                os.startfile(self.message)
+            elif sys.platform == "darwin":  # macOS
+                subprocess.run(["open", self.message])
+            else:  # Linux
+                subprocess.run(["xdg-open", self.message])
+                
+            app_logger.info(f"已打开文档: {self.message}")
+        except Exception as e:
+            app_logger.error(f"打开文档失败: {str(e)}")
+            QMessageBox.warning(self.parent(), "打开失败", f"无法打开文档！\n错误: {str(e)}")
+
 
 class FormattingWorker(QThread):
     """排版工作线程，用于后台执行排版任务"""
@@ -613,7 +669,9 @@ class MainWindow(QMainWindow):
         self.stop_btn.setEnabled(False)
         
         if success:
-            QMessageBox.information(self, "排版完成", f"文档排版已完成！\n文件已保存为: {message}")
+            # 使用自定义对话框，提供“打开文档”按钮
+            dialog = FormattingCompleteDialog(self, message)
+            dialog.exec()
             app_logger.info(f"排版任务成功完成，输出文件: {message}")
         else:
             QMessageBox.critical(self, "排版失败", f"文档排版失败！\n错误: {message}")

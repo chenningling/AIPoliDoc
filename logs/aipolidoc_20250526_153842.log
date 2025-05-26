@@ -1,0 +1,1429 @@
+2025-05-26 15:38:42,156 - AIPoliDoc - DEBUG - 加载配置文件: config/api_config.json
+2025-05-26 15:38:42,159 - AIPoliDoc - DEBUG - 加载配置文件: config/app_config.json
+2025-05-26 15:38:42,174 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 15:38:42,187 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 15:38:42,187 - AIPoliDoc - INFO - 配置管理器初始化完成
+2025-05-26 15:38:43,030 - AIPoliDoc - DEBUG - 初始化字体映射: {'宋体': 'SimSun', '黑体': 'SimHei', '楷体': 'KaiTi', '仿宋': 'FangSong', '微软雅黑': 'Microsoft YaHei UI', '微软雅黑 UI': 'Microsoft YaHei UI', 'Times New Roman': 'Times New Roman'}
+2025-05-26 15:38:43,038 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 15:38:43,047 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 15:38:43,047 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 15:38:43,047 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-26 15:38:43,717 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 15:38:43,718 - AIPoliDoc - INFO - 应用程序启动完成
+2025-05-26 15:38:44,063 - AIPoliDoc - INFO - AI Word文档自动排版工具启动成功
+2025-05-26 15:40:30,436 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 15:40:42,605 - AIPoliDoc - INFO - 已选择文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/未排版/人工智能在学术论文排版中的应用研究.docx
+2025-05-26 15:40:49,984 - AIPoliDoc - INFO - API配置验证成功
+2025-05-26 15:40:49,988 - AIPoliDoc - INFO - 开始排版任务
+2025-05-26 15:40:50,020 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/未排版/人工智能在学术论文排版中的应用研究.docx
+2025-05-26 15:40:50,031 - AIPoliDoc - DEBUG - 文档包含 79 个段落
+2025-05-26 15:40:50,035 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 17 个潜在标题
+2025-05-26 15:40:50,036 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-26 15:40:50,038 - AIPoliDoc - DEBUG - 文档长度: 1757 字符, 规则数量: 8
+2025-05-26 15:40:50,048 - AIPoliDoc - DEBUG - 生成的提示词长度: 3113 字符
+2025-05-26 15:40:50,067 - AIPoliDoc - DEBUG - 提示词开头: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+# 人工智能在学术论文排版中的应用研究  
+
+**中国科学技术大学·智能计算研究所** 张学术  
+
+
+
+## 摘要  
+
+随着学术论文数量的快速增长，传统排版方式已无法满足高效、规范的...
+2025-05-26 15:40:50,079 - AIPoliDoc - DEBUG - 提示词结尾: ...type": "标题",
+      "content": "文本内容",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "line_spacing": 1.0
+      }
+    },
+    ...
+  ]
+}
+
+请确保返回的JSON格式正确，可以被解析。只返回JSON内容，不要有其他说明文字。
+
+2025-05-26 15:40:50,081 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-26 15:40:50,082 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-26 15:40:50,083 - AIPoliDoc - DEBUG - 请求头信息: {'Content-Type': 'application/json', 'Authorization': 'Bearer sk-c7d66ad568c849ffbd6563762abc0fdf'}
+2025-05-26 15:40:50,109 - AIPoliDoc - DEBUG - 提示词预览: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+# 人工智能在学术论文排版中的应用研究  
+
+**中国科学技术大学·智能计算研究所** 张学术  
+
+
+
+## 摘要  
+
+随着学术论文数量的快速增长，传统排版方式已无法满足高效、规范的...
+2025-05-26 15:40:50,111 - AIPoliDoc - DEBUG - 使用模型: deepseek-chat
+2025-05-26 15:40:50,112 - AIPoliDoc - INFO - 开始发送请求，超时时间设置为180秒
+2025-05-26 15:43:41,529 - AIPoliDoc - INFO - 收到响应，状态码: 200
+2025-05-26 15:43:41,533 - AIPoliDoc - INFO - AI API请求成功
+2025-05-26 15:43:41,534 - AIPoliDoc - DEBUG - 响应内容预览: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "人工智能在学术论文排版中的应用研究",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0
+      ...
+2025-05-26 15:43:41,537 - AIPoliDoc - DEBUG - 响应使用的模型: deepseek-chat
+2025-05-26 15:43:41,540 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1528, 'completion_tokens': 3739, 'total_tokens': 5267, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1528}
+2025-05-26 15:43:41,543 - AIPoliDoc - DEBUG - 响应完整结构的键: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-26 15:43:41,546 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1528, 'completion_tokens': 3739, 'total_tokens': 5267, 'prompt_tokens_details': {'cached_tokens': 0}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 1528}
+2025-05-26 15:43:41,548 - AIPoliDoc - DEBUG - 原始响应内容长度: 10573 字符
+2025-05-26 15:43:41,549 - AIPoliDoc - DEBUG - 响应内容开头: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "人工智能在学术论文排版中的应用研究",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0
+      ...
+2025-05-26 15:43:41,551 - AIPoliDoc - DEBUG - 响应内容结尾: ...": "参考文献",
+      "content": "[3] 中文信息处理学会. 学术论文格式规范V3.2[S]. 2024.",
+      "format": {
+        "font": "楷体",
+        "size": "五号",
+        "bold": false,
+        "line_spacing": 1.5
+      }
+    }
+  ]
+}
+2025-05-26 15:43:41,553 - AIPoliDoc - DEBUG - JSON内容起始位置: 0, 结束位置: 10572
+2025-05-26 15:43:41,554 - AIPoliDoc - DEBUG - 提取的JSON内容长度: 10573 字符
+2025-05-26 15:43:41,555 - AIPoliDoc - DEBUG - JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 15:43:41,557 - AIPoliDoc - DEBUG - JSON解析成功，得到字典类型数据
+2025-05-26 15:43:41,558 - AIPoliDoc - DEBUG - 格式化指令的键: ['elements']
+2025-05-26 15:43:41,559 - AIPoliDoc - DEBUG - 元素数量: 52
+2025-05-26 15:43:41,560 - AIPoliDoc - DEBUG - 前三个元素类型: ['标题', '单位、姓名', '一级标题']
+2025-05-26 15:43:41,562 - AIPoliDoc - INFO - 结构验证完成，共52个元素
+2025-05-26 15:43:41,565 - AIPoliDoc - DEBUG - 格式化指令: {'elements': [{'type': '标题', 'content': '人工智能在学术论文排版中的应用研究', 'format': {'font': '黑体', 'size': '小二', 'bold': True, 'line_spacing': 1.0}}, {'type': '单位、姓名', 'content': '中国科学技术大学·智能计算研究所 张学术', 'format': {'font': '楷体', 'size': '四号', 'bold': False, 'line_spacing': 1.0}}, {'type': '一级标题', 'content': '摘要', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '随着学术论文数量的快速增长，传统排版方式已无法满足高效、规范的出版需求。本文提出了一种基于深度学习的人工智能自动排版系统，通过构建多层级格式识别模型，实现了学术论文从原始稿件到出版标准的自动化转换。实验表明，该系统在中文论文排版任务中达到98.7%的格式准确率，平均处理时间较人工排版缩短92%。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '关键词', 'content': '关键词：人工智能；论文排版；格式识别；学术出版', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '一级标题', 'content': '1. 引言', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '二级标题', 'content': '1.1 研究背景', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '根据Elsevier 2023年报告，全球每年产生约500万篇学术论文，其中38%的稿件因格式问题需要返修。传统排版存在三个主要痛点：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '1. 人工成本高昂（单篇排版平均耗时4.2小时）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '2. 格式标准不统一（不同期刊存在217种格式变体）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '3. 多语言混排困难（中英文字符间距错误率达26%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '二级标题', 'content': '1.2 研究目标', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '本研究致力于解决以下核心问题：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '- 如何自动识别论文结构层级', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '- 多字体混合排版的技术实现', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '- 动态适应不同期刊格式要求', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '一级标题', 'content': '2. 方法论', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '二级标题', 'content': '2.1 系统架构', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '系统采用三级处理流水线：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '| 模块 | 功能 | 技术方案 |\n|-------|-------|-----------|\n| 结构解析 | 识别标题/正文/图表 | BERT+CRF混合模型 |\n| 格式映射 | 匹配期刊规范 | 动态规则引擎 |\n| 渲染输出 | 生成排版文件 | PDFlib+CSS |', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '二级标题', 'content': '2.2 关键技术', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '二级标题', 'content': '2.2.1 字体自适应算法', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '通过卷积神经网络(CNN)分析字符特征，实现：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '- 中英文字体自动切换（宋体/Times New Roman）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '- 粗体/斜体智能识别（准确率99.2%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '二级标题', 'content': '2.2.2 行距优化模型', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '$$ \nLineSpace = \\alpha \\times FontSize + \\beta \\times LineHeight + \\gamma\n$$\n其中α=0.8, β=1.2, γ=5为训练所得参数', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '一级标题', 'content': '3. 实验结果', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '二级标题', 'content': '3.1 测试数据集', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '使用包含10,000篇论文的CSL-2023基准集，涵盖：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '- 中文论文（65%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '- 英文论文（25%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '- 混合语言论文（10%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '二级标题', 'content': '3.2 性能指标', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '| 评估项 | 本系统 | 传统软件 | 人工排版 |\n|--------|--------|----------|----------|\n| 格式准确率 | 98.7% | 82.3% | 99.9% |\n| 处理速度(页/分钟) | 45 | 12 | 0.5 |\n| 成本(元/页) | 0.3 | 1.2 | 8.5 |', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '一级标题', 'content': '4. 讨论', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '二级标题', 'content': '4.1 技术优势', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '1. **多级标题识别**：通过层级注意力机制，实现：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '   - 一级标题识别F1=0.992', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '   - 二级标题识别F1=0.987', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '2. **参考文献处理**：支持6种主流引用格式（APA/MLA等）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '二级标题', 'content': '4.2 局限性', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '- 数学公式排版仍需人工校验（错误率3.8%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '- 需预先训练期刊格式模板', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '一级标题', 'content': '5. 结论', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '正文', 'content': '本研究证实了AI排版系统在学术出版领域的可行性，未来将重点优化：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '1. 实时协作排版功能', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '正文', 'content': '2. 跨平台格式兼容性', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}, {'type': '一级标题', 'content': '参考文献', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}, {'type': '参考文献', 'content': '[1] 李智能. 深度学习在文档处理中的应用[M]. 北京: 科学出版社, 2022.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5}}, {'type': '参考文献', 'content': '[2] Smith J. AI-Based Typesetting Systems[J]. IEEE TPAMI, 2023, 45(3): 112-130.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5}}, {'type': '参考文献', 'content': '[3] 中文信息处理学会. 学术论文格式规范V3.2[S]. 2024.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5}}]}
+2025-05-26 15:43:41,588 - AIPoliDoc - INFO - 开始应用排版格式，共有 52 个元素
+2025-05-26 15:43:41,615 - AIPoliDoc - INFO - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-26 15:43:41,621 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/未排版/人工智能在学术论文排版中的应用研究.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/未排版/人工智能在学术论文排版中的应用研究_backup_20250526154341.docx
+2025-05-26 15:43:41,623 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/未排版/人工智能在学术论文排版中的应用研究.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/未排版/人工智能在学术论文排版中的应用研究_backup_20250526154341.docx
+2025-05-26 15:43:41,659 - AIPoliDoc - DEBUG - 成功创建新文档
+2025-05-26 15:43:41,662 - AIPoliDoc - DEBUG - 处理第 1/52 个元素
+2025-05-26 15:43:41,663 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '标题', 'content': '人工智能在学术论文排版中的应用研究', 'format': {'font': '黑体', 'size': '小二', 'bold': True, 'line_spacing': 1.0}}
+2025-05-26 15:43:41,665 - AIPoliDoc - DEBUG - 元素内容: 人工智能在学术论文排版中的应用研究...
+2025-05-26 15:43:41,666 - AIPoliDoc - DEBUG - 元素类型: 标题
+2025-05-26 15:43:41,668 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '小二', 'bold': True, 'line_spacing': 1.0}
+2025-05-26 15:43:41,671 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,673 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,674 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:43:41,676 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:43:41,678 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,679 - AIPoliDoc - DEBUG - 原始字体大小: 小二
+2025-05-26 15:43:41,680 - AIPoliDoc - DEBUG - 映射后的字体大小: 228600
+2025-05-26 15:43:41,681 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:41,683 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,685 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,687 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,688 - AIPoliDoc - DEBUG - 设置行间距: 1.0
+2025-05-26 15:43:41,689 - AIPoliDoc - DEBUG - 设置单倍行间距
+2025-05-26 15:43:41,690 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,691 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,692 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,693 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,694 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,696 - AIPoliDoc - DEBUG - 完成元素处理: 标题, 内容: 人工智能在学术论文排版中的应用研究...
+2025-05-26 15:43:41,697 - AIPoliDoc - DEBUG - 处理第 2/52 个元素
+2025-05-26 15:43:41,698 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '单位、姓名', 'content': '中国科学技术大学·智能计算研究所 张学术', 'format': {'font': '楷体', 'size': '四号', 'bold': False, 'line_spacing': 1.0}}
+2025-05-26 15:43:41,699 - AIPoliDoc - DEBUG - 元素内容: 中国科学技术大学·智能计算研究所 张学术...
+2025-05-26 15:43:41,700 - AIPoliDoc - DEBUG - 元素类型: 单位、姓名
+2025-05-26 15:43:41,700 - AIPoliDoc - DEBUG - 格式信息: {'font': '楷体', 'size': '四号', 'bold': False, 'line_spacing': 1.0}
+2025-05-26 15:43:41,701 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,702 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,703 - AIPoliDoc - DEBUG - 应用字体: 楷体
+2025-05-26 15:43:41,704 - AIPoliDoc - DEBUG - 映射后的字体名称: KaiTi
+2025-05-26 15:43:41,706 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,707 - AIPoliDoc - DEBUG - 原始字体大小: 四号
+2025-05-26 15:43:41,707 - AIPoliDoc - DEBUG - 映射后的字体大小: 177800
+2025-05-26 15:43:41,708 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:41,709 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,710 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,711 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,711 - AIPoliDoc - DEBUG - 设置行间距: 1.0
+2025-05-26 15:43:41,712 - AIPoliDoc - DEBUG - 设置单倍行间距
+2025-05-26 15:43:41,713 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,713 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,714 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,716 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,716 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,717 - AIPoliDoc - DEBUG - 完成元素处理: 单位、姓名, 内容: 中国科学技术大学·智能计算研究所 张学术...
+2025-05-26 15:43:41,718 - AIPoliDoc - DEBUG - 处理第 3/52 个元素
+2025-05-26 15:43:41,718 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '摘要', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:41,719 - AIPoliDoc - DEBUG - 元素内容: 摘要...
+2025-05-26 15:43:41,720 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:43:41,721 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:41,723 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,724 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,725 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:43:41,725 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:43:41,727 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,728 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,729 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,729 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:41,730 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,731 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,732 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,733 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:41,734 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:41,734 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,735 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,736 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,736 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,737 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,738 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 摘要...
+2025-05-26 15:43:41,738 - AIPoliDoc - DEBUG - 处理第 4/52 个元素
+2025-05-26 15:43:41,739 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '随着学术论文数量的快速增长，传统排版方式已无法满足高效、规范的出版需求。本文提出了一种基于深度学习的人工智能自动排版系统，通过构建多层级格式识别模型，实现了学术论文从原始稿件到出版标准的自动化转换。实验表明，该系统在中文论文排版任务中达到98.7%的格式准确率，平均处理时间较人工排版缩短92%。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:41,740 - AIPoliDoc - DEBUG - 元素内容: 随着学术论文数量的快速增长，传统排版方式已无法满足高效、规范的出版需求。本文提出了一种基于深度学习的...
+2025-05-26 15:43:41,742 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:41,743 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:41,744 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,745 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,746 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:41,747 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:41,748 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,748 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,749 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,750 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:41,750 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,751 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,752 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,753 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:41,754 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:41,755 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,756 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,757 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:41,758 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,759 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,759 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,760 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 随着学术论文数量的快速增长，传统排版方式...
+2025-05-26 15:43:41,761 - AIPoliDoc - DEBUG - 处理第 5/52 个元素
+2025-05-26 15:43:41,762 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '关键词', 'content': '关键词：人工智能；论文排版；格式识别；学术出版', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:41,764 - AIPoliDoc - DEBUG - 元素内容: 关键词：人工智能；论文排版；格式识别；学术出版...
+2025-05-26 15:43:41,765 - AIPoliDoc - DEBUG - 元素类型: 关键词
+2025-05-26 15:43:41,765 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:41,766 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,767 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,768 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:43:41,769 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:43:41,770 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,770 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,771 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,772 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:41,773 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,774 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,775 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,776 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:41,777 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:41,778 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,780 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,781 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,782 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,783 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,784 - AIPoliDoc - DEBUG - 完成元素处理: 关键词, 内容: 关键词：人工智能；论文排版；格式识别；学...
+2025-05-26 15:43:41,785 - AIPoliDoc - DEBUG - 处理第 6/52 个元素
+2025-05-26 15:43:41,786 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '1. 引言', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:41,787 - AIPoliDoc - DEBUG - 元素内容: 1. 引言...
+2025-05-26 15:43:41,788 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:43:41,789 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:41,790 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,791 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,792 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:43:41,793 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:43:41,794 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,795 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,796 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,797 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:41,798 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,799 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,800 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,801 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:41,802 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:41,803 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,804 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,805 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,806 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,807 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,808 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 1. 引言...
+2025-05-26 15:43:41,809 - AIPoliDoc - DEBUG - 处理第 7/52 个元素
+2025-05-26 15:43:41,810 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '1.1 研究背景', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:41,811 - AIPoliDoc - DEBUG - 元素内容: 1.1 研究背景...
+2025-05-26 15:43:41,813 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 15:43:41,813 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:41,814 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,815 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,816 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:41,817 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:41,818 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,818 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,819 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,820 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:41,821 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,822 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,823 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,824 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:41,825 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:41,826 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,828 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,829 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,830 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,830 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,832 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 1.1 研究背景...
+2025-05-26 15:43:41,832 - AIPoliDoc - DEBUG - 处理第 8/52 个元素
+2025-05-26 15:43:41,833 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '根据Elsevier 2023年报告，全球每年产生约500万篇学术论文，其中38%的稿件因格式问题需要返修。传统排版存在三个主要痛点：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:41,835 - AIPoliDoc - DEBUG - 元素内容: 根据Elsevier 2023年报告，全球每年产生约500万篇学术论文，其中38%的稿件因格式问题需...
+2025-05-26 15:43:41,836 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:41,837 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:41,838 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,839 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,840 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:41,840 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:41,841 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,842 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,843 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,844 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:41,845 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,846 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,847 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,847 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:41,848 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:41,848 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,849 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,850 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:41,851 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,851 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,852 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,853 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 根据Elsevier 2023年报告，全...
+2025-05-26 15:43:41,853 - AIPoliDoc - DEBUG - 处理第 9/52 个元素
+2025-05-26 15:43:41,854 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '1. 人工成本高昂（单篇排版平均耗时4.2小时）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:41,855 - AIPoliDoc - DEBUG - 元素内容: 1. 人工成本高昂（单篇排版平均耗时4.2小时）...
+2025-05-26 15:43:41,856 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:41,861 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:41,862 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,863 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,864 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:41,864 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:41,865 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,866 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,867 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,868 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:41,869 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,869 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,871 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,872 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:41,873 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:41,873 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,874 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,875 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:41,875 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,876 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,878 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,879 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 1. 人工成本高昂（单篇排版平均耗时4....
+2025-05-26 15:43:41,880 - AIPoliDoc - DEBUG - 处理第 10/52 个元素
+2025-05-26 15:43:41,880 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '2. 格式标准不统一（不同期刊存在217种格式变体）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:41,881 - AIPoliDoc - DEBUG - 元素内容: 2. 格式标准不统一（不同期刊存在217种格式变体）...
+2025-05-26 15:43:41,882 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:41,884 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:41,885 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,886 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,887 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:41,888 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:41,889 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,889 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,890 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,891 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:41,892 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,894 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,895 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,897 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:41,898 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:41,899 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,900 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,900 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:41,901 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,902 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,902 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,903 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 2. 格式标准不统一（不同期刊存在217...
+2025-05-26 15:43:41,904 - AIPoliDoc - DEBUG - 处理第 11/52 个元素
+2025-05-26 15:43:41,905 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '3. 多语言混排困难（中英文字符间距错误率达26%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:41,906 - AIPoliDoc - DEBUG - 元素内容: 3. 多语言混排困难（中英文字符间距错误率达26%）...
+2025-05-26 15:43:41,907 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:41,908 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:41,909 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,910 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,911 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:41,913 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:41,914 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,914 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,916 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,917 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:41,918 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,918 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,919 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,920 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:41,921 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:41,922 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,922 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,923 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:41,924 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,925 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,925 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,926 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 3. 多语言混排困难（中英文字符间距错误...
+2025-05-26 15:43:41,928 - AIPoliDoc - DEBUG - 处理第 12/52 个元素
+2025-05-26 15:43:41,929 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '1.2 研究目标', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:41,930 - AIPoliDoc - DEBUG - 元素内容: 1.2 研究目标...
+2025-05-26 15:43:41,931 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 15:43:41,932 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:41,933 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,934 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,935 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:41,935 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:41,937 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,938 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,938 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,939 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:41,940 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,941 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,942 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,943 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:41,944 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:41,945 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,946 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,947 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,948 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,948 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,949 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 1.2 研究目标...
+2025-05-26 15:43:41,950 - AIPoliDoc - DEBUG - 处理第 13/52 个元素
+2025-05-26 15:43:41,950 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '本研究致力于解决以下核心问题：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:41,952 - AIPoliDoc - DEBUG - 元素内容: 本研究致力于解决以下核心问题：...
+2025-05-26 15:43:41,953 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:41,954 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:41,955 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,956 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,956 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:41,957 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:41,958 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,959 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,960 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,961 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:41,962 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,963 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,968 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,971 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:41,972 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:41,973 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,974 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,975 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:41,976 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:41,977 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:41,978 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:41,979 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 本研究致力于解决以下核心问题：...
+2025-05-26 15:43:41,980 - AIPoliDoc - DEBUG - 处理第 14/52 个元素
+2025-05-26 15:43:41,980 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '- 如何自动识别论文结构层级', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:41,981 - AIPoliDoc - DEBUG - 元素内容: - 如何自动识别论文结构层级...
+2025-05-26 15:43:41,983 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:41,984 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:41,985 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:41,986 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:41,986 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:41,987 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:41,988 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:41,989 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:41,989 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:41,990 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:41,992 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:41,992 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:41,994 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:41,995 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:41,996 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:41,997 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:41,999 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:41,999 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,000 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,001 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,002 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,003 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: - 如何自动识别论文结构层级...
+2025-05-26 15:43:42,003 - AIPoliDoc - DEBUG - 处理第 15/52 个元素
+2025-05-26 15:43:42,004 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '- 多字体混合排版的技术实现', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,005 - AIPoliDoc - DEBUG - 元素内容: - 多字体混合排版的技术实现...
+2025-05-26 15:43:42,006 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,007 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,008 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,009 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,010 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,011 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,012 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,013 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,013 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,014 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,015 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,016 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,017 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,017 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,018 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,019 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,020 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,021 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,022 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,022 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,023 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,024 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: - 多字体混合排版的技术实现...
+2025-05-26 15:43:42,025 - AIPoliDoc - DEBUG - 处理第 16/52 个元素
+2025-05-26 15:43:42,026 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '- 动态适应不同期刊格式要求', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,027 - AIPoliDoc - DEBUG - 元素内容: - 动态适应不同期刊格式要求...
+2025-05-26 15:43:42,028 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,029 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,030 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,031 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,032 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,032 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,034 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,035 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,036 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,037 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,038 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,039 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,040 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,042 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,043 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,044 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,045 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,047 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,047 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,048 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,049 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,050 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: - 动态适应不同期刊格式要求...
+2025-05-26 15:43:42,051 - AIPoliDoc - DEBUG - 处理第 17/52 个元素
+2025-05-26 15:43:42,051 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '2. 方法论', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,052 - AIPoliDoc - DEBUG - 元素内容: 2. 方法论...
+2025-05-26 15:43:42,053 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:43:42,054 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,055 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,056 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,057 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:43:42,057 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:43:42,058 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,059 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,060 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,061 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,063 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,063 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,064 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,065 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,066 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,067 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,068 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,068 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,069 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,070 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,070 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 2. 方法论...
+2025-05-26 15:43:42,071 - AIPoliDoc - DEBUG - 处理第 18/52 个元素
+2025-05-26 15:43:42,072 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '2.1 系统架构', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,073 - AIPoliDoc - DEBUG - 元素内容: 2.1 系统架构...
+2025-05-26 15:43:42,074 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 15:43:42,075 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,076 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,077 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,078 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,079 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,081 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,082 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,082 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,083 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,084 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,085 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,086 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,087 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,088 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,089 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,090 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,091 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,091 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,092 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,093 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 2.1 系统架构...
+2025-05-26 15:43:42,094 - AIPoliDoc - DEBUG - 处理第 19/52 个元素
+2025-05-26 15:43:42,095 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '系统采用三级处理流水线：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,097 - AIPoliDoc - DEBUG - 元素内容: 系统采用三级处理流水线：...
+2025-05-26 15:43:42,098 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,098 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,100 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,101 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,106 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,106 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,107 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,108 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,110 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,111 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,113 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,113 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,114 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,115 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,116 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,116 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,117 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,119 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,120 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,121 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,121 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,122 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 系统采用三级处理流水线：...
+2025-05-26 15:43:42,122 - AIPoliDoc - DEBUG - 处理第 20/52 个元素
+2025-05-26 15:43:42,123 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '| 模块 | 功能 | 技术方案 |\n|-------|-------|-----------|\n| 结构解析 | 识别标题/正文/图表 | BERT+CRF混合模型 |\n| 格式映射 | 匹配期刊规范 | 动态规则引擎 |\n| 渲染输出 | 生成排版文件 | PDFlib+CSS |', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,124 - AIPoliDoc - DEBUG - 元素内容: | 模块 | 功能 | 技术方案 |
+|-------|-------|-----------|
+|...
+2025-05-26 15:43:42,125 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,126 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,127 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,128 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,129 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,130 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,130 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,132 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,133 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,135 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,137 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,138 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,139 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,140 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,140 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,141 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,142 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,144 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,145 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,146 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,147 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,147 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: | 模块 | 功能 | 技术方案 |
+|...
+2025-05-26 15:43:42,148 - AIPoliDoc - DEBUG - 处理第 21/52 个元素
+2025-05-26 15:43:42,149 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '2.2 关键技术', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,149 - AIPoliDoc - DEBUG - 元素内容: 2.2 关键技术...
+2025-05-26 15:43:42,150 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 15:43:42,151 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,151 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,153 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,154 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,154 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,155 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,156 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,156 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,157 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,157 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,159 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,161 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,162 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,163 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,164 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,165 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,166 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,166 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,167 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,168 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 2.2 关键技术...
+2025-05-26 15:43:42,169 - AIPoliDoc - DEBUG - 处理第 22/52 个元素
+2025-05-26 15:43:42,171 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '2.2.1 字体自适应算法', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,172 - AIPoliDoc - DEBUG - 元素内容: 2.2.1 字体自适应算法...
+2025-05-26 15:43:42,172 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 15:43:42,173 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,174 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,175 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,176 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,177 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,180 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,181 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,181 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,182 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,184 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,185 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,185 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,186 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,187 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,188 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,189 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,190 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,190 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,191 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,192 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 2.2.1 字体自适应算法...
+2025-05-26 15:43:42,194 - AIPoliDoc - DEBUG - 处理第 23/52 个元素
+2025-05-26 15:43:42,196 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '通过卷积神经网络(CNN)分析字符特征，实现：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,197 - AIPoliDoc - DEBUG - 元素内容: 通过卷积神经网络(CNN)分析字符特征，实现：...
+2025-05-26 15:43:42,198 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,199 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,200 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,203 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,204 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,205 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,206 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,207 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,207 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,209 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,212 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,213 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,214 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,215 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,217 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,218 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,220 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,221 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,222 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,223 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,224 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,225 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 通过卷积神经网络(CNN)分析字符特征，...
+2025-05-26 15:43:42,226 - AIPoliDoc - DEBUG - 处理第 24/52 个元素
+2025-05-26 15:43:42,227 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '- 中英文字体自动切换（宋体/Times New Roman）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,230 - AIPoliDoc - DEBUG - 元素内容: - 中英文字体自动切换（宋体/Times New Roman）...
+2025-05-26 15:43:42,231 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,232 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,234 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,235 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,237 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,238 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,240 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,241 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,242 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,245 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,247 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,248 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,249 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,250 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,251 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,252 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,254 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,255 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,256 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,256 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,258 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,259 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: - 中英文字体自动切换（宋体/Times...
+2025-05-26 15:43:42,260 - AIPoliDoc - DEBUG - 处理第 25/52 个元素
+2025-05-26 15:43:42,262 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '- 粗体/斜体智能识别（准确率99.2%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,263 - AIPoliDoc - DEBUG - 元素内容: - 粗体/斜体智能识别（准确率99.2%）...
+2025-05-26 15:43:42,264 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,265 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,266 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,267 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,267 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,268 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,269 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,271 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,272 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,272 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,273 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,274 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,275 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,276 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,278 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,279 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,280 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,281 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,282 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,282 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,283 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,283 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: - 粗体/斜体智能识别（准确率99.2%...
+2025-05-26 15:43:42,284 - AIPoliDoc - DEBUG - 处理第 26/52 个元素
+2025-05-26 15:43:42,285 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '2.2.2 行距优化模型', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,285 - AIPoliDoc - DEBUG - 元素内容: 2.2.2 行距优化模型...
+2025-05-26 15:43:42,287 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 15:43:42,287 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,288 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,289 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,290 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,291 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,292 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,292 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,293 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,295 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,296 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,297 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,298 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,298 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,299 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,301 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,302 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,302 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,303 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,304 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,305 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 2.2.2 行距优化模型...
+2025-05-26 15:43:42,305 - AIPoliDoc - DEBUG - 处理第 27/52 个元素
+2025-05-26 15:43:42,307 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '$$ \nLineSpace = \\alpha \\times FontSize + \\beta \\times LineHeight + \\gamma\n$$\n其中α=0.8, β=1.2, γ=5为训练所得参数', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,308 - AIPoliDoc - DEBUG - 元素内容: $$ 
+LineSpace = \alpha \times FontSize + \beta \ti...
+2025-05-26 15:43:42,309 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,311 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,312 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,314 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,314 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,315 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,316 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,317 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,318 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,318 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,319 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,320 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,321 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,322 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,323 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,323 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,324 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,325 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,326 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,326 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,327 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,328 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: $$ 
+LineSpace = \alp...
+2025-05-26 15:43:42,329 - AIPoliDoc - DEBUG - 处理第 28/52 个元素
+2025-05-26 15:43:42,330 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '3. 实验结果', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,331 - AIPoliDoc - DEBUG - 元素内容: 3. 实验结果...
+2025-05-26 15:43:42,332 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:43:42,333 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,334 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,335 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,336 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:43:42,337 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:43:42,338 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,338 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,339 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,340 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,340 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,341 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,342 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,342 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,343 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,345 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,347 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,348 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,348 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,349 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,350 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 3. 实验结果...
+2025-05-26 15:43:42,351 - AIPoliDoc - DEBUG - 处理第 29/52 个元素
+2025-05-26 15:43:42,352 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '3.1 测试数据集', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,353 - AIPoliDoc - DEBUG - 元素内容: 3.1 测试数据集...
+2025-05-26 15:43:42,353 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 15:43:42,354 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,355 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,356 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,357 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,358 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,359 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,360 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,360 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,361 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,362 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,363 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,364 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,365 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,366 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,367 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,368 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,368 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,369 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,370 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,370 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 3.1 测试数据集...
+2025-05-26 15:43:42,371 - AIPoliDoc - DEBUG - 处理第 30/52 个元素
+2025-05-26 15:43:42,372 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '使用包含10,000篇论文的CSL-2023基准集，涵盖：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,373 - AIPoliDoc - DEBUG - 元素内容: 使用包含10,000篇论文的CSL-2023基准集，涵盖：...
+2025-05-26 15:43:42,374 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,375 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,376 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,377 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,378 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,379 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,380 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,380 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,381 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,382 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,384 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,385 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,386 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,387 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,388 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,389 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,390 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,391 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,391 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,392 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,393 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,394 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 使用包含10,000篇论文的CSL-20...
+2025-05-26 15:43:42,395 - AIPoliDoc - DEBUG - 处理第 31/52 个元素
+2025-05-26 15:43:42,396 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '- 中文论文（65%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,396 - AIPoliDoc - DEBUG - 元素内容: - 中文论文（65%）...
+2025-05-26 15:43:42,397 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,398 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,399 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,400 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,402 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,402 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,403 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,403 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,404 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,405 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,406 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,407 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,408 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,409 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,410 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,410 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,411 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,412 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,413 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,413 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,414 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,415 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: - 中文论文（65%）...
+2025-05-26 15:43:42,416 - AIPoliDoc - DEBUG - 处理第 32/52 个元素
+2025-05-26 15:43:42,417 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '- 英文论文（25%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,418 - AIPoliDoc - DEBUG - 元素内容: - 英文论文（25%）...
+2025-05-26 15:43:42,419 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,420 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,420 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,422 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,422 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,423 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,424 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,425 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,425 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,427 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,428 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,429 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,430 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,431 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,432 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,433 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,434 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,435 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,435 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,436 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,437 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,438 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: - 英文论文（25%）...
+2025-05-26 15:43:42,439 - AIPoliDoc - DEBUG - 处理第 33/52 个元素
+2025-05-26 15:43:42,439 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '- 混合语言论文（10%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,441 - AIPoliDoc - DEBUG - 元素内容: - 混合语言论文（10%）...
+2025-05-26 15:43:42,443 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,444 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,445 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,446 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,447 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,447 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,448 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,449 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,450 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,451 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,452 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,452 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,453 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,454 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,455 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,456 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,457 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,458 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,459 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,460 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,461 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,462 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: - 混合语言论文（10%）...
+2025-05-26 15:43:42,463 - AIPoliDoc - DEBUG - 处理第 34/52 个元素
+2025-05-26 15:43:42,464 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '3.2 性能指标', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,466 - AIPoliDoc - DEBUG - 元素内容: 3.2 性能指标...
+2025-05-26 15:43:42,467 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 15:43:42,467 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,468 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,469 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,470 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,471 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,472 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,473 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,474 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,475 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,476 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,477 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,479 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,480 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,481 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,481 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,483 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,484 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,484 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,485 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,486 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 3.2 性能指标...
+2025-05-26 15:43:42,486 - AIPoliDoc - DEBUG - 处理第 35/52 个元素
+2025-05-26 15:43:42,487 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '| 评估项 | 本系统 | 传统软件 | 人工排版 |\n|--------|--------|----------|----------|\n| 格式准确率 | 98.7% | 82.3% | 99.9% |\n| 处理速度(页/分钟) | 45 | 12 | 0.5 |\n| 成本(元/页) | 0.3 | 1.2 | 8.5 |', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,489 - AIPoliDoc - DEBUG - 元素内容: | 评估项 | 本系统 | 传统软件 | 人工排版 |
+|--------|--------|---...
+2025-05-26 15:43:42,490 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,491 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,492 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,493 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,494 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,495 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,496 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,497 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,498 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,499 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,500 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,501 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,502 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,503 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,504 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,504 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,506 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,506 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,507 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,508 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,509 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,510 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: | 评估项 | 本系统 | 传统软件 |...
+2025-05-26 15:43:42,511 - AIPoliDoc - DEBUG - 处理第 36/52 个元素
+2025-05-26 15:43:42,512 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '4. 讨论', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,513 - AIPoliDoc - DEBUG - 元素内容: 4. 讨论...
+2025-05-26 15:43:42,513 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:43:42,514 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,516 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,517 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,518 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:43:42,519 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:43:42,521 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,521 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,522 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,523 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,524 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,525 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,526 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,527 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,528 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,529 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,530 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,530 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,531 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,532 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,532 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 4. 讨论...
+2025-05-26 15:43:42,533 - AIPoliDoc - DEBUG - 处理第 37/52 个元素
+2025-05-26 15:43:42,534 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '4.1 技术优势', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,534 - AIPoliDoc - DEBUG - 元素内容: 4.1 技术优势...
+2025-05-26 15:43:42,535 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 15:43:42,536 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,536 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,538 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,538 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,539 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,539 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,540 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,540 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,541 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,542 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,543 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,624 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,625 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,626 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,627 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,628 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,628 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,629 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,630 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,631 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 4.1 技术优势...
+2025-05-26 15:43:42,632 - AIPoliDoc - DEBUG - 处理第 38/52 个元素
+2025-05-26 15:43:42,633 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '1. **多级标题识别**：通过层级注意力机制，实现：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,634 - AIPoliDoc - DEBUG - 元素内容: 1. **多级标题识别**：通过层级注意力机制，实现：...
+2025-05-26 15:43:42,650 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,663 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,664 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,665 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,666 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,667 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,668 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,669 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,670 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,671 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,672 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,673 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,674 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,675 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,676 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,677 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,678 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,679 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,680 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,681 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,681 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,682 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 1. **多级标题识别**：通过层级注意...
+2025-05-26 15:43:42,684 - AIPoliDoc - DEBUG - 处理第 39/52 个元素
+2025-05-26 15:43:42,684 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '   - 一级标题识别F1=0.992', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,685 - AIPoliDoc - DEBUG - 元素内容:    - 一级标题识别F1=0.992...
+2025-05-26 15:43:42,687 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,687 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,688 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,689 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,690 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,691 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,692 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,693 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,694 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,695 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,696 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,697 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,698 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,699 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,700 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,700 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,701 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,702 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,703 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,704 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,704 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,705 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容:    - 一级标题识别F1=0.992...
+2025-05-26 15:43:42,706 - AIPoliDoc - DEBUG - 处理第 40/52 个元素
+2025-05-26 15:43:42,707 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '   - 二级标题识别F1=0.987', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,708 - AIPoliDoc - DEBUG - 元素内容:    - 二级标题识别F1=0.987...
+2025-05-26 15:43:42,709 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,710 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,711 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,713 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,714 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,714 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,715 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,716 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,717 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,718 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,719 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,720 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,721 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,722 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,723 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,724 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,725 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,726 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,727 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,728 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,729 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,730 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容:    - 二级标题识别F1=0.987...
+2025-05-26 15:43:42,731 - AIPoliDoc - DEBUG - 处理第 41/52 个元素
+2025-05-26 15:43:42,732 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '2. **参考文献处理**：支持6种主流引用格式（APA/MLA等）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,733 - AIPoliDoc - DEBUG - 元素内容: 2. **参考文献处理**：支持6种主流引用格式（APA/MLA等）...
+2025-05-26 15:43:42,734 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,735 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,736 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,737 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,738 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,739 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,740 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,741 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,741 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,742 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,744 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,745 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,746 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,747 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,748 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,749 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,750 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,751 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,752 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,753 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,753 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,754 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 2. **参考文献处理**：支持6种主流...
+2025-05-26 15:43:42,755 - AIPoliDoc - DEBUG - 处理第 42/52 个元素
+2025-05-26 15:43:42,756 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '4.2 局限性', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,757 - AIPoliDoc - DEBUG - 元素内容: 4.2 局限性...
+2025-05-26 15:43:42,758 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 15:43:42,759 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,760 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,762 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,763 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,764 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,765 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,766 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,767 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,768 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,769 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,770 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,770 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,771 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,772 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,773 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,774 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,775 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,776 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,776 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,777 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 4.2 局限性...
+2025-05-26 15:43:42,778 - AIPoliDoc - DEBUG - 处理第 43/52 个元素
+2025-05-26 15:43:42,779 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '- 数学公式排版仍需人工校验（错误率3.8%）', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,780 - AIPoliDoc - DEBUG - 元素内容: - 数学公式排版仍需人工校验（错误率3.8%）...
+2025-05-26 15:43:42,781 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,782 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,783 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,785 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,786 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,786 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,788 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,788 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,789 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,790 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,792 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,793 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,794 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,795 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,796 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,797 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,798 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,799 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,800 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,801 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,802 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,802 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: - 数学公式排版仍需人工校验（错误率3....
+2025-05-26 15:43:42,803 - AIPoliDoc - DEBUG - 处理第 44/52 个元素
+2025-05-26 15:43:42,804 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '- 需预先训练期刊格式模板', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,805 - AIPoliDoc - DEBUG - 元素内容: - 需预先训练期刊格式模板...
+2025-05-26 15:43:42,806 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,807 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,808 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,810 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,811 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,812 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,813 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,814 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,815 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,816 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,817 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,819 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,820 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,820 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,821 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,822 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,823 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,824 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,825 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,826 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,827 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,828 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: - 需预先训练期刊格式模板...
+2025-05-26 15:43:42,829 - AIPoliDoc - DEBUG - 处理第 45/52 个元素
+2025-05-26 15:43:42,830 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '5. 结论', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,830 - AIPoliDoc - DEBUG - 元素内容: 5. 结论...
+2025-05-26 15:43:42,831 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:43:42,832 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,833 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,834 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,835 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:43:42,836 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:43:42,837 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,837 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,838 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,839 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,840 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,841 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,842 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,843 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,844 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,845 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,846 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,847 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,848 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,849 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,850 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 5. 结论...
+2025-05-26 15:43:42,851 - AIPoliDoc - DEBUG - 处理第 46/52 个元素
+2025-05-26 15:43:42,851 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '本研究证实了AI排版系统在学术出版领域的可行性，未来将重点优化：', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,853 - AIPoliDoc - DEBUG - 元素内容: 本研究证实了AI排版系统在学术出版领域的可行性，未来将重点优化：...
+2025-05-26 15:43:42,854 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,854 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,855 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,857 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,858 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,859 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,860 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,861 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,862 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,864 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,865 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,866 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,867 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,868 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,869 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,869 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,870 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,871 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,872 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,873 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,874 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,874 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 本研究证实了AI排版系统在学术出版领域的...
+2025-05-26 15:43:42,875 - AIPoliDoc - DEBUG - 处理第 47/52 个元素
+2025-05-26 15:43:42,876 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '1. 实时协作排版功能', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,877 - AIPoliDoc - DEBUG - 元素内容: 1. 实时协作排版功能...
+2025-05-26 15:43:42,878 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,879 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,880 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,881 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,882 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,883 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,884 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,885 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,886 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,886 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,887 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,888 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,889 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,890 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,892 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,892 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,894 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,895 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,896 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,896 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,897 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,898 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 1. 实时协作排版功能...
+2025-05-26 15:43:42,899 - AIPoliDoc - DEBUG - 处理第 48/52 个元素
+2025-05-26 15:43:42,900 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '2. 跨平台格式兼容性', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}}
+2025-05-26 15:43:42,901 - AIPoliDoc - DEBUG - 元素内容: 2. 跨平台格式兼容性...
+2025-05-26 15:43:42,902 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 15:43:42,902 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 19}
+2025-05-26 15:43:42,903 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,904 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,904 - AIPoliDoc - DEBUG - 应用字体: 宋体
+2025-05-26 15:43:42,905 - AIPoliDoc - DEBUG - 映射后的字体名称: SimSun
+2025-05-26 15:43:42,906 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,906 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,907 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,909 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,909 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,910 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,911 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,912 - AIPoliDoc - DEBUG - 设置行间距: 19
+2025-05-26 15:43:42,913 - AIPoliDoc - DEBUG - 设置自定义行间距: 19磅
+2025-05-26 15:43:42,913 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,914 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,915 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 15:43:42,916 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,916 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,917 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,918 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 2. 跨平台格式兼容性...
+2025-05-26 15:43:42,918 - AIPoliDoc - DEBUG - 处理第 49/52 个元素
+2025-05-26 15:43:42,919 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '参考文献', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,920 - AIPoliDoc - DEBUG - 元素内容: 参考文献...
+2025-05-26 15:43:42,921 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 15:43:42,922 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5}
+2025-05-26 15:43:42,922 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,923 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,924 - AIPoliDoc - DEBUG - 应用字体: 黑体
+2025-05-26 15:43:42,925 - AIPoliDoc - DEBUG - 映射后的字体名称: SimHei
+2025-05-26 15:43:42,926 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,927 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,927 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,928 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 15:43:42,929 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,930 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,931 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,932 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,933 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,934 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,934 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,935 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,936 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,937 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,938 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 参考文献...
+2025-05-26 15:43:42,939 - AIPoliDoc - DEBUG - 处理第 50/52 个元素
+2025-05-26 15:43:42,940 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '参考文献', 'content': '[1] 李智能. 深度学习在文档处理中的应用[M]. 北京: 科学出版社, 2022.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,941 - AIPoliDoc - DEBUG - 元素内容: [1] 李智能. 深度学习在文档处理中的应用[M]. 北京: 科学出版社, 2022....
+2025-05-26 15:43:42,943 - AIPoliDoc - DEBUG - 元素类型: 参考文献
+2025-05-26 15:43:42,944 - AIPoliDoc - DEBUG - 格式信息: {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5}
+2025-05-26 15:43:42,945 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,946 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,947 - AIPoliDoc - DEBUG - 应用字体: 楷体
+2025-05-26 15:43:42,947 - AIPoliDoc - DEBUG - 映射后的字体名称: KaiTi
+2025-05-26 15:43:42,948 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,949 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,950 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,950 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,951 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,951 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,952 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,953 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,954 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,955 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,955 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,956 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,957 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,958 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,959 - AIPoliDoc - DEBUG - 完成元素处理: 参考文献, 内容: [1] 李智能. 深度学习在文档处理中的...
+2025-05-26 15:43:42,960 - AIPoliDoc - DEBUG - 处理第 51/52 个元素
+2025-05-26 15:43:42,961 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '参考文献', 'content': '[2] Smith J. AI-Based Typesetting Systems[J]. IEEE TPAMI, 2023, 45(3): 112-130.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,962 - AIPoliDoc - DEBUG - 元素内容: [2] Smith J. AI-Based Typesetting Systems[J]. IEEE...
+2025-05-26 15:43:42,965 - AIPoliDoc - DEBUG - 元素类型: 参考文献
+2025-05-26 15:43:42,966 - AIPoliDoc - DEBUG - 格式信息: {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5}
+2025-05-26 15:43:42,967 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,968 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,968 - AIPoliDoc - DEBUG - 应用字体: 楷体
+2025-05-26 15:43:42,969 - AIPoliDoc - DEBUG - 映射后的字体名称: KaiTi
+2025-05-26 15:43:42,970 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,971 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,972 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,973 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,974 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,975 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,976 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:42,977 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:42,978 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:42,979 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:42,980 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:42,981 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:42,982 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:42,983 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:42,984 - AIPoliDoc - DEBUG - 完成元素处理: 参考文献, 内容: [2] Smith J. AI-Base...
+2025-05-26 15:43:42,984 - AIPoliDoc - DEBUG - 处理第 52/52 个元素
+2025-05-26 15:43:42,985 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '参考文献', 'content': '[3] 中文信息处理学会. 学术论文格式规范V3.2[S]. 2024.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5}}
+2025-05-26 15:43:42,986 - AIPoliDoc - DEBUG - 元素内容: [3] 中文信息处理学会. 学术论文格式规范V3.2[S]. 2024....
+2025-05-26 15:43:42,987 - AIPoliDoc - DEBUG - 元素类型: 参考文献
+2025-05-26 15:43:42,988 - AIPoliDoc - DEBUG - 格式信息: {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5}
+2025-05-26 15:43:42,989 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 15:43:42,990 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 15:43:42,991 - AIPoliDoc - DEBUG - 应用字体: 楷体
+2025-05-26 15:43:42,992 - AIPoliDoc - DEBUG - 映射后的字体名称: KaiTi
+2025-05-26 15:43:42,993 - AIPoliDoc - DEBUG - 成功设置中文字体
+2025-05-26 15:43:42,994 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 15:43:42,995 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 15:43:42,995 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 15:43:42,997 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 15:43:42,998 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 15:43:42,999 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 15:43:43,000 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 15:43:43,001 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 15:43:43,001 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 15:43:43,002 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 15:43:43,003 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 15:43:43,004 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 15:43:43,005 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 15:43:43,006 - AIPoliDoc - DEBUG - 完成元素处理: 参考文献, 内容: [3] 中文信息处理学会. 学术论文格式...
+2025-05-26 15:43:43,006 - AIPoliDoc - DEBUG - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-26 15:43:43,007 - AIPoliDoc - DEBUG - 生成输出文件路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/人工智能在学术论文排版中的应用研究_已排版_20250526154343.docx
+2025-05-26 15:43:43,008 - AIPoliDoc - DEBUG - 生成输出文件名: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/人工智能在学术论文排版中的应用研究_已排版_20250526154343.docx
+2025-05-26 15:43:43,030 - AIPoliDoc - INFO - 成功应用排版格式并保存到: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/人工智能在学术论文排版中的应用研究_已排版_20250526154343.docx
+2025-05-26 15:44:54,593 - AIPoliDoc - INFO - 排版任务成功完成，输出文件: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/人工智能在学术论文排版中的应用研究_已排版_20250526154343.docx
+2025-05-26 15:50:09,350 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 15:50:09,364 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 15:50:09,365 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 15:54:03,406 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 15:54:03,420 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 15:54:03,421 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 15:56:07,746 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 15:56:12,315 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 15:56:15,203 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 15:56:15,215 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 15:56:15,216 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 16:02:25,870 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 16:02:25,906 - AIPoliDoc - INFO - 应用程序正常关闭

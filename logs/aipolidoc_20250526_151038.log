@@ -1419,3 +1419,139 @@ LineSpace = \alp...
 2025-05-26 15:13:45,776 - AIPoliDoc - DEBUG - 生成输出文件名: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/人工智能在学术论文排版中的应用研究_已排版.docx
 2025-05-26 15:13:45,802 - AIPoliDoc - INFO - 成功应用排版格式并保存到: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/人工智能在学术论文排版中的应用研究_已排版.docx
 2025-05-26 15:13:53,324 - AIPoliDoc - INFO - 排版任务成功完成，输出文件: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/人工智能在学术论文排版中的应用研究_已排版.docx
+2025-05-26 15:24:08,816 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 15:24:08,830 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 15:24:08,831 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 15:24:28,173 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 15:24:28,178 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 15:24:28,180 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 15:24:28,181 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 15:24:28,182 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 15:24:30,100 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 15:24:30,116 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 15:24:30,140 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 15:24:30,143 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 15:24:38,305 - AIPoliDoc - INFO - API配置验证成功
+2025-05-26 15:24:38,316 - AIPoliDoc - INFO - 开始排版任务
+2025-05-26 15:24:38,347 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/未排版/人工智能在学术论文排版中的应用研究.docx
+2025-05-26 15:24:38,365 - AIPoliDoc - DEBUG - 文档包含 79 个段落
+2025-05-26 15:24:38,369 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 17 个潜在标题
+2025-05-26 15:24:38,370 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-26 15:24:38,371 - AIPoliDoc - DEBUG - 文档长度: 1757 字符, 规则数量: 6
+2025-05-26 15:24:38,389 - AIPoliDoc - DEBUG - 生成的提示词长度: 2912 字符
+2025-05-26 15:24:38,390 - AIPoliDoc - DEBUG - 提示词开头: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+```
+# 人工智能在学术论文排版中的应用研究  
+
+**中国科学技术大学·智能计算研究所** 张学术  
+
+
+
+## 摘要  
+
+随着学术论文数量的快速增长，传统排版方式已无法满足高效、规范的出版...
+2025-05-26 15:24:38,391 - AIPoliDoc - DEBUG - 提示词结尾: ...type": "标题",
+      "content": "文本内容",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "line_spacing": 1.0
+      }
+    },
+    ...
+  ]
+}
+
+请确保返回的JSON格式正确，可以被解析。只返回JSON内容，不要有其他说明文字。
+
+2025-05-26 15:24:38,394 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-26 15:24:38,412 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-26 15:24:38,420 - AIPoliDoc - DEBUG - 请求头信息: {'Content-Type': 'application/json', 'Authorization': 'Bearer sk-c7d66ad568c849ffbd6563762abc0fdf'}
+2025-05-26 15:24:38,421 - AIPoliDoc - DEBUG - 提示词预览: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+```
+# 人工智能在学术论文排版中的应用研究  
+
+**中国科学技术大学·智能计算研究所** 张学术  
+
+
+
+## 摘要  
+
+随着学术论文数量的快速增长，传统排版方式已无法满足高效、规范的出版...
+2025-05-26 15:24:38,422 - AIPoliDoc - DEBUG - 使用模型: deepseek-chat
+2025-05-26 15:24:38,430 - AIPoliDoc - INFO - 开始发送请求，超时时间设置为180秒
+2025-05-26 15:27:39,680 - AIPoliDoc - INFO - 收到响应，状态码: 200
+2025-05-26 15:27:39,690 - AIPoliDoc - INFO - AI API请求成功
+2025-05-26 15:27:39,693 - AIPoliDoc - DEBUG - 响应内容预览: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "人工智能在学术论文排版中的应用研究",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0
+      ...
+2025-05-26 15:27:39,696 - AIPoliDoc - DEBUG - 响应使用的模型: deepseek-chat
+2025-05-26 15:27:39,698 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1442, 'completion_tokens': 4096, 'total_tokens': 5538, 'prompt_tokens_details': {'cached_tokens': 1152}, 'prompt_cache_hit_tokens': 1152, 'prompt_cache_miss_tokens': 290}
+2025-05-26 15:27:39,704 - AIPoliDoc - DEBUG - 响应完整结构的键: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-26 15:27:39,706 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1442, 'completion_tokens': 4096, 'total_tokens': 5538, 'prompt_tokens_details': {'cached_tokens': 1152}, 'prompt_cache_hit_tokens': 1152, 'prompt_cache_miss_tokens': 290}
+2025-05-26 15:27:39,722 - AIPoliDoc - DEBUG - 原始响应内容长度: 11624 字符
+2025-05-26 15:27:39,723 - AIPoliDoc - DEBUG - 响应内容开头: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "人工智能在学术论文排版中的应用研究",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0
+      ...
+2025-05-26 15:27:39,724 - AIPoliDoc - DEBUG - 响应内容结尾: ..."一级标题",
+      "content": "参考文献",
+      "format": {
+        "font": "黑体",
+        "size": "五号",
+        "bold": true,
+        "line_spacing": 1.5
+      }
+    },
+    {
+      "type": "正文",
+      "content
+2025-05-26 15:27:39,725 - AIPoliDoc - DEBUG - JSON内容起始位置: 0, 结束位置: 11581
+2025-05-26 15:27:39,726 - AIPoliDoc - DEBUG - 提取的JSON内容长度: 11582 字符
+2025-05-26 15:27:39,727 - AIPoliDoc - DEBUG - JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 15:27:39,730 - AIPoliDoc - WARNING - 原始JSON解析失败，尝试修复: Expecting ',' delimiter: line 582 column 6 (char 11582)
+2025-05-26 15:27:39,733 - AIPoliDoc - DEBUG - 开始修复JSON格式
+2025-05-26 15:27:39,740 - AIPoliDoc - INFO - 添加 1 个缺失的右花括号
+2025-05-26 15:27:39,741 - AIPoliDoc - INFO - 添加 1 个缺失的右方括号
+2025-05-26 15:27:39,745 - AIPoliDoc - WARNING - 无法修复JSON格式，返回原始字符串
+2025-05-26 15:27:39,750 - AIPoliDoc - DEBUG - 尝试修复后的JSON内容长度: 11582 字符
+2025-05-26 15:27:39,751 - AIPoliDoc - DEBUG - 修复后的JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 15:27:39,752 - AIPoliDoc - ERROR - 修复后的JSON仍然无法解析: Expecting ',' delimiter: line 582 column 6 (char 11582)
+2025-05-26 15:27:39,752 - AIPoliDoc - ERROR - JSON解析失败: Expecting ',' delimiter: line 582 column 6 (char 11582)
+2025-05-26 15:27:39,754 - AIPoliDoc - ERROR - 解析失败位置附近的内容: ...": true,
+        "line_spacing": 1.5
+      }
+    }...
+2025-05-26 15:27:39,755 - AIPoliDoc - ERROR - 解析失败位置: 11582, 行: 582, 列: 6
+2025-05-26 15:27:49,250 - AIPoliDoc - ERROR - 排版任务失败: 解析AI响应失败
+2025-05-26 15:38:37,370 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 15:38:37,374 - AIPoliDoc - INFO - 应用程序正常关闭
