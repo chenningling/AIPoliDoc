@@ -12,6 +12,7 @@ from docx.enum.text import WD_PARAGRAPH_ALIGNMENT, WD_LINE_SPACING
 from docx.oxml.ns import qn
 from ..utils.logger import app_logger
 from ..utils.file_utils import generate_output_filename, is_valid_docx, backup_file
+from ..utils.font_manager import FontManager
 
 class DocProcessor:
     """文档处理器，负责读取、解析和写入Word文档"""
@@ -22,18 +23,11 @@ class DocProcessor:
         self.input_file = None
         self.output_file = None
         self.paragraphs_text = []
-        self.font_mapping = {
-            "宋体": "SimSun",
-            "黑体": "SimHei",
-            "楷体": "KaiTi",
-            "仿宋": "FangSong",
-            "微软雅黑": "Microsoft YaHei UI",  # 修改为常用的微软雅黑UI字体
-            "微软雅黑 UI": "Microsoft YaHei UI",  # 添加带UI的字体名称
-            "Times New Roman": "Times New Roman"
-        }
         
-        # 记录可用字体信息
-        app_logger.debug(f"初始化字体映射: {self.font_mapping}")
+        # 使用字体管理器获取字体信息
+        self.font_manager = FontManager()
+        
+        # 字号映射
         self.font_size_mapping = {
             "小二": Pt(18),
             "三号": Pt(16),
@@ -44,6 +38,8 @@ class DocProcessor:
             "小五": Pt(9),
             "六号": Pt(7.5)
         }
+        
+        app_logger.debug(f"文档处理器初始化完成，字号映射: {list(self.font_size_mapping.keys())}")
     
     def read_document(self, file_path):
         """
@@ -236,20 +232,24 @@ class DocProcessor:
         try:
             # 字体名称
             font_name = format_info.get('font', '宋体')
-            app_logger.debug(f"应用字体: {font_name}")
+            app_logger.debug(f"原始字体名称: {font_name}")
             
-            font_name_en = self.font_mapping.get(font_name, font_name)
-            app_logger.debug(f"映射后的字体名称: {font_name_en}")
+            # 使用字体管理器获取可用字体
+            available_font = self.font_manager.get_available_font(font_name, fallback="SimSun")
+            app_logger.debug(f"可用字体名称: {available_font}")
             
-            run.font.name = font_name_en
+            # 设置英文字体名称
+            run.font.name = available_font
             
             # 设置中文字体
             try:
-                run._element.rPr.rFonts.set(qn('w:eastAsia'), font_name)
-                app_logger.debug("成功设置中文字体")
+                # 对于中文字体，使用原始字体名称（如果可用）或映射后的字体名称
+                east_asia_font = font_name if self.font_manager.is_font_available(font_name) else available_font
+                run._element.rPr.rFonts.set(qn('w:eastAsia'), east_asia_font)
+                app_logger.debug(f"成功设置中文字体: {east_asia_font}")
             except Exception as e:
                 app_logger.error(f"设置中文字体失败: {str(e)}")
-            
+                
             # 字体大小
             font_size = format_info.get('size', '五号')
             app_logger.debug(f"原始字体大小: {font_size}")
