@@ -1,0 +1,157 @@
+2025-05-27 15:54:18,645 - AIPoliDoc - DEBUG - 加载配置文件: config/api_config.json
+2025-05-27 15:54:18,650 - AIPoliDoc - DEBUG - 加载配置文件: config/app_config.json
+2025-05-27 15:54:18,669 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 15:54:18,683 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-27 15:54:18,696 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 15:54:18,709 - AIPoliDoc - DEBUG - 加载模板: 我的模板
+2025-05-27 15:54:18,731 - AIPoliDoc - DEBUG - 加载模板: 论文格式
+2025-05-27 15:54:18,731 - AIPoliDoc - INFO - 配置管理器初始化完成
+2025-05-27 15:54:19,705 - AIPoliDoc - DEBUG - QFontDatabase原始字体列表长度: 205
+2025-05-27 15:54:19,705 - AIPoliDoc - DEBUG - 过滤后的字体列表长度: 205
+2025-05-27 15:54:19,705 - AIPoliDoc - DEBUG - 添加中文字体: 苹方
+2025-05-27 15:54:19,705 - AIPoliDoc - DEBUG - 添加中文字体: 宋体
+2025-05-27 15:54:19,705 - AIPoliDoc - DEBUG - 添加中文字体: 黑体
+2025-05-27 15:54:19,705 - AIPoliDoc - DEBUG - 添加中文字体: 楷体
+2025-05-27 15:54:19,705 - AIPoliDoc - DEBUG - 添加中文字体: 圆体
+2025-05-27 15:54:19,705 - AIPoliDoc - DEBUG - 添加中文字体: 华文宋体
+2025-05-27 15:54:19,705 - AIPoliDoc - DEBUG - 添加中文字体: 华文黑体
+2025-05-27 15:54:19,705 - AIPoliDoc - DEBUG - 添加中文字体: 华文楷体
+2025-05-27 15:54:19,706 - AIPoliDoc - DEBUG - 添加中文字体: 华文仿宋
+2025-05-27 15:54:19,706 - AIPoliDoc - DEBUG - 添加中文字体: 冬青黑体
+2025-05-27 15:54:19,706 - AIPoliDoc - DEBUG - 添加中文字体: 兰亭黑
+2025-05-27 15:54:19,706 - AIPoliDoc - DEBUG - 添加中文字体: 行楷
+2025-05-27 15:54:19,706 - AIPoliDoc - DEBUG - 添加中文字体: 仿宋
+2025-05-27 15:54:19,706 - AIPoliDoc - DEBUG - 添加中文字体: 微软雅黑
+2025-05-27 15:54:19,706 - AIPoliDoc - DEBUG - 添加中文字体: 幼圆
+2025-05-27 15:54:19,706 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文宋体
+2025-05-27 15:54:19,707 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文黑体
+2025-05-27 15:54:19,707 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文楷体
+2025-05-27 15:54:19,707 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方
+2025-05-27 15:54:19,707 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方-简
+2025-05-27 15:54:19,707 - AIPoliDoc - DEBUG - 添加中文字体名称: 冬青黑体
+2025-05-27 15:54:19,707 - AIPoliDoc - DEBUG - 添加中文字体名称: 英文
+2025-05-27 15:54:19,707 - AIPoliDoc - DEBUG - 加载系统字体成功，共 212 个字体
+2025-05-27 15:54:19,707 - AIPoliDoc - DEBUG - 识别中文字体 15 个
+2025-05-27 15:54:19,709 - AIPoliDoc - INFO - 从配置文件加载了额外的字体映射
+2025-05-27 15:54:19,709 - AIPoliDoc - INFO - 字体管理器初始化完成，共加载 212 个系统字体
+2025-05-27 15:54:19,709 - AIPoliDoc - DEBUG - 文档处理器初始化完成，字号映射: ['小二', '三号', '小三', '四号', '小四', '五号', '小五', '六号']
+2025-05-27 15:54:19,723 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 15:54:19,734 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-27 15:54:19,743 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 15:54:19,751 - AIPoliDoc - DEBUG - 加载模板: 我的模板
+2025-05-27 15:54:19,766 - AIPoliDoc - DEBUG - 加载模板: 论文格式
+2025-05-27 15:54:19,766 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 4 个模板
+2025-05-27 15:54:19,766 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-27 15:54:20,286 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-27 15:54:20,288 - AIPoliDoc - INFO - 应用程序启动完成
+2025-05-27 15:54:20,630 - AIPoliDoc - INFO - AI Word文档自动排版工具启动成功
+2025-05-27 15:54:23,847 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 15:54:23,858 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-27 15:54:23,867 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 15:54:23,875 - AIPoliDoc - DEBUG - 加载模板: 我的模板
+2025-05-27 15:54:23,888 - AIPoliDoc - DEBUG - 加载模板: 论文格式
+2025-05-27 15:54:23,889 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 4 个模板
+2025-05-27 15:54:23,919 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 15:54:23,920 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 15:54:23,921 - AIPoliDoc - INFO - 字体 '仿宋' 被Qt映射到系统字体 '仿宋'
+2025-05-27 15:54:23,922 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 15:54:23,922 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 15:54:23,923 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 15:54:23,924 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 15:54:23,924 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 15:54:23,928 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:23,930 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 15:54:23,931 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-27 15:54:23,931 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:23,932 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:23,933 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 15:54:23,933 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 15:54:23,934 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 15:54:31,862 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:31,863 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 15:54:31,869 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-27 15:54:31,871 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:31,873 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:31,874 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 15:54:31,876 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 15:54:31,878 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 15:54:36,911 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:36,912 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 15:54:36,914 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-27 15:54:36,915 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:36,917 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:36,919 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 15:54:36,920 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 15:54:36,921 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 15:54:49,656 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:49,658 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 15:54:49,660 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-27 15:54:49,663 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:49,664 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:54:49,666 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 15:54:49,667 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 15:54:49,669 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 15:55:47,716 - AIPoliDoc - DEBUG - 保存规则 '标题' 的对齐方式: 居中 -> center
+2025-05-27 15:55:47,720 - AIPoliDoc - DEBUG - 规则 '标题' 内容: {'font': '黑体', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'alignment': 'center', 'font_display_name': '黑体'}
+2025-05-27 15:55:47,722 - AIPoliDoc - DEBUG - 保存规则 '单位、姓名' 的对齐方式: 居中 -> center
+2025-05-27 15:55:47,723 - AIPoliDoc - DEBUG - 规则 '单位、姓名' 内容: {'font': '楷体', 'size': '四号', 'bold': False, 'line_spacing': 1.0, 'alignment': 'center', 'font_display_name': '楷体'}
+2025-05-27 15:55:47,724 - AIPoliDoc - DEBUG - 保存规则 '摘要' 的对齐方式: 左对齐 -> left
+2025-05-27 15:55:47,725 - AIPoliDoc - DEBUG - 规则 '摘要' 内容: {'font': '仿宋', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '仿宋'}
+2025-05-27 15:55:47,726 - AIPoliDoc - DEBUG - 保存规则 '关键词' 的对齐方式: 左对齐 -> left
+2025-05-27 15:55:47,727 - AIPoliDoc - DEBUG - 规则 '关键词' 内容: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}
+2025-05-27 15:55:47,728 - AIPoliDoc - DEBUG - 保存规则 '一级标题' 的对齐方式: 左对齐 -> left
+2025-05-27 15:55:47,729 - AIPoliDoc - DEBUG - 规则 '一级标题' 内容: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}
+2025-05-27 15:55:47,730 - AIPoliDoc - DEBUG - 保存规则 '二级标题' 的对齐方式: 左对齐 -> left
+2025-05-27 15:55:47,731 - AIPoliDoc - DEBUG - 规则 '二级标题' 内容: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 15:55:47,732 - AIPoliDoc - DEBUG - 保存规则 '正文' 的对齐方式: 左对齐 -> left
+2025-05-27 15:55:47,734 - AIPoliDoc - DEBUG - 规则 '正文' 内容: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.4999999999999987, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 15:55:47,735 - AIPoliDoc - DEBUG - 保存规则 '参考文献' 的对齐方式: 左对齐 -> left
+2025-05-27 15:55:47,736 - AIPoliDoc - DEBUG - 规则 '参考文献' 内容: {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}
+2025-05-27 15:55:47,737 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/研究论文格式.json
+2025-05-27 15:55:47,739 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/研究论文格式.json
+2025-05-27 15:55:47,740 - AIPoliDoc - INFO - 保存模板: 研究论文格式
+2025-05-27 15:55:47,741 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/研究论文格式.json
+2025-05-27 15:55:47,742 - AIPoliDoc - INFO - 模板 '研究论文格式' 已保存
+2025-05-27 15:55:49,348 - AIPoliDoc - INFO - 模板编辑完成，准备刷新: '研究论文格式'
+2025-05-27 15:55:49,365 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 15:55:49,377 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-27 15:55:49,387 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 15:55:49,397 - AIPoliDoc - DEBUG - 加载模板: 我的模板
+2025-05-27 15:55:49,412 - AIPoliDoc - DEBUG - 加载模板: 论文格式
+2025-05-27 15:55:49,413 - AIPoliDoc - DEBUG - 已重新加载模板文件
+2025-05-27 15:55:49,414 - AIPoliDoc - DEBUG - 成功加载模板 '研究论文格式', 规则数: 8
+2025-05-27 15:55:49,416 - AIPoliDoc - DEBUG - 元素 '标题' 的对齐方式: 未设置
+2025-05-27 15:55:49,417 - AIPoliDoc - DEBUG - 元素 '单位、姓名' 的对齐方式: 未设置
+2025-05-27 15:55:49,418 - AIPoliDoc - DEBUG - 元素 '摘要' 的对齐方式: 未设置
+2025-05-27 15:55:49,419 - AIPoliDoc - DEBUG - 元素 '关键词' 的对齐方式: 未设置
+2025-05-27 15:55:49,419 - AIPoliDoc - DEBUG - 元素 '一级标题' 的对齐方式: 未设置
+2025-05-27 15:55:49,420 - AIPoliDoc - DEBUG - 元素 '二级标题' 的对齐方式: 未设置
+2025-05-27 15:55:49,421 - AIPoliDoc - DEBUG - 元素 '正文' 的对齐方式: 未设置
+2025-05-27 15:55:49,421 - AIPoliDoc - DEBUG - 元素 '参考文献' 的对齐方式: 未设置
+2025-05-27 15:55:49,426 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-27 15:55:49,428 - AIPoliDoc - INFO - 模板 '研究论文格式' 已更新
+2025-05-27 15:55:49,429 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-27 15:56:17,677 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 15:56:17,690 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-27 15:56:17,700 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 15:56:17,708 - AIPoliDoc - DEBUG - 加载模板: 我的模板
+2025-05-27 15:56:17,723 - AIPoliDoc - DEBUG - 加载模板: 论文格式
+2025-05-27 15:56:17,724 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 4 个模板
+2025-05-27 15:56:17,740 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 15:56:17,741 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 15:56:17,742 - AIPoliDoc - INFO - 字体 '仿宋' 被Qt映射到系统字体 '仿宋'
+2025-05-27 15:56:17,743 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 15:56:17,744 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 15:56:17,745 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 15:56:17,746 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 15:56:17,746 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 15:56:17,747 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:56:17,749 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 15:56:17,750 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-27 15:56:17,751 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:56:17,752 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 15:56:17,753 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 15:56:17,753 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 15:56:17,754 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 15:57:53,417 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-27 15:57:53,422 - AIPoliDoc - INFO - 应用程序正常关闭

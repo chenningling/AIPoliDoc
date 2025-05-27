@@ -373,6 +373,17 @@ class FormatManager:
             if 'line_spacing' in format_rule:
                 format_parts.append(f"行距 {format_rule['line_spacing']}")
             
+            # 添加对齐方式显示
+            if 'alignment' in format_rule:
+                alignment = format_rule['alignment']
+                alignment_display = {
+                    "left": "左对齐",
+                    "center": "居中",
+                    "right": "右对齐",
+                    "justify": "两端对齐"
+                }.get(alignment, "左对齐")
+                format_parts.append(f"{alignment_display}")
+            
             text += ", ".join(format_parts) + "\n"
         
         return text

@@ -1,0 +1,1116 @@
+2025-05-27 16:39:54,066 - AIPoliDoc - DEBUG - 加载配置文件: config/api_config.json
+2025-05-27 16:39:54,069 - AIPoliDoc - DEBUG - 加载配置文件: config/app_config.json
+2025-05-27 16:39:54,089 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 16:39:54,105 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-27 16:39:54,120 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 16:39:54,132 - AIPoliDoc - DEBUG - 加载模板: 我的模板
+2025-05-27 16:39:54,155 - AIPoliDoc - DEBUG - 加载模板: 论文格式
+2025-05-27 16:39:54,155 - AIPoliDoc - INFO - 配置管理器初始化完成
+2025-05-27 16:39:54,788 - AIPoliDoc - DEBUG - QFontDatabase原始字体列表长度: 205
+2025-05-27 16:39:54,788 - AIPoliDoc - DEBUG - 过滤后的字体列表长度: 205
+2025-05-27 16:39:54,788 - AIPoliDoc - DEBUG - 添加中文字体: 苹方
+2025-05-27 16:39:54,788 - AIPoliDoc - DEBUG - 添加中文字体: 宋体
+2025-05-27 16:39:54,788 - AIPoliDoc - DEBUG - 添加中文字体: 黑体
+2025-05-27 16:39:54,788 - AIPoliDoc - DEBUG - 添加中文字体: 楷体
+2025-05-27 16:39:54,788 - AIPoliDoc - DEBUG - 添加中文字体: 圆体
+2025-05-27 16:39:54,789 - AIPoliDoc - DEBUG - 添加中文字体: 华文宋体
+2025-05-27 16:39:54,789 - AIPoliDoc - DEBUG - 添加中文字体: 华文黑体
+2025-05-27 16:39:54,789 - AIPoliDoc - DEBUG - 添加中文字体: 华文楷体
+2025-05-27 16:39:54,789 - AIPoliDoc - DEBUG - 添加中文字体: 华文仿宋
+2025-05-27 16:39:54,789 - AIPoliDoc - DEBUG - 添加中文字体: 冬青黑体
+2025-05-27 16:39:54,789 - AIPoliDoc - DEBUG - 添加中文字体: 兰亭黑
+2025-05-27 16:39:54,789 - AIPoliDoc - DEBUG - 添加中文字体: 行楷
+2025-05-27 16:39:54,789 - AIPoliDoc - DEBUG - 添加中文字体: 仿宋
+2025-05-27 16:39:54,789 - AIPoliDoc - DEBUG - 添加中文字体: 微软雅黑
+2025-05-27 16:39:54,789 - AIPoliDoc - DEBUG - 添加中文字体: 幼圆
+2025-05-27 16:39:54,790 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文宋体
+2025-05-27 16:39:54,790 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文黑体
+2025-05-27 16:39:54,790 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文楷体
+2025-05-27 16:39:54,790 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方
+2025-05-27 16:39:54,790 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方-简
+2025-05-27 16:39:54,790 - AIPoliDoc - DEBUG - 添加中文字体名称: 冬青黑体
+2025-05-27 16:39:54,791 - AIPoliDoc - DEBUG - 添加中文字体名称: 英文
+2025-05-27 16:39:54,791 - AIPoliDoc - DEBUG - 加载系统字体成功，共 212 个字体
+2025-05-27 16:39:54,791 - AIPoliDoc - DEBUG - 识别中文字体 15 个
+2025-05-27 16:39:54,793 - AIPoliDoc - INFO - 从配置文件加载了额外的字体映射
+2025-05-27 16:39:54,793 - AIPoliDoc - INFO - 字体管理器初始化完成，共加载 212 个系统字体
+2025-05-27 16:39:54,793 - AIPoliDoc - DEBUG - 文档处理器初始化完成，字号映射: ['小二', '三号', '小三', '四号', '小四', '五号', '小五', '六号']
+2025-05-27 16:39:54,808 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 16:39:54,820 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-27 16:39:54,830 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 16:39:54,838 - AIPoliDoc - DEBUG - 加载模板: 我的模板
+2025-05-27 16:39:54,852 - AIPoliDoc - DEBUG - 加载模板: 论文格式
+2025-05-27 16:39:54,852 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 4 个模板
+2025-05-27 16:39:54,852 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-27 16:39:55,212 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-27 16:39:55,213 - AIPoliDoc - INFO - 应用程序启动完成
+2025-05-27 16:39:55,425 - AIPoliDoc - INFO - AI Word文档自动排版工具启动成功
+2025-05-27 16:40:18,758 - AIPoliDoc - INFO - 已选择文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/未排版/【测试】人工智能技术在教育领域的创新应用研究.docx
+2025-05-27 16:40:24,667 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-27 16:40:32,040 - AIPoliDoc - INFO - API配置验证成功
+2025-05-27 16:40:32,046 - AIPoliDoc - INFO - 开始排版任务
+2025-05-27 16:40:32,084 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/未排版/【测试】人工智能技术在教育领域的创新应用研究.docx
+2025-05-27 16:40:32,096 - AIPoliDoc - DEBUG - 文档包含 55 个段落
+2025-05-27 16:40:32,103 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 10 个潜在标题
+2025-05-27 16:40:32,104 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-27 16:40:32,127 - AIPoliDoc - DEBUG - 文档长度: 1367 字符, 规则数量: 8
+2025-05-27 16:40:32,129 - AIPoliDoc - DEBUG - 生成的提示词长度: 3205 字符
+2025-05-27 16:40:32,131 - AIPoliDoc - DEBUG - 提示词开头: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+人工智能技术在教育领域的创新应用研究
+
+
+
+作者单位：XX师范大学教育技术学院  
+
+作者姓名：李智慧  
+
+
+
+摘要
+
+本文系统探讨了人工智能技术在现代教育中的多元化应用场景及其产生的...
+2025-05-27 16:40:32,150 - AIPoliDoc - DEBUG - 提示词结尾: ...{
+  "type": "标题",
+  "content": "文本内容",
+  "format": {
+    "font": "黑体",
+    "size": "小二",
+    "line_spacing": 1.0,
+    "alignment": "center"
+  }
+},
+...
+  ]
+}
+
+请确保返回的JSON格式正确，可以被解析。只返回JSON内容，不要有其他说明文字。
+
+2025-05-27 16:40:32,201 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-27 16:40:32,202 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-27 16:40:32,203 - AIPoliDoc - DEBUG - 请求头信息: {'Content-Type': 'application/json', 'Authorization': 'Bearer sk-c7d66ad568c849ffbd6563762abc0fdf'}
+2025-05-27 16:40:32,219 - AIPoliDoc - DEBUG - 提示词预览: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+人工智能技术在教育领域的创新应用研究
+
+
+
+作者单位：XX师范大学教育技术学院  
+
+作者姓名：李智慧  
+
+
+
+摘要
+
+本文系统探讨了人工智能技术在现代教育中的多元化应用场景及其产生的...
+2025-05-27 16:40:32,221 - AIPoliDoc - DEBUG - 使用模型: deepseek-chat
+2025-05-27 16:40:32,222 - AIPoliDoc - INFO - 开始发送请求，超时时间设置为180秒
+2025-05-27 16:43:01,209 - AIPoliDoc - INFO - 收到响应，状态码: 200
+2025-05-27 16:43:01,215 - AIPoliDoc - INFO - AI API请求成功
+2025-05-27 16:43:01,218 - AIPoliDoc - DEBUG - 响应内容预览: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "人工智能技术在教育领域的创新应用研究",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0,
+    ...
+2025-05-27 16:43:01,221 - AIPoliDoc - DEBUG - 响应使用的模型: deepseek-chat
+2025-05-27 16:43:01,222 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1530, 'completion_tokens': 3509, 'total_tokens': 5039, 'prompt_tokens_details': {'cached_tokens': 832}, 'prompt_cache_hit_tokens': 832, 'prompt_cache_miss_tokens': 698}
+2025-05-27 16:43:01,224 - AIPoliDoc - DEBUG - 响应完整结构的键: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-27 16:43:01,226 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1530, 'completion_tokens': 3509, 'total_tokens': 5039, 'prompt_tokens_details': {'cached_tokens': 832}, 'prompt_cache_hit_tokens': 832, 'prompt_cache_miss_tokens': 698}
+2025-05-27 16:43:01,228 - AIPoliDoc - DEBUG - 原始响应内容长度: 10171 字符
+2025-05-27 16:43:01,230 - AIPoliDoc - DEBUG - 响应内容开头: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "人工智能技术在教育领域的创新应用研究",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0,
+    ...
+2025-05-27 16:43:01,231 - AIPoliDoc - DEBUG - 响应内容结尾: ....",
+      "format": {
+        "font": "楷体",
+        "size": "五号",
+        "bold": false,
+        "line_spacing": 1.5,
+        "alignment": "left",
+        "font_display_name": "楷体"
+      }
+    }
+  ]
+}
+2025-05-27 16:43:01,233 - AIPoliDoc - DEBUG - JSON内容起始位置: 0, 结束位置: 10170
+2025-05-27 16:43:01,234 - AIPoliDoc - DEBUG - 提取的JSON内容长度: 10171 字符
+2025-05-27 16:43:01,235 - AIPoliDoc - DEBUG - JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-27 16:43:01,235 - AIPoliDoc - DEBUG - JSON解析成功，得到字典类型数据
+2025-05-27 16:43:01,237 - AIPoliDoc - DEBUG - 格式化指令的键: ['elements']
+2025-05-27 16:43:01,238 - AIPoliDoc - DEBUG - 元素数量: 37
+2025-05-27 16:43:01,239 - AIPoliDoc - DEBUG - 前三个元素类型: ['标题', '单位、姓名', '单位、姓名']
+2025-05-27 16:43:01,242 - AIPoliDoc - INFO - 结构验证完成，共37个元素
+2025-05-27 16:43:01,243 - AIPoliDoc - DEBUG - 格式化指令: {'elements': [{'type': '标题', 'content': '人工智能技术在教育领域的创新应用研究', 'format': {'font': '黑体', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'alignment': 'center', 'font_display_name': '黑体'}}, {'type': '单位、姓名', 'content': '作者单位：XX师范大学教育技术学院', 'format': {'font': '楷体', 'size': '四号', 'bold': False, 'line_spacing': 1.0, 'alignment': 'center', 'font_display_name': '楷体'}}, {'type': '单位、姓名', 'content': '作者姓名：李智慧', 'format': {'font': '楷体', 'size': '四号', 'bold': False, 'line_spacing': 1.0, 'alignment': 'center', 'font_display_name': '楷体'}}, {'type': '一级标题', 'content': '摘要', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}, {'type': '正文', 'content': '本文系统探讨了人工智能技术在现代教育中的多元化应用场景及其产生的变革性影响。通过文献分析和案例研究，重点剖析了智能教学系统、学习行为分析和教育管理智能化三个维度的应用现状，揭示了技术融合过程中面临的数据伦理、师生适应性和技术公平性等核心问题。研究发现，AI技术可提升23%-35%的教学效率，但需要建立完善的技术治理框架才能实现可持续发展。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '关键词', 'content': '关键词：人工智能教育；自适应学习；教育大数据；智能评测；教育数字化转型', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}, {'type': '一级标题', 'content': '一、研究背景', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}, {'type': '正文', 'content': '根据教育部《教育信息化2.0行动计划》，智能教育已成为国家战略。2023年中国教育类AI市场规模已达523亿元（艾瑞咨询数据），但学术层面缺乏系统性研究。本文基于国内实践，构建AI教育应用的分析框架。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '一级标题', 'content': '二、人工智能教育应用场景', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}, {'type': '二级标题', 'content': '2.1 智能教学系统', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '正文', 'content': '科大讯飞"智慧课堂"已覆盖全国38000所学校，其语音识别技术实现课堂实时转录准确率98.5%（2023年教育装备展数据）。阿里云开发的"AI数学老师"在浙江试点使班级平均分提升11.2分。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '2.2 学习行为分析', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '正文', 'content': '清华大学研发的"智学助手"通过眼动追踪和作业分析，构建学习者知识图谱。北京师范大学实验显示，该系统可使学习路径优化效率提升40%。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '2.3 教育管理智能化', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '正文', 'content': '广东省教育厅的"AI督导系统"实现2000所学校的自动巡课，违规行为识别率达92%。上海市教育评估院的智能招生系统年处理千万级申请数据。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '一级标题', 'content': '三、关键挑战', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}, {'type': '二级标题', 'content': '3.1 数据隐私保护困境', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '正文', 'content': '《个人信息保护法》实施后，教育数据采集边界模糊。如某智能笔收集学生书写数据引发的诉讼案（2022年教育法案例）。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '3.2 师生数字素养鸿沟', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '正文', 'content': '中国教育学会调研显示，仅31%教师能熟练使用AI工具，城乡差距达2.7倍。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '3.3 技术异化风险', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '正文', 'content': '部分学校出现"唯数据化"倾向，如某中学的"专注度评分"引发伦理争议（《现代教育技术》2023年第4期）。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '一级标题', 'content': '四、发展建议', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}, {'type': '二级标题', 'content': '4.1 建立教育AI伦理委员会', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '正文', 'content': '参考《新一代人工智能伦理规范》，制定教育领域实施细则。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '4.2 开展教师AI能力认证', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '正文', 'content': '建议将AI应用纳入教师资格考试体系，开发专项培训课程。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '4.3 推进技术普惠化', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '正文', 'content': '政府应设立专项基金，缩小区域间的智能教育差距。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '一级标题', 'content': '五、结论', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}, {'type': '正文', 'content': '人工智能正在重构教育生态，但需坚持"技术服务于人"的根本原则。未来应建立包含技术创新、伦理规范和制度保障的三维发展体系，推动教育高质量发展。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}, {'type': '一级标题', 'content': '参考文献', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}, {'type': '参考文献', 'content': '1. 顾小清等.《人工智能教育应用的发展趋势与实践路径》[J]. 电化教育研究, 2022(3):45-52.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}}, {'type': '参考文献', 'content': '2. 教育部.《中国教育智能发展白皮书》[R]. 北京:教育科学出版社, 2023.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}}, {'type': '参考文献', 'content': '3. 王运武等.《教育人工智能的伦理风险及其治理》[J]. 现代远程教育研究, 2023,35(2):12-20.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}}, {'type': '参考文献', 'content': '4. 黄荣怀.《智能教育：促进教育数字化转型的新引擎》[M]. 北京:北京师范大学出版社, 2022.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}}, {'type': '参考文献', 'content': '5. 中国人工智能学会.《教育人工智能技术标准1.0》[S]. 2023.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}}]}
+2025-05-27 16:43:01,300 - AIPoliDoc - INFO - 开始应用排版格式，共有 37 个元素
+2025-05-27 16:43:01,312 - AIPoliDoc - INFO - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-27 16:43:01,386 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/未排版/【测试】人工智能技术在教育领域的创新应用研究.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/未排版/【测试】人工智能技术在教育领域的创新应用研究_backup_20250527164301.docx
+2025-05-27 16:43:01,387 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/未排版/【测试】人工智能技术在教育领域的创新应用研究.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/未排版/【测试】人工智能技术在教育领域的创新应用研究_backup_20250527164301.docx
+2025-05-27 16:43:01,405 - AIPoliDoc - DEBUG - 成功创建新文档
+2025-05-27 16:43:01,407 - AIPoliDoc - DEBUG - 处理第 1/37 个元素
+2025-05-27 16:43:01,407 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '标题', 'content': '人工智能技术在教育领域的创新应用研究', 'format': {'font': '黑体', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'alignment': 'center', 'font_display_name': '黑体'}}
+2025-05-27 16:43:01,408 - AIPoliDoc - DEBUG - 元素内容: 人工智能技术在教育领域的创新应用研究...
+2025-05-27 16:43:01,409 - AIPoliDoc - DEBUG - 元素类型: 标题
+2025-05-27 16:43:01,410 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'alignment': 'center', 'font_display_name': '黑体'}
+2025-05-27 16:43:01,414 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,416 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,417 - AIPoliDoc - DEBUG - 原始字体名称: 黑体
+2025-05-27 16:43:01,419 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 16:43:01,420 - AIPoliDoc - DEBUG - 用于文档的字体名称: 黑体
+2025-05-27 16:43:01,422 - AIPoliDoc - DEBUG - 成功设置中文字体: 黑体
+2025-05-27 16:43:01,422 - AIPoliDoc - DEBUG - 原始字体大小: 小二
+2025-05-27 16:43:01,423 - AIPoliDoc - DEBUG - 映射后的字体大小: 228600
+2025-05-27 16:43:01,425 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,427 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,428 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,431 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,432 - AIPoliDoc - DEBUG - 设置行间距: 1.0
+2025-05-27 16:43:01,434 - AIPoliDoc - DEBUG - 设置单倍行间距
+2025-05-27 16:43:01,435 - AIPoliDoc - DEBUG - 设置对齐方式: center
+2025-05-27 16:43:01,436 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,437 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,437 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,438 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,438 - AIPoliDoc - DEBUG - 完成元素处理: 标题, 内容: 人工智能技术在教育领域的创新应用研究...
+2025-05-27 16:43:01,439 - AIPoliDoc - DEBUG - 处理第 2/37 个元素
+2025-05-27 16:43:01,440 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '单位、姓名', 'content': '作者单位：XX师范大学教育技术学院', 'format': {'font': '楷体', 'size': '四号', 'bold': False, 'line_spacing': 1.0, 'alignment': 'center', 'font_display_name': '楷体'}}
+2025-05-27 16:43:01,442 - AIPoliDoc - DEBUG - 元素内容: 作者单位：XX师范大学教育技术学院...
+2025-05-27 16:43:01,443 - AIPoliDoc - DEBUG - 元素类型: 单位、姓名
+2025-05-27 16:43:01,444 - AIPoliDoc - DEBUG - 格式信息: {'font': '楷体', 'size': '四号', 'bold': False, 'line_spacing': 1.0, 'alignment': 'center', 'font_display_name': '楷体'}
+2025-05-27 16:43:01,445 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,447 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,448 - AIPoliDoc - DEBUG - 原始字体名称: 楷体
+2025-05-27 16:43:01,450 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 16:43:01,450 - AIPoliDoc - DEBUG - 用于文档的字体名称: 楷体
+2025-05-27 16:43:01,451 - AIPoliDoc - DEBUG - 成功设置中文字体: 楷体
+2025-05-27 16:43:01,453 - AIPoliDoc - DEBUG - 原始字体大小: 四号
+2025-05-27 16:43:01,453 - AIPoliDoc - DEBUG - 映射后的字体大小: 177800
+2025-05-27 16:43:01,454 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:01,455 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,456 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,456 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,457 - AIPoliDoc - DEBUG - 设置行间距: 1.0
+2025-05-27 16:43:01,458 - AIPoliDoc - DEBUG - 设置单倍行间距
+2025-05-27 16:43:01,459 - AIPoliDoc - DEBUG - 设置对齐方式: center
+2025-05-27 16:43:01,460 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,461 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,462 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,463 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,464 - AIPoliDoc - DEBUG - 完成元素处理: 单位、姓名, 内容: 作者单位：XX师范大学教育技术学院...
+2025-05-27 16:43:01,465 - AIPoliDoc - DEBUG - 处理第 3/37 个元素
+2025-05-27 16:43:01,466 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '单位、姓名', 'content': '作者姓名：李智慧', 'format': {'font': '楷体', 'size': '四号', 'bold': False, 'line_spacing': 1.0, 'alignment': 'center', 'font_display_name': '楷体'}}
+2025-05-27 16:43:01,467 - AIPoliDoc - DEBUG - 元素内容: 作者姓名：李智慧...
+2025-05-27 16:43:01,468 - AIPoliDoc - DEBUG - 元素类型: 单位、姓名
+2025-05-27 16:43:01,469 - AIPoliDoc - DEBUG - 格式信息: {'font': '楷体', 'size': '四号', 'bold': False, 'line_spacing': 1.0, 'alignment': 'center', 'font_display_name': '楷体'}
+2025-05-27 16:43:01,470 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,471 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,472 - AIPoliDoc - DEBUG - 原始字体名称: 楷体
+2025-05-27 16:43:01,473 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 16:43:01,474 - AIPoliDoc - DEBUG - 用于文档的字体名称: 楷体
+2025-05-27 16:43:01,475 - AIPoliDoc - DEBUG - 成功设置中文字体: 楷体
+2025-05-27 16:43:01,476 - AIPoliDoc - DEBUG - 原始字体大小: 四号
+2025-05-27 16:43:01,476 - AIPoliDoc - DEBUG - 映射后的字体大小: 177800
+2025-05-27 16:43:01,478 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:01,479 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,480 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,481 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,482 - AIPoliDoc - DEBUG - 设置行间距: 1.0
+2025-05-27 16:43:01,483 - AIPoliDoc - DEBUG - 设置单倍行间距
+2025-05-27 16:43:01,483 - AIPoliDoc - DEBUG - 设置对齐方式: center
+2025-05-27 16:43:01,485 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,485 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,486 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,487 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,488 - AIPoliDoc - DEBUG - 完成元素处理: 单位、姓名, 内容: 作者姓名：李智慧...
+2025-05-27 16:43:01,488 - AIPoliDoc - DEBUG - 处理第 4/37 个元素
+2025-05-27 16:43:01,489 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '摘要', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}
+2025-05-27 16:43:01,491 - AIPoliDoc - DEBUG - 元素内容: 摘要...
+2025-05-27 16:43:01,492 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-27 16:43:01,494 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}
+2025-05-27 16:43:01,495 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,497 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,498 - AIPoliDoc - DEBUG - 原始字体名称: 黑体
+2025-05-27 16:43:01,499 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 16:43:01,500 - AIPoliDoc - DEBUG - 用于文档的字体名称: 黑体
+2025-05-27 16:43:01,501 - AIPoliDoc - DEBUG - 成功设置中文字体: 黑体
+2025-05-27 16:43:01,502 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,503 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,504 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,505 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,506 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,507 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,507 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,509 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,510 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,512 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,513 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,514 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,515 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,516 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 摘要...
+2025-05-27 16:43:01,517 - AIPoliDoc - DEBUG - 处理第 5/37 个元素
+2025-05-27 16:43:01,517 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '本文系统探讨了人工智能技术在现代教育中的多元化应用场景及其产生的变革性影响。通过文献分析和案例研究，重点剖析了智能教学系统、学习行为分析和教育管理智能化三个维度的应用现状，揭示了技术融合过程中面临的数据伦理、师生适应性和技术公平性等核心问题。研究发现，AI技术可提升23%-35%的教学效率，但需要建立完善的技术治理框架才能实现可持续发展。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,518 - AIPoliDoc - DEBUG - 元素内容: 本文系统探讨了人工智能技术在现代教育中的多元化应用场景及其产生的变革性影响。通过文献分析和案例研究，...
+2025-05-27 16:43:01,520 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:01,521 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,522 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,524 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,525 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,526 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,526 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,528 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,529 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,531 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,532 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:01,533 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,535 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,536 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,536 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,538 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,539 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,540 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,541 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:01,546 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,547 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,548 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,549 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 本文系统探讨了人工智能技术在现代教育中的...
+2025-05-27 16:43:01,550 - AIPoliDoc - DEBUG - 处理第 6/37 个元素
+2025-05-27 16:43:01,551 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '关键词', 'content': '关键词：人工智能教育；自适应学习；教育大数据；智能评测；教育数字化转型', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}
+2025-05-27 16:43:01,553 - AIPoliDoc - DEBUG - 元素内容: 关键词：人工智能教育；自适应学习；教育大数据；智能评测；教育数字化转型...
+2025-05-27 16:43:01,554 - AIPoliDoc - DEBUG - 元素类型: 关键词
+2025-05-27 16:43:01,555 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}
+2025-05-27 16:43:01,556 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,557 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,559 - AIPoliDoc - DEBUG - 原始字体名称: 黑体
+2025-05-27 16:43:01,560 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 16:43:01,561 - AIPoliDoc - DEBUG - 用于文档的字体名称: 黑体
+2025-05-27 16:43:01,563 - AIPoliDoc - DEBUG - 成功设置中文字体: 黑体
+2025-05-27 16:43:01,564 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,565 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,567 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,568 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,569 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,570 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,572 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,573 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,575 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,577 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,578 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,579 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,580 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,581 - AIPoliDoc - DEBUG - 完成元素处理: 关键词, 内容: 关键词：人工智能教育；自适应学习；教育大...
+2025-05-27 16:43:01,582 - AIPoliDoc - DEBUG - 处理第 7/37 个元素
+2025-05-27 16:43:01,583 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '一、研究背景', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}
+2025-05-27 16:43:01,585 - AIPoliDoc - DEBUG - 元素内容: 一、研究背景...
+2025-05-27 16:43:01,586 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-27 16:43:01,587 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}
+2025-05-27 16:43:01,588 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,590 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,592 - AIPoliDoc - DEBUG - 原始字体名称: 黑体
+2025-05-27 16:43:01,593 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 16:43:01,594 - AIPoliDoc - DEBUG - 用于文档的字体名称: 黑体
+2025-05-27 16:43:01,596 - AIPoliDoc - DEBUG - 成功设置中文字体: 黑体
+2025-05-27 16:43:01,599 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,601 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,604 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,606 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,610 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,612 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,615 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,617 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,619 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,621 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,622 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,624 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,625 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,626 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 一、研究背景...
+2025-05-27 16:43:01,627 - AIPoliDoc - DEBUG - 处理第 8/37 个元素
+2025-05-27 16:43:01,628 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '根据教育部《教育信息化2.0行动计划》，智能教育已成为国家战略。2023年中国教育类AI市场规模已达523亿元（艾瑞咨询数据），但学术层面缺乏系统性研究。本文基于国内实践，构建AI教育应用的分析框架。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,630 - AIPoliDoc - DEBUG - 元素内容: 根据教育部《教育信息化2.0行动计划》，智能教育已成为国家战略。2023年中国教育类AI市场规模已达...
+2025-05-27 16:43:01,632 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:01,634 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,635 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,637 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,638 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,639 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,639 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,641 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,642 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,643 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,643 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:01,645 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,647 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,648 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,649 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,650 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,651 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,652 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,653 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:01,653 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,654 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,655 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,655 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 根据教育部《教育信息化2.0行动计划》，...
+2025-05-27 16:43:01,657 - AIPoliDoc - DEBUG - 处理第 9/37 个元素
+2025-05-27 16:43:01,658 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '二、人工智能教育应用场景', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}
+2025-05-27 16:43:01,659 - AIPoliDoc - DEBUG - 元素内容: 二、人工智能教育应用场景...
+2025-05-27 16:43:01,660 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-27 16:43:01,661 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}
+2025-05-27 16:43:01,663 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,665 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,666 - AIPoliDoc - DEBUG - 原始字体名称: 黑体
+2025-05-27 16:43:01,666 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 16:43:01,667 - AIPoliDoc - DEBUG - 用于文档的字体名称: 黑体
+2025-05-27 16:43:01,668 - AIPoliDoc - DEBUG - 成功设置中文字体: 黑体
+2025-05-27 16:43:01,670 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,671 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,672 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,673 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,674 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,676 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,677 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,678 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,679 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,680 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,681 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,682 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,683 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,684 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 二、人工智能教育应用场景...
+2025-05-27 16:43:01,685 - AIPoliDoc - DEBUG - 处理第 10/37 个元素
+2025-05-27 16:43:01,686 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '2.1 智能教学系统', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,687 - AIPoliDoc - DEBUG - 元素内容: 2.1 智能教学系统...
+2025-05-27 16:43:01,688 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-27 16:43:01,690 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,691 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,692 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,693 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,694 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,694 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,696 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,697 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,698 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,699 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,700 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,701 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,702 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,703 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,704 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,705 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,705 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,706 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,707 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,708 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,709 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 2.1 智能教学系统...
+2025-05-27 16:43:01,710 - AIPoliDoc - DEBUG - 处理第 11/37 个元素
+2025-05-27 16:43:01,711 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '科大讯飞"智慧课堂"已覆盖全国38000所学校，其语音识别技术实现课堂实时转录准确率98.5%（2023年教育装备展数据）。阿里云开发的"AI数学老师"在浙江试点使班级平均分提升11.2分。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,714 - AIPoliDoc - DEBUG - 元素内容: 科大讯飞"智慧课堂"已覆盖全国38000所学校，其语音识别技术实现课堂实时转录准确率98.5%（20...
+2025-05-27 16:43:01,716 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:01,717 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,718 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,719 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,721 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,721 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,722 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,724 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,724 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,725 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,727 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:01,728 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,729 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,730 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,732 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,733 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,734 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,735 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,735 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:01,736 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,737 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,738 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,739 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 科大讯飞"智慧课堂"已覆盖全国38000...
+2025-05-27 16:43:01,740 - AIPoliDoc - DEBUG - 处理第 12/37 个元素
+2025-05-27 16:43:01,741 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '2.2 学习行为分析', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,742 - AIPoliDoc - DEBUG - 元素内容: 2.2 学习行为分析...
+2025-05-27 16:43:01,743 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-27 16:43:01,744 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,746 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,748 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,748 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,749 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,751 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,752 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,753 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,754 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,755 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,756 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,757 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,758 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,759 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,761 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,762 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,764 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,765 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,766 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,767 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,768 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 2.2 学习行为分析...
+2025-05-27 16:43:01,769 - AIPoliDoc - DEBUG - 处理第 13/37 个元素
+2025-05-27 16:43:01,770 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '清华大学研发的"智学助手"通过眼动追踪和作业分析，构建学习者知识图谱。北京师范大学实验显示，该系统可使学习路径优化效率提升40%。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,772 - AIPoliDoc - DEBUG - 元素内容: 清华大学研发的"智学助手"通过眼动追踪和作业分析，构建学习者知识图谱。北京师范大学实验显示，该系统可...
+2025-05-27 16:43:01,773 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:01,774 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,775 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,776 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,778 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,779 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,779 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,781 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,781 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,783 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,784 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:01,785 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,786 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,787 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,788 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,789 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,790 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,790 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,792 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:01,793 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,793 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,794 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,795 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 清华大学研发的"智学助手"通过眼动追踪和...
+2025-05-27 16:43:01,796 - AIPoliDoc - DEBUG - 处理第 14/37 个元素
+2025-05-27 16:43:01,797 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '2.3 教育管理智能化', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,798 - AIPoliDoc - DEBUG - 元素内容: 2.3 教育管理智能化...
+2025-05-27 16:43:01,799 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-27 16:43:01,800 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,802 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,803 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,803 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,804 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,805 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,806 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,807 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,808 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,809 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,810 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,811 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,812 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,813 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,814 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,815 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,816 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,816 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,818 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,819 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,819 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 2.3 教育管理智能化...
+2025-05-27 16:43:01,820 - AIPoliDoc - DEBUG - 处理第 15/37 个元素
+2025-05-27 16:43:01,821 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '广东省教育厅的"AI督导系统"实现2000所学校的自动巡课，违规行为识别率达92%。上海市教育评估院的智能招生系统年处理千万级申请数据。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,824 - AIPoliDoc - DEBUG - 元素内容: 广东省教育厅的"AI督导系统"实现2000所学校的自动巡课，违规行为识别率达92%。上海市教育评估院...
+2025-05-27 16:43:01,826 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:01,827 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,828 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,829 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,830 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,831 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,832 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,833 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,834 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,835 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,836 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:01,837 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,838 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,839 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,840 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,840 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,841 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,842 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,844 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:01,844 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,845 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,846 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,847 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 广东省教育厅的"AI督导系统"实现200...
+2025-05-27 16:43:01,847 - AIPoliDoc - DEBUG - 处理第 16/37 个元素
+2025-05-27 16:43:01,849 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '三、关键挑战', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}
+2025-05-27 16:43:01,850 - AIPoliDoc - DEBUG - 元素内容: 三、关键挑战...
+2025-05-27 16:43:01,851 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-27 16:43:01,852 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}
+2025-05-27 16:43:01,853 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,854 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,855 - AIPoliDoc - DEBUG - 原始字体名称: 黑体
+2025-05-27 16:43:01,856 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 16:43:01,857 - AIPoliDoc - DEBUG - 用于文档的字体名称: 黑体
+2025-05-27 16:43:01,858 - AIPoliDoc - DEBUG - 成功设置中文字体: 黑体
+2025-05-27 16:43:01,858 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,860 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,861 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,862 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,863 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,864 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,865 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,866 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,867 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,868 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,869 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,870 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,871 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,872 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 三、关键挑战...
+2025-05-27 16:43:01,873 - AIPoliDoc - DEBUG - 处理第 17/37 个元素
+2025-05-27 16:43:01,873 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '3.1 数据隐私保护困境', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,875 - AIPoliDoc - DEBUG - 元素内容: 3.1 数据隐私保护困境...
+2025-05-27 16:43:01,876 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-27 16:43:01,876 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,878 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,880 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,881 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,881 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,882 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,883 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,884 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,886 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,887 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,888 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,889 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,890 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,891 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,892 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,893 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,894 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,895 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,896 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,897 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,898 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 3.1 数据隐私保护困境...
+2025-05-27 16:43:01,899 - AIPoliDoc - DEBUG - 处理第 18/37 个元素
+2025-05-27 16:43:01,900 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '《个人信息保护法》实施后，教育数据采集边界模糊。如某智能笔收集学生书写数据引发的诉讼案（2022年教育法案例）。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,901 - AIPoliDoc - DEBUG - 元素内容: 《个人信息保护法》实施后，教育数据采集边界模糊。如某智能笔收集学生书写数据引发的诉讼案（2022年教...
+2025-05-27 16:43:01,903 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:01,904 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,905 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,907 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,908 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,909 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,910 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,911 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,912 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,913 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,914 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:01,915 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,916 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,917 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,918 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,919 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,920 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,921 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,922 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:01,922 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,923 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,924 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,924 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 《个人信息保护法》实施后，教育数据采集边...
+2025-05-27 16:43:01,925 - AIPoliDoc - DEBUG - 处理第 19/37 个元素
+2025-05-27 16:43:01,926 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '3.2 师生数字素养鸿沟', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,927 - AIPoliDoc - DEBUG - 元素内容: 3.2 师生数字素养鸿沟...
+2025-05-27 16:43:01,929 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-27 16:43:01,930 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,931 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,932 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,933 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,933 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,934 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,935 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,936 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,937 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,938 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,939 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,940 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,941 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,942 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,943 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,944 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,946 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,946 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,947 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,948 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,949 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 3.2 师生数字素养鸿沟...
+2025-05-27 16:43:01,951 - AIPoliDoc - DEBUG - 处理第 20/37 个元素
+2025-05-27 16:43:01,952 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '中国教育学会调研显示，仅31%教师能熟练使用AI工具，城乡差距达2.7倍。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,953 - AIPoliDoc - DEBUG - 元素内容: 中国教育学会调研显示，仅31%教师能熟练使用AI工具，城乡差距达2.7倍。...
+2025-05-27 16:43:01,954 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:01,954 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,955 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,957 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,957 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,959 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,960 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,961 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,962 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,962 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,964 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:01,965 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,966 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,967 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,968 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,969 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,970 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,971 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,972 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:01,973 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:01,974 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:01,975 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:01,975 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 中国教育学会调研显示，仅31%教师能熟练...
+2025-05-27 16:43:01,976 - AIPoliDoc - DEBUG - 处理第 21/37 个元素
+2025-05-27 16:43:01,977 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '3.3 技术异化风险', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:01,979 - AIPoliDoc - DEBUG - 元素内容: 3.3 技术异化风险...
+2025-05-27 16:43:01,980 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-27 16:43:01,981 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:01,982 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:01,983 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:01,984 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:01,985 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:01,986 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:01,987 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:01,988 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:01,989 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:01,990 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:01,991 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:01,992 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:01,994 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:01,995 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:01,996 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:01,997 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:01,998 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:01,999 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,000 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,001 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,001 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 3.3 技术异化风险...
+2025-05-27 16:43:02,002 - AIPoliDoc - DEBUG - 处理第 22/37 个元素
+2025-05-27 16:43:02,003 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '部分学校出现"唯数据化"倾向，如某中学的"专注度评分"引发伦理争议（《现代教育技术》2023年第4期）。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:02,005 - AIPoliDoc - DEBUG - 元素内容: 部分学校出现"唯数据化"倾向，如某中学的"专注度评分"引发伦理争议（《现代教育技术》2023年第4期...
+2025-05-27 16:43:02,006 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:02,007 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:02,008 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,009 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,010 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:02,011 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:02,012 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:02,014 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:02,015 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,016 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,017 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:02,019 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,020 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,022 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,022 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,023 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,024 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,025 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,027 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:02,028 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,029 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,030 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,031 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 部分学校出现"唯数据化"倾向，如某中学的...
+2025-05-27 16:43:02,031 - AIPoliDoc - DEBUG - 处理第 23/37 个元素
+2025-05-27 16:43:02,033 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '四、发展建议', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}
+2025-05-27 16:43:02,034 - AIPoliDoc - DEBUG - 元素内容: 四、发展建议...
+2025-05-27 16:43:02,036 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-27 16:43:02,037 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}
+2025-05-27 16:43:02,038 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,039 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,040 - AIPoliDoc - DEBUG - 原始字体名称: 黑体
+2025-05-27 16:43:02,041 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 16:43:02,041 - AIPoliDoc - DEBUG - 用于文档的字体名称: 黑体
+2025-05-27 16:43:02,043 - AIPoliDoc - DEBUG - 成功设置中文字体: 黑体
+2025-05-27 16:43:02,044 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,045 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,046 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:02,047 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,048 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,048 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,049 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,051 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,052 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,053 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,054 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,054 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,055 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,056 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 四、发展建议...
+2025-05-27 16:43:02,057 - AIPoliDoc - DEBUG - 处理第 24/37 个元素
+2025-05-27 16:43:02,057 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '4.1 建立教育AI伦理委员会', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:02,059 - AIPoliDoc - DEBUG - 元素内容: 4.1 建立教育AI伦理委员会...
+2025-05-27 16:43:02,060 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-27 16:43:02,062 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:02,063 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,065 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,066 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:02,066 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:02,067 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:02,068 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:02,069 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,070 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,071 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:02,072 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,073 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,074 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,075 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,076 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,077 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,078 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,079 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,080 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,081 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,082 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 4.1 建立教育AI伦理委员会...
+2025-05-27 16:43:02,083 - AIPoliDoc - DEBUG - 处理第 25/37 个元素
+2025-05-27 16:43:02,084 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '参考《新一代人工智能伦理规范》，制定教育领域实施细则。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:02,085 - AIPoliDoc - DEBUG - 元素内容: 参考《新一代人工智能伦理规范》，制定教育领域实施细则。...
+2025-05-27 16:43:02,086 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:02,087 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:02,088 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,089 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,090 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:02,091 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:02,091 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:02,093 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:02,094 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,095 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,096 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:02,097 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,099 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,100 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,100 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,101 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,102 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,103 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,104 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:02,105 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,106 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,107 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,108 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 参考《新一代人工智能伦理规范》，制定教育...
+2025-05-27 16:43:02,108 - AIPoliDoc - DEBUG - 处理第 26/37 个元素
+2025-05-27 16:43:02,109 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '4.2 开展教师AI能力认证', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:02,110 - AIPoliDoc - DEBUG - 元素内容: 4.2 开展教师AI能力认证...
+2025-05-27 16:43:02,112 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-27 16:43:02,113 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:02,114 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,116 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,117 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:02,118 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:02,119 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:02,120 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:02,121 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,122 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,123 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:02,124 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,125 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,126 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,127 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,128 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,129 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,130 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,131 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,132 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,133 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,133 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 4.2 开展教师AI能力认证...
+2025-05-27 16:43:02,134 - AIPoliDoc - DEBUG - 处理第 27/37 个元素
+2025-05-27 16:43:02,135 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '建议将AI应用纳入教师资格考试体系，开发专项培训课程。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:02,137 - AIPoliDoc - DEBUG - 元素内容: 建议将AI应用纳入教师资格考试体系，开发专项培训课程。...
+2025-05-27 16:43:02,138 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:02,139 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:02,140 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,141 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,142 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:02,144 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:02,144 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:02,145 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:02,146 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,147 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,148 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:02,150 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,150 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,152 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,153 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,154 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,155 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,156 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,157 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:02,158 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,159 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,160 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,161 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 建议将AI应用纳入教师资格考试体系，开发...
+2025-05-27 16:43:02,162 - AIPoliDoc - DEBUG - 处理第 28/37 个元素
+2025-05-27 16:43:02,163 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '4.3 推进技术普惠化', 'format': {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:02,164 - AIPoliDoc - DEBUG - 元素内容: 4.3 推进技术普惠化...
+2025-05-27 16:43:02,166 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-27 16:43:02,167 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:02,168 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,170 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,171 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:02,172 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:02,173 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:02,174 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:02,175 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,176 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,177 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:02,178 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,180 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,181 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,182 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,183 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,184 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,185 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,187 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,188 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,188 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,189 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 4.3 推进技术普惠化...
+2025-05-27 16:43:02,190 - AIPoliDoc - DEBUG - 处理第 29/37 个元素
+2025-05-27 16:43:02,191 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '政府应设立专项基金，缩小区域间的智能教育差距。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:02,192 - AIPoliDoc - DEBUG - 元素内容: 政府应设立专项基金，缩小区域间的智能教育差距。...
+2025-05-27 16:43:02,194 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:02,195 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:02,196 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,198 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,199 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:02,200 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:02,200 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:02,201 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:02,202 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,203 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,204 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:02,205 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,206 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,207 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,208 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,209 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,209 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,210 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,212 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:02,212 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,213 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,214 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,214 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 政府应设立专项基金，缩小区域间的智能教育...
+2025-05-27 16:43:02,215 - AIPoliDoc - DEBUG - 处理第 30/37 个元素
+2025-05-27 16:43:02,216 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '五、结论', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}
+2025-05-27 16:43:02,218 - AIPoliDoc - DEBUG - 元素内容: 五、结论...
+2025-05-27 16:43:02,220 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-27 16:43:02,220 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}
+2025-05-27 16:43:02,221 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,222 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,223 - AIPoliDoc - DEBUG - 原始字体名称: 黑体
+2025-05-27 16:43:02,224 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 16:43:02,225 - AIPoliDoc - DEBUG - 用于文档的字体名称: 黑体
+2025-05-27 16:43:02,226 - AIPoliDoc - DEBUG - 成功设置中文字体: 黑体
+2025-05-27 16:43:02,227 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,228 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,229 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:02,231 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,232 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,233 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,233 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,234 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,235 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,237 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,238 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,238 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,239 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,240 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 五、结论...
+2025-05-27 16:43:02,241 - AIPoliDoc - DEBUG - 处理第 31/37 个元素
+2025-05-27 16:43:02,241 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '人工智能正在重构教育生态，但需坚持"技术服务于人"的根本原则。未来应建立包含技术创新、伦理规范和制度保障的三维发展体系，推动教育高质量发展。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}}
+2025-05-27 16:43:02,243 - AIPoliDoc - DEBUG - 元素内容: 人工智能正在重构教育生态，但需坚持"技术服务于人"的根本原则。未来应建立包含技术创新、伦理规范和制度...
+2025-05-27 16:43:02,244 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-27 16:43:02,246 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '宋体'}
+2025-05-27 16:43:02,247 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,249 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,250 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-27 16:43:02,251 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 16:43:02,252 - AIPoliDoc - DEBUG - 用于文档的字体名称: 宋体
+2025-05-27 16:43:02,254 - AIPoliDoc - DEBUG - 成功设置中文字体: 宋体
+2025-05-27 16:43:02,255 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,256 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,257 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:02,258 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,259 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,260 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,262 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,263 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,264 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,265 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,266 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-27 16:43:02,267 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,268 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,269 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,270 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 人工智能正在重构教育生态，但需坚持"技术...
+2025-05-27 16:43:02,272 - AIPoliDoc - DEBUG - 处理第 32/37 个元素
+2025-05-27 16:43:02,273 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '参考文献', 'format': {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}}
+2025-05-27 16:43:02,274 - AIPoliDoc - DEBUG - 元素内容: 参考文献...
+2025-05-27 16:43:02,275 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-27 16:43:02,275 - AIPoliDoc - DEBUG - 格式信息: {'font': '黑体', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '黑体'}
+2025-05-27 16:43:02,276 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,278 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,279 - AIPoliDoc - DEBUG - 原始字体名称: 黑体
+2025-05-27 16:43:02,280 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 16:43:02,281 - AIPoliDoc - DEBUG - 用于文档的字体名称: 黑体
+2025-05-27 16:43:02,282 - AIPoliDoc - DEBUG - 成功设置中文字体: 黑体
+2025-05-27 16:43:02,283 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,285 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,287 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-27 16:43:02,288 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,289 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,290 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,291 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,292 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,293 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,294 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,295 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,296 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,298 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,298 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 参考文献...
+2025-05-27 16:43:02,299 - AIPoliDoc - DEBUG - 处理第 33/37 个元素
+2025-05-27 16:43:02,300 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '参考文献', 'content': '1. 顾小清等.《人工智能教育应用的发展趋势与实践路径》[J]. 电化教育研究, 2022(3):45-52.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}}
+2025-05-27 16:43:02,301 - AIPoliDoc - DEBUG - 元素内容: 1. 顾小清等.《人工智能教育应用的发展趋势与实践路径》[J]. 电化教育研究, 2022(3):4...
+2025-05-27 16:43:02,304 - AIPoliDoc - DEBUG - 元素类型: 参考文献
+2025-05-27 16:43:02,305 - AIPoliDoc - DEBUG - 格式信息: {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}
+2025-05-27 16:43:02,306 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,307 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,308 - AIPoliDoc - DEBUG - 原始字体名称: 楷体
+2025-05-27 16:43:02,308 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 16:43:02,309 - AIPoliDoc - DEBUG - 用于文档的字体名称: 楷体
+2025-05-27 16:43:02,311 - AIPoliDoc - DEBUG - 成功设置中文字体: 楷体
+2025-05-27 16:43:02,312 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,313 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,314 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:02,316 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,317 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,318 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,320 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,321 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,322 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,323 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,323 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,324 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,325 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,326 - AIPoliDoc - DEBUG - 完成元素处理: 参考文献, 内容: 1. 顾小清等.《人工智能教育应用的发展...
+2025-05-27 16:43:02,327 - AIPoliDoc - DEBUG - 处理第 34/37 个元素
+2025-05-27 16:43:02,329 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '参考文献', 'content': '2. 教育部.《中国教育智能发展白皮书》[R]. 北京:教育科学出版社, 2023.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}}
+2025-05-27 16:43:02,331 - AIPoliDoc - DEBUG - 元素内容: 2. 教育部.《中国教育智能发展白皮书》[R]. 北京:教育科学出版社, 2023....
+2025-05-27 16:43:02,332 - AIPoliDoc - DEBUG - 元素类型: 参考文献
+2025-05-27 16:43:02,333 - AIPoliDoc - DEBUG - 格式信息: {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}
+2025-05-27 16:43:02,334 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,336 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,337 - AIPoliDoc - DEBUG - 原始字体名称: 楷体
+2025-05-27 16:43:02,338 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 16:43:02,339 - AIPoliDoc - DEBUG - 用于文档的字体名称: 楷体
+2025-05-27 16:43:02,340 - AIPoliDoc - DEBUG - 成功设置中文字体: 楷体
+2025-05-27 16:43:02,341 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,342 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,343 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:02,345 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,346 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,347 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,349 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,350 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,351 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,352 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,352 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,354 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,354 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,355 - AIPoliDoc - DEBUG - 完成元素处理: 参考文献, 内容: 2. 教育部.《中国教育智能发展白皮书》...
+2025-05-27 16:43:02,356 - AIPoliDoc - DEBUG - 处理第 35/37 个元素
+2025-05-27 16:43:02,357 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '参考文献', 'content': '3. 王运武等.《教育人工智能的伦理风险及其治理》[J]. 现代远程教育研究, 2023,35(2):12-20.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}}
+2025-05-27 16:43:02,358 - AIPoliDoc - DEBUG - 元素内容: 3. 王运武等.《教育人工智能的伦理风险及其治理》[J]. 现代远程教育研究, 2023,35(2)...
+2025-05-27 16:43:02,359 - AIPoliDoc - DEBUG - 元素类型: 参考文献
+2025-05-27 16:43:02,360 - AIPoliDoc - DEBUG - 格式信息: {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}
+2025-05-27 16:43:02,361 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,362 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,363 - AIPoliDoc - DEBUG - 原始字体名称: 楷体
+2025-05-27 16:43:02,364 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 16:43:02,365 - AIPoliDoc - DEBUG - 用于文档的字体名称: 楷体
+2025-05-27 16:43:02,366 - AIPoliDoc - DEBUG - 成功设置中文字体: 楷体
+2025-05-27 16:43:02,367 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,367 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,369 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:02,370 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,371 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,372 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,373 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,374 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,375 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,376 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,377 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,378 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,378 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,379 - AIPoliDoc - DEBUG - 完成元素处理: 参考文献, 内容: 3. 王运武等.《教育人工智能的伦理风险...
+2025-05-27 16:43:02,380 - AIPoliDoc - DEBUG - 处理第 36/37 个元素
+2025-05-27 16:43:02,381 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '参考文献', 'content': '4. 黄荣怀.《智能教育：促进教育数字化转型的新引擎》[M]. 北京:北京师范大学出版社, 2022.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}}
+2025-05-27 16:43:02,382 - AIPoliDoc - DEBUG - 元素内容: 4. 黄荣怀.《智能教育：促进教育数字化转型的新引擎》[M]. 北京:北京师范大学出版社, 2022...
+2025-05-27 16:43:02,383 - AIPoliDoc - DEBUG - 元素类型: 参考文献
+2025-05-27 16:43:02,384 - AIPoliDoc - DEBUG - 格式信息: {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}
+2025-05-27 16:43:02,385 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,386 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,387 - AIPoliDoc - DEBUG - 原始字体名称: 楷体
+2025-05-27 16:43:02,388 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 16:43:02,389 - AIPoliDoc - DEBUG - 用于文档的字体名称: 楷体
+2025-05-27 16:43:02,390 - AIPoliDoc - DEBUG - 成功设置中文字体: 楷体
+2025-05-27 16:43:02,390 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,391 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,392 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:02,393 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,394 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,396 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,396 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,397 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,398 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,399 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,400 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,402 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,403 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,404 - AIPoliDoc - DEBUG - 完成元素处理: 参考文献, 内容: 4. 黄荣怀.《智能教育：促进教育数字化...
+2025-05-27 16:43:02,405 - AIPoliDoc - DEBUG - 处理第 37/37 个元素
+2025-05-27 16:43:02,406 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '参考文献', 'content': '5. 中国人工智能学会.《教育人工智能技术标准1.0》[S]. 2023.', 'format': {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}}
+2025-05-27 16:43:02,407 - AIPoliDoc - DEBUG - 元素内容: 5. 中国人工智能学会.《教育人工智能技术标准1.0》[S]. 2023....
+2025-05-27 16:43:02,409 - AIPoliDoc - DEBUG - 元素类型: 参考文献
+2025-05-27 16:43:02,410 - AIPoliDoc - DEBUG - 格式信息: {'font': '楷体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'alignment': 'left', 'font_display_name': '楷体'}
+2025-05-27 16:43:02,411 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-27 16:43:02,413 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-27 16:43:02,413 - AIPoliDoc - DEBUG - 原始字体名称: 楷体
+2025-05-27 16:43:02,415 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 16:43:02,416 - AIPoliDoc - DEBUG - 用于文档的字体名称: 楷体
+2025-05-27 16:43:02,417 - AIPoliDoc - DEBUG - 成功设置中文字体: 楷体
+2025-05-27 16:43:02,418 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-27 16:43:02,419 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-27 16:43:02,421 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-27 16:43:02,422 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-27 16:43:02,423 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-27 16:43:02,424 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-27 16:43:02,425 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-27 16:43:02,426 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-27 16:43:02,427 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-27 16:43:02,429 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-27 16:43:02,430 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-27 16:43:02,430 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-27 16:43:02,431 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-27 16:43:02,432 - AIPoliDoc - DEBUG - 完成元素处理: 参考文献, 内容: 5. 中国人工智能学会.《教育人工智能技...
+2025-05-27 16:43:02,433 - AIPoliDoc - DEBUG - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-27 16:43:02,434 - AIPoliDoc - DEBUG - 生成输出文件路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/【测试】人工智能技术在教育领域的创新应用研究_已排版_20250527164302.docx
+2025-05-27 16:43:02,436 - AIPoliDoc - DEBUG - 生成输出文件名: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/【测试】人工智能技术在教育领域的创新应用研究_已排版_20250527164302.docx
+2025-05-27 16:43:02,479 - AIPoliDoc - INFO - 成功应用排版格式并保存到: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/【测试】人工智能技术在教育领域的创新应用研究_已排版_20250527164302.docx
+2025-05-27 16:43:07,138 - AIPoliDoc - INFO - 已打开文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/【测试】人工智能技术在教育领域的创新应用研究_已排版_20250527164302.docx
+2025-05-27 16:49:36,873 - AIPoliDoc - INFO - 排版任务成功完成，输出文件: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/【测试】人工智能技术在教育领域的创新应用研究_已排版_20250527164302.docx

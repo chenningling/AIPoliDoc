@@ -1,0 +1,38 @@
+{
+    "name": "我的模板",
+    "description": "基本排版模板，适用于一般文档",
+    "rules": {
+        "标题": {
+            "font": "黑体",
+            "size": "小二",
+            "bold": true,
+            "line_spacing": 1.0,
+            "alignment": "left",
+            "font_display_name": "黑体"
+        },
+        "一级标题": {
+            "font": "微软雅黑",
+            "size": "四号",
+            "bold": true,
+            "line_spacing": 1.5,
+            "alignment": "left",
+            "font_display_name": "微软雅黑"
+        },
+        "二级标题": {
+            "font": "微软雅黑",
+            "size": "小四",
+            "bold": true,
+            "line_spacing": 1.5,
+            "alignment": "left",
+            "font_display_name": "微软雅黑"
+        },
+        "正文": {
+            "font": "宋体",
+            "size": "五号",
+            "bold": false,
+            "line_spacing": 19.0,
+            "alignment": "left",
+            "font_display_name": "宋体"
+        }
+    }
+}

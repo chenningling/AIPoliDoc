@@ -510,3 +510,44 @@ AI时代，该怎样看待学习？（青年观）
 2025-05-27 14:23:18,808 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
 2025-05-27 14:23:18,809 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
 2025-05-27 14:23:18,810 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-27 14:24:26,795 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-27 14:27:29,579 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-27 14:27:29,594 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 14:27:29,595 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-27 14:27:29,631 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 14:27:29,634 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 14:27:29,636 - AIPoliDoc - INFO - 字体 '仿宋' 被Qt映射到系统字体 '仿宋'
+2025-05-27 14:27:29,636 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 14:27:29,637 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 14:27:29,638 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 14:27:29,638 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 14:27:29,639 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 14:27:29,640 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 14:27:29,641 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 14:27:29,641 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-27 14:27:29,642 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 14:27:29,643 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 14:27:29,644 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 14:27:29,645 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 14:27:29,646 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 14:27:37,654 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-27 14:27:37,667 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 14:27:37,668 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-27 14:27:37,673 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 14:27:37,674 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 14:27:37,674 - AIPoliDoc - INFO - 字体 '仿宋' 被Qt映射到系统字体 '仿宋'
+2025-05-27 14:27:37,675 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 14:27:37,676 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-27 14:27:37,676 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 14:27:37,677 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-27 14:27:37,678 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-27 14:27:37,679 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 14:27:37,680 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 14:27:37,681 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-27 14:27:37,681 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 14:27:37,682 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-27 14:27:37,683 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 14:27:37,684 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-27 14:27:37,685 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-27 14:31:34,494 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-27 14:31:34,512 - AIPoliDoc - INFO - 应用程序正常关闭

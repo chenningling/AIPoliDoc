@@ -589,25 +589,30 @@ class TemplateEditorDialog(QDialog):
             }
             alignment = alignment_map.get(alignment_display, "left")
             
+            # 添加调试日志，确认对齐方式信息
+            app_logger.debug(f"保存规则 '{element_type}' 的对齐方式: {alignment_display} -> {alignment}")
+            
             # 使用用户选择的字体名称，不进行自动映射
             system_font = font
             
-            # 验证字体是否可用
-            if not self.font_manager.is_font_available(system_font):
-                available_font = self.font_manager.get_available_font(system_font)
-                reply = QMessageBox.question(
-                    self,
-                    "字体不可用",
-                    f"字体 '{font}' 在系统中不可用，是否使用 '{self.font_manager.get_font_display_name(available_font)}' 替代？",
-                    QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
-                    QMessageBox.StandardButton.Yes
-                )
-                
-                if reply == QMessageBox.StandardButton.Yes:
-                    system_font = available_font
-                    # 更新表格中的字体（显示名称）
-                    display_name = self.font_manager.get_font_display_name(available_font)
-                    self.rules_table.item(row, 1).setText(display_name)
+            # 不再验证字体是否可用，直接使用用户选择的字体
+            # 因为Word文档可以正常显示即使系统没有该字体
+            # 下面的代码被注释掉，不再显示字体不可用的提示
+            # if not self.font_manager.is_font_available(system_font):
+            #     available_font = self.font_manager.get_available_font(system_font)
+            #     reply = QMessageBox.question(
+            #         self,
+            #         "字体不可用",
+            #         f"字体 '{font}' 在系统中不可用，是否使用 '{self.font_manager.get_font_display_name(available_font)}' 替代？",
+            #         QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
+            #         QMessageBox.StandardButton.Yes
+            #     )
+            #     
+            #     if reply == QMessageBox.StandardButton.Yes:
+            #         system_font = available_font
+            #         # 更新表格中的字体（显示名称）
+            #         display_name = self.font_manager.get_font_display_name(available_font)
+            #         self.rules_table.item(row, 1).setText(display_name)
             
             # 添加到规则字典
             rules[element_type] = {
@@ -615,9 +620,12 @@ class TemplateEditorDialog(QDialog):
                 "size": size,
                 "bold": bold,
                 "line_spacing": spacing,
-                "alignment": alignment,
+                "alignment": alignment,  # 确保对齐方式信息被保存
                 "font_display_name": font  # 保存显示名称，便于后续显示
             }
+            
+            # 添加调试日志，确认规则内容
+            app_logger.debug(f"规则 '{element_type}' 内容: {rules[element_type]}")
         
         # 构建模板
         template = {
@@ -822,7 +830,9 @@ class TemplateEditorDialog(QDialog):
         layout.addWidget(button_box)
         
         if dialog.exec():
-            selected_spacing = str(spacing_spin.value())
+            # 获取值并格式化为一位小数，避免浮点数精度问题
+            value = spacing_spin.value()
+            selected_spacing = f"{value:.1f}"
             self.rules_table.setItem(row, column, QTableWidgetItem(selected_spacing))
             self.update_preview()
             

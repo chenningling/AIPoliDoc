@@ -1,0 +1,70 @@
+{
+    "name": "论文格式",
+    "description": "学术研究论文的标准排版格式",
+    "rules": {
+        "标题": {
+            "font": "黑体",
+            "size": "小二",
+            "bold": true,
+            "line_spacing": 1.0,
+            "alignment": "center",
+            "font_display_name": "黑体"
+        },
+        "单位、姓名": {
+            "font": "楷体",
+            "size": "四号",
+            "bold": false,
+            "line_spacing": 1.0,
+            "alignment": "center",
+            "font_display_name": "楷体"
+        },
+        "摘要": {
+            "font": "仿宋",
+            "size": "五号",
+            "bold": false,
+            "line_spacing": 1.5,
+            "alignment": "left",
+            "font_display_name": "仿宋"
+        },
+        "关键词": {
+            "font": "黑体",
+            "size": "五号",
+            "bold": true,
+            "line_spacing": 1.5,
+            "alignment": "left",
+            "font_display_name": "黑体"
+        },
+        "一级标题": {
+            "font": "黑体",
+            "size": "五号",
+            "bold": true,
+            "line_spacing": 1.5,
+            "alignment": "left",
+            "font_display_name": "黑体"
+        },
+        "二级标题": {
+            "font": "宋体",
+            "size": "五号",
+            "bold": true,
+            "line_spacing": 1.5,
+            "alignment": "left",
+            "font_display_name": "宋体"
+        },
+        "正文": {
+            "font": "宋体",
+            "size": "五号",
+            "bold": false,
+            "line_spacing": 1.5,
+            "alignment": "left",
+            "font_display_name": "宋体"
+        },
+        "参考文献": {
+            "font": "楷体",
+            "size": "五号",
+            "bold": false,
+            "line_spacing": 1.5,
+            "alignment": "left",
+            "font_display_name": "楷体"
+        }
+    }
+}

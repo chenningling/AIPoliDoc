@@ -301,8 +301,41 @@ class MainWindow(QMainWindow):
         self.template_combo = QComboBox()
         self.template_combo.currentIndexChanged.connect(self.on_template_changed)
         
+        # 创建按钮布局
+        template_buttons_layout = QHBoxLayout()
+        template_buttons_layout.setSpacing(5)  # 设置按钮之间的间距
+        
+        # 创建编辑模板按钮
         self.edit_template_btn = QPushButton("编辑模板")
         self.edit_template_btn.clicked.connect(self.edit_template)
+        self.edit_template_btn.setFixedHeight(30)  # 固定按钮高度
+        
+        # 创建新增模板按钮
+        self.add_template_btn = QPushButton("新增模板")
+        self.add_template_btn.clicked.connect(self.add_template)
+        self.add_template_btn.setFixedHeight(30)  # 固定按钮高度，与编辑按钮一致
+        
+        # 设置按钮样式，确保视觉一致性
+        button_style = """
+            QPushButton {
+                background-color: #f0f0f0;
+                border: 1px solid #c0c0c0;
+                border-radius: 4px;
+                padding: 4px 8px;
+            }
+            QPushButton:hover {
+                background-color: #e0e0e0;
+            }
+            QPushButton:pressed {
+                background-color: #d0d0d0;
+            }
+        """
+        
+        self.edit_template_btn.setStyleSheet(button_style)
+        self.add_template_btn.setStyleSheet(button_style)
+        
+        template_buttons_layout.addWidget(self.edit_template_btn)
+        template_buttons_layout.addWidget(self.add_template_btn)
         
         self.template_content = QTextEdit()
         self.template_content.setReadOnly(True)
@@ -310,7 +343,7 @@ class MainWindow(QMainWindow):
         
         format_layout.addWidget(self.template_label, 0, 0)
         format_layout.addWidget(self.template_combo, 0, 1)
-        format_layout.addWidget(self.edit_template_btn, 0, 2)
+        format_layout.addLayout(template_buttons_layout, 0, 2)
         format_layout.addWidget(self.template_content, 1, 0, 1, 3)
         
         format_group.setLayout(format_layout)
@@ -545,12 +578,26 @@ class MainWindow(QMainWindow):
         
         dialog = TemplateEditorDialog(self, template_name, template)
         if dialog.exec():
-            # 重新加载所有模板
-            self.format_manager.load_templates()  # 先重新从文件系统加载模板
-            self.load_templates()  # 然后更新UI显示
-            
             # 获取新的模板名称（可能已更改）
             new_template_name = dialog.get_template_name()
+            app_logger.info(f"模板编辑完成，准备刷新: '{new_template_name}'")
+            
+            # 强制重新加载所有模板
+            self.format_manager.load_templates()  # 先重新从文件系统加载模板
+            app_logger.debug(f"已重新加载模板文件")
+            
+            # 检查模板是否成功加载
+            loaded_template = self.format_manager.get_template(new_template_name)
+            if loaded_template:
+                app_logger.debug(f"成功加载模板 '{new_template_name}', 规则数: {len(loaded_template.get('rules', {}))}")
+                for element, rule in loaded_template.get('rules', {}).items():
+                    app_logger.debug(f"元素 '{element}' 的对齐方式: {rule.get('alignment', '未设置')}")
+            else:
+                app_logger.error(f"无法加载模板 '{new_template_name}'")
+            
+            # 更新UI显示
+            self.load_templates()  # 更新下拉菜单
+            
             if new_template_name != template_name:
                 app_logger.info(f"模板名称已从 '{template_name}' 更改为 '{new_template_name}'")
                 # 选中新的模板
@@ -558,7 +605,54 @@ class MainWindow(QMainWindow):
                 if index >= 0:
                     self.template_combo.setCurrentIndex(index)
             else:
+                # 即使名称没变，也需要重新选择以触发刷新
+                index = self.template_combo.findText(new_template_name)
+                if index >= 0:
+                    self.template_combo.setCurrentIndex(index)
                 app_logger.info(f"模板 '{template_name}' 已更新")
+            
+            # 强制刷新模板内容显示
+            self.on_template_changed(self.template_combo.currentIndex())
+                
+    def add_template(self):
+        """新增排版模板"""
+        # 创建空白模板
+        empty_template = {
+            "name": "",
+            "description": "新建模板",
+            "rules": {
+                "标题": {
+                    "font": "黑体",
+                    "size": "小二",
+                    "bold": True,
+                    "line_spacing": 1.5,
+                    "alignment": "center"
+                },
+                "正文": {
+                    "font": "宋体",
+                    "size": "小四",
+                    "bold": False,
+                    "line_spacing": 1.5,
+                    "alignment": "left"
+                }
+            }
+        }
+        
+        # 打开模板编辑器对话框
+        dialog = TemplateEditorDialog(self, "", empty_template)
+        if dialog.exec():
+            # 重新加载所有模板
+            self.format_manager.load_templates()  # 先重新从文件系统加载模板
+            self.load_templates()  # 然后更新UI显示
+            
+            # 获取新模板名称并选中
+            new_template_name = dialog.get_template_name()
+            app_logger.info(f"新模板 '{new_template_name}' 已创建")
+            
+            # 选中新创建的模板
+            index = self.template_combo.findText(new_template_name)
+            if index >= 0:
+                self.template_combo.setCurrentIndex(index)
     
     def update_log(self, message, level="INFO"):
         """更新日志显示"""
