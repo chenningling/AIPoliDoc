@@ -3,40 +3,46 @@
     "description": "基本排版模板，适用于一般文档",
     "rules": {
         "标题": {
-            "font": "黑体",
+            "font": "仿宋",
             "size": "小二",
             "bold": true,
-            "line_spacing": 1.0
+            "line_spacing": 1.0,
+            "font_display_name": "仿宋"
         },
         "一级标题": {
-            "font": "黑体",
+            "font": "仿宋",
             "size": "五号",
             "bold": true,
-            "line_spacing": 1.5
+            "line_spacing": 1.5,
+            "font_display_name": "仿宋"
         },
         "二级标题": {
-            "font": "宋体",
+            "font": "楷体",
             "size": "五号",
             "bold": true,
-            "line_spacing": 1.5
+            "line_spacing": 1.5,
+            "font_display_name": "楷体"
         },
         "正文": {
             "font": "微软雅黑",
             "size": "五号",
             "bold": false,
-            "line_spacing": 1.5
+            "line_spacing": 1.5,
+            "font_display_name": "微软雅黑"
         },
         "三级标题": {
-            "font": "宋体",
+            "font": "微软雅黑",
             "size": "五号",
             "bold": false,
-            "line_spacing": 1.5
+            "line_spacing": 1.5,
+            "font_display_name": "微软雅黑"
         },
         "摘要": {
-            "font": "仿宋",
+            "font": "微软雅黑",
             "size": "五号",
             "bold": false,
-            "line_spacing": 1.5
+            "line_spacing": 1.5,
+            "font_display_name": "微软雅黑"
         }
     }
 }

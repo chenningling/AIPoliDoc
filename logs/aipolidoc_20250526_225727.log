@@ -1,0 +1,673 @@
+2025-05-26 22:57:27,945 - AIPoliDoc - DEBUG - 加载配置文件: config/api_config.json
+2025-05-26 22:57:27,950 - AIPoliDoc - DEBUG - 加载配置文件: config/app_config.json
+2025-05-26 22:57:27,965 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 22:57:27,979 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 22:57:27,980 - AIPoliDoc - INFO - 配置管理器初始化完成
+2025-05-26 22:57:29,012 - AIPoliDoc - DEBUG - QFontDatabase原始字体列表长度: 205
+2025-05-26 22:57:29,012 - AIPoliDoc - DEBUG - 过滤后的字体列表长度: 205
+2025-05-26 22:57:29,012 - AIPoliDoc - DEBUG - 添加中文字体: 苹方
+2025-05-26 22:57:29,012 - AIPoliDoc - DEBUG - 添加中文字体: 宋体
+2025-05-26 22:57:29,012 - AIPoliDoc - DEBUG - 添加中文字体: 黑体
+2025-05-26 22:57:29,013 - AIPoliDoc - DEBUG - 添加中文字体: 楷体
+2025-05-26 22:57:29,013 - AIPoliDoc - DEBUG - 添加中文字体: 圆体
+2025-05-26 22:57:29,013 - AIPoliDoc - DEBUG - 添加中文字体: 华文宋体
+2025-05-26 22:57:29,013 - AIPoliDoc - DEBUG - 添加中文字体: 华文黑体
+2025-05-26 22:57:29,013 - AIPoliDoc - DEBUG - 添加中文字体: 华文楷体
+2025-05-26 22:57:29,013 - AIPoliDoc - DEBUG - 添加中文字体: 华文仿宋
+2025-05-26 22:57:29,013 - AIPoliDoc - DEBUG - 添加中文字体: 冬青黑体
+2025-05-26 22:57:29,013 - AIPoliDoc - DEBUG - 添加中文字体: 兰亭黑
+2025-05-26 22:57:29,013 - AIPoliDoc - DEBUG - 添加中文字体: 行楷
+2025-05-26 22:57:29,013 - AIPoliDoc - DEBUG - 添加中文字体: 仿宋
+2025-05-26 22:57:29,014 - AIPoliDoc - DEBUG - 添加中文字体: 微软雅黑
+2025-05-26 22:57:29,014 - AIPoliDoc - DEBUG - 添加中文字体: 幼圆
+2025-05-26 22:57:29,014 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文宋体
+2025-05-26 22:57:29,015 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文黑体
+2025-05-26 22:57:29,015 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文楷体
+2025-05-26 22:57:29,015 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方
+2025-05-26 22:57:29,015 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方-简
+2025-05-26 22:57:29,015 - AIPoliDoc - DEBUG - 添加中文字体名称: 冬青黑体
+2025-05-26 22:57:29,015 - AIPoliDoc - DEBUG - 添加中文字体名称: 英文
+2025-05-26 22:57:29,016 - AIPoliDoc - DEBUG - 加载系统字体成功，共 212 个字体
+2025-05-26 22:57:29,016 - AIPoliDoc - DEBUG - 识别中文字体 15 个
+2025-05-26 22:57:29,017 - AIPoliDoc - INFO - 从配置文件加载了额外的字体映射
+2025-05-26 22:57:29,017 - AIPoliDoc - INFO - 字体管理器初始化完成，共加载 212 个系统字体
+2025-05-26 22:57:29,017 - AIPoliDoc - DEBUG - 文档处理器初始化完成，字号映射: ['小二', '三号', '小三', '四号', '小四', '五号', '小五', '六号']
+2025-05-26 22:57:29,027 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 22:57:29,039 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 22:57:29,040 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 22:57:29,040 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-26 22:57:29,574 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 22:57:29,575 - AIPoliDoc - INFO - 应用程序启动完成
+2025-05-26 22:57:29,815 - AIPoliDoc - INFO - AI Word文档自动排版工具启动成功
+2025-05-26 22:57:37,396 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 22:57:37,407 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 22:57:37,408 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 22:57:37,421 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 22:57:37,422 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 22:57:37,423 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-26 22:57:37,423 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-26 22:57:37,424 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 22:57:37,425 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 22:57:37,429 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 22:57:37,430 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 22:57:37,431 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 22:57:37,432 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 22:57:37,433 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 22:57:37,434 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 22:57:48,910 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 22:57:48,914 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 22:57:48,921 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 22:57:48,922 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 22:57:48,924 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 22:57:48,926 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 22:58:06,315 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 22:58:06,318 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 22:58:06,320 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 22:58:06,322 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 22:58:06,324 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 22:58:06,325 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 22:58:08,783 - AIPoliDoc - INFO - 字体 '仿宋' 被Qt映射到系统字体 '仿宋'
+2025-05-26 22:58:15,204 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 22:59:03,914 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 22:59:05,674 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 22:59:06,461 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 22:59:07,169 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 22:59:07,172 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 22:59:07,176 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 22:59:07,176 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 22:59:07,177 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 22:59:08,782 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 22:59:08,799 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 22:59:08,803 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 22:59:08,804 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 23:00:26,049 - AIPoliDoc - INFO - 已选择文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-26 23:00:31,953 - AIPoliDoc - INFO - API配置验证成功
+2025-05-26 23:00:31,959 - AIPoliDoc - INFO - 开始排版任务
+2025-05-26 23:00:32,002 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-26 23:00:32,018 - AIPoliDoc - DEBUG - 文档包含 11 个段落
+2025-05-26 23:00:32,025 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 1 个潜在标题
+2025-05-26 23:00:32,027 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-26 23:00:32,028 - AIPoliDoc - DEBUG - 文档长度: 1181 字符, 规则数量: 6
+2025-05-26 23:00:32,032 - AIPoliDoc - DEBUG - 生成的提示词长度: 2549 字符
+2025-05-26 23:00:32,076 - AIPoliDoc - DEBUG - 提示词开头: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+AI时代，该怎样看待学习？（青年观）
+
+孟祥夫《人民日报》（2025年04月13日 第 05 版）
+
+“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一...
+2025-05-26 23:00:32,088 - AIPoliDoc - DEBUG - 提示词结尾: ...type": "标题",
+      "content": "文本内容",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "line_spacing": 1.0
+      }
+    },
+    ...
+  ]
+}
+
+请确保返回的JSON格式正确，可以被解析。只返回JSON内容，不要有其他说明文字。
+
+2025-05-26 23:00:32,092 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-26 23:00:32,094 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-26 23:00:32,095 - AIPoliDoc - DEBUG - 请求头信息: {'Content-Type': 'application/json', 'Authorization': 'Bearer sk-c7d66ad568c849ffbd6563762abc0fdf'}
+2025-05-26 23:00:32,098 - AIPoliDoc - DEBUG - 提示词预览: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+AI时代，该怎样看待学习？（青年观）
+
+孟祥夫《人民日报》（2025年04月13日 第 05 版）
+
+“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一...
+2025-05-26 23:00:32,100 - AIPoliDoc - DEBUG - 使用模型: deepseek-chat
+2025-05-26 23:00:32,101 - AIPoliDoc - INFO - 开始发送请求，超时时间设置为180秒
+2025-05-26 23:01:55,883 - AIPoliDoc - INFO - 收到响应，状态码: 200
+2025-05-26 23:01:55,891 - AIPoliDoc - INFO - AI API请求成功
+2025-05-26 23:01:55,894 - AIPoliDoc - DEBUG - 响应内容预览: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "AI时代，该怎样看待学习？（青年观）",
+      "format": {
+        "font": "仿宋",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0,
+    ...
+2025-05-26 23:01:55,897 - AIPoliDoc - DEBUG - 响应使用的模型: deepseek-chat
+2025-05-26 23:01:55,899 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1270, 'completion_tokens': 1924, 'total_tokens': 3194, 'prompt_tokens_details': {'cached_tokens': 704}, 'prompt_cache_hit_tokens': 704, 'prompt_cache_miss_tokens': 566}
+2025-05-26 23:01:55,906 - AIPoliDoc - DEBUG - 响应完整结构的键: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-26 23:01:55,908 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1270, 'completion_tokens': 1924, 'total_tokens': 3194, 'prompt_tokens_details': {'cached_tokens': 704}, 'prompt_cache_hit_tokens': 704, 'prompt_cache_miss_tokens': 566}
+2025-05-26 23:01:55,909 - AIPoliDoc - DEBUG - 原始响应内容长度: 5022 字符
+2025-05-26 23:01:56,018 - AIPoliDoc - DEBUG - 响应内容开头: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "AI时代，该怎样看待学习？（青年观）",
+      "format": {
+        "font": "仿宋",
+        "size": "小二",
+        "bold": true,
+        "line_spacing": 1.0,
+    ...
+2025-05-26 23:01:56,020 - AIPoliDoc - DEBUG - 响应内容结尾: ...茫，不如坚持学习学习再学习，在AI的助力下抵达远方。",
+      "format": {
+        "font": "微软雅黑",
+        "size": "五号",
+        "bold": false,
+        "line_spacing": 1.5,
+        "font_display_name": "微软雅黑"
+      }
+    }
+  ]
+}
+2025-05-26 23:01:56,030 - AIPoliDoc - DEBUG - JSON内容起始位置: 0, 结束位置: 5021
+2025-05-26 23:01:56,032 - AIPoliDoc - DEBUG - 提取的JSON内容长度: 5022 字符
+2025-05-26 23:01:56,034 - AIPoliDoc - DEBUG - JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 23:01:56,040 - AIPoliDoc - DEBUG - JSON解析成功，得到字典类型数据
+2025-05-26 23:01:56,041 - AIPoliDoc - DEBUG - 格式化指令的键: ['elements']
+2025-05-26 23:01:56,042 - AIPoliDoc - DEBUG - 元素数量: 18
+2025-05-26 23:01:56,043 - AIPoliDoc - DEBUG - 前三个元素类型: ['标题', '一级标题', '正文']
+2025-05-26 23:01:56,045 - AIPoliDoc - INFO - 结构验证完成，共18个元素
+2025-05-26 23:01:56,109 - AIPoliDoc - DEBUG - 格式化指令: {'elements': [{'type': '标题', 'content': 'AI时代，该怎样看待学习？（青年观）', 'format': {'font': '仿宋', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'font_display_name': '仿宋'}}, {'type': '一级标题', 'content': '孟祥夫《人民日报》（2025年04月13日 第 05 版）', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说道，言语间透着些许困惑和无奈。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……面对人工智能这一似乎没有能力边界的新事物，部分年轻人难免有本领恐慌和危机感。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '一级标题', 'content': '有了AI“加持”，努力学习就没有意义了吗？其实不然。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供的“提示词”来生成回答。提示词越详细、准确，答案就越充分。反之，如果提示词大而化之、模棱两可，提供给AI的有用信息有限，回答也就相应地简单甚至敷衍。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '一级标题', 'content': '提示词本身就是知识。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠缺，AI也难以有效发挥作用。更何况，现阶段的人工智能技术并不完善，AI输出的信息，仍需人们辨别使用。如果缺乏独立思考能力、综合判断能力是难以辨别真伪的。从这个意义上说，要想AI为我所用，就要不断学习，进一步提高知识水平和综合能力。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '一级标题', 'content': '学习的过程，是刷新认知、重塑自我的过程。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '一级标题', 'content': '然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': 'AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以产生真正的智慧和洞见。一个人凡事靠AI，时间久了不一定会增加新知识，反倒原有的能力可能因用得少了而退步，以至于到最后，离开AI就寸步难行了。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '一级标题', 'content': 'AI是个人能力和水平的“放大器”，', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI越强大，我们越需要通过学习武装自己，建立起深厚的能力“护城河”。事实上，学习的知识、掌握的本领，都会成为我们更好应对复杂多变外部世界的有力武器。有了完备知识体系的赋能，无论技术如何发展变迁，我们都能赢得先机、掌握主动。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '一级标题', 'content': '拥有超强能力，AI更有助于我们更好学习、更高效学习。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查找资料、分析数据等方面具有强大能力，用好AI这一好帮手，人们能把更多时间和精力投入更高阶的思考和创作中，创造更多、更大价值。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '一级标题', 'content': '未来已来。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}]}
+2025-05-26 23:01:56,159 - AIPoliDoc - INFO - 开始应用排版格式，共有 18 个元素
+2025-05-26 23:01:56,167 - AIPoliDoc - INFO - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-26 23:01:56,176 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_backup_20250526230156.docx
+2025-05-26 23:01:56,177 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_backup_20250526230156.docx
+2025-05-26 23:01:56,213 - AIPoliDoc - DEBUG - 成功创建新文档
+2025-05-26 23:01:56,214 - AIPoliDoc - DEBUG - 处理第 1/18 个元素
+2025-05-26 23:01:56,216 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '标题', 'content': 'AI时代，该怎样看待学习？（青年观）', 'format': {'font': '仿宋', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'font_display_name': '仿宋'}}
+2025-05-26 23:01:56,217 - AIPoliDoc - DEBUG - 元素内容: AI时代，该怎样看待学习？（青年观）...
+2025-05-26 23:01:56,218 - AIPoliDoc - DEBUG - 元素类型: 标题
+2025-05-26 23:01:56,219 - AIPoliDoc - DEBUG - 格式信息: {'font': '仿宋', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'font_display_name': '仿宋'}
+2025-05-26 23:01:56,226 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,228 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,229 - AIPoliDoc - DEBUG - 原始字体名称: 仿宋
+2025-05-26 23:01:56,231 - AIPoliDoc - INFO - 字体 '仿宋' 被Qt映射到系统字体 '仿宋'
+2025-05-26 23:01:56,232 - AIPoliDoc - DEBUG - 字体 '仿宋' 使用替代字体 '仿宋'
+2025-05-26 23:01:56,232 - AIPoliDoc - DEBUG - 用于文档的字体名称: 仿宋
+2025-05-26 23:01:56,234 - AIPoliDoc - DEBUG - 成功设置中文字体: 仿宋
+2025-05-26 23:01:56,235 - AIPoliDoc - DEBUG - 原始字体大小: 小二
+2025-05-26 23:01:56,236 - AIPoliDoc - DEBUG - 映射后的字体大小: 228600
+2025-05-26 23:01:56,238 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 23:01:56,240 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,241 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,243 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,244 - AIPoliDoc - DEBUG - 设置行间距: 1.0
+2025-05-26 23:01:56,249 - AIPoliDoc - DEBUG - 设置单倍行间距
+2025-05-26 23:01:56,250 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,252 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,254 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,255 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,256 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,257 - AIPoliDoc - DEBUG - 完成元素处理: 标题, 内容: AI时代，该怎样看待学习？（青年观）...
+2025-05-26 23:01:56,258 - AIPoliDoc - DEBUG - 处理第 2/18 个元素
+2025-05-26 23:01:56,259 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '孟祥夫《人民日报》（2025年04月13日 第 05 版）', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,260 - AIPoliDoc - DEBUG - 元素内容: 孟祥夫《人民日报》（2025年04月13日 第 05 版）...
+2025-05-26 23:01:56,261 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 23:01:56,262 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,263 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,264 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,264 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,265 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,266 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,267 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,269 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,269 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,270 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,271 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 23:01:56,271 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,272 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,273 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,273 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,274 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,275 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,277 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,278 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,279 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,279 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,280 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 孟祥夫《人民日报》（2025年04月13...
+2025-05-26 23:01:56,281 - AIPoliDoc - DEBUG - 处理第 3/18 个元素
+2025-05-26 23:01:56,282 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说道，言语间透着些许困惑和无奈。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,287 - AIPoliDoc - DEBUG - 元素内容: “现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说...
+2025-05-26 23:01:56,306 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 23:01:56,308 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,310 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,312 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,313 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,315 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,317 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,318 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,320 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,321 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,323 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,325 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 23:01:56,328 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,332 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,334 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,336 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,337 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,339 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,340 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,344 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 23:01:56,347 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,348 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,349 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,350 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: “现在，人工智能这么强大，啥都会，孩子还...
+2025-05-26 23:01:56,351 - AIPoliDoc - DEBUG - 处理第 4/18 个元素
+2025-05-26 23:01:56,352 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……面对人工智能这一似乎没有能力边界的新事物，部分年轻人难免有本领恐慌和危机感。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,353 - AIPoliDoc - DEBUG - 元素内容: 人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……...
+2025-05-26 23:01:56,355 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 23:01:56,356 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,357 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,359 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,360 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,361 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,362 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,364 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,365 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,366 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,367 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,368 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 23:01:56,369 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,370 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,370 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,371 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,372 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,373 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,374 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,375 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 23:01:56,376 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,376 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,377 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,378 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 人工智能来势汹汹，一些年轻人在网上发问，...
+2025-05-26 23:01:56,378 - AIPoliDoc - DEBUG - 处理第 5/18 个元素
+2025-05-26 23:01:56,379 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '有了AI“加持”，努力学习就没有意义了吗？其实不然。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,380 - AIPoliDoc - DEBUG - 元素内容: 有了AI“加持”，努力学习就没有意义了吗？其实不然。...
+2025-05-26 23:01:56,382 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 23:01:56,384 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,385 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,386 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,387 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,389 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,390 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,390 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,392 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,393 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,394 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,396 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 23:01:56,398 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,399 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,401 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,402 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,403 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,404 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,405 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,406 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,407 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,409 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,411 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 有了AI“加持”，努力学习就没有意义了吗...
+2025-05-26 23:01:56,412 - AIPoliDoc - DEBUG - 处理第 6/18 个元素
+2025-05-26 23:01:56,413 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供的“提示词”来生成回答。提示词越详细、准确，答案就越充分。反之，如果提示词大而化之、模棱两可，提供给AI的有用信息有限，回答也就相应地简单甚至敷衍。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,415 - AIPoliDoc - DEBUG - 元素内容: 正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供...
+2025-05-26 23:01:56,417 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 23:01:56,418 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,420 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,421 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,423 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,424 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,425 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,427 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,428 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,429 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,430 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,431 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 23:01:56,433 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,434 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,435 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,436 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,437 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,438 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,438 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,439 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 23:01:56,440 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,440 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,440 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,441 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 正如相关领域专家所言：“你是什么水平，A...
+2025-05-26 23:01:56,442 - AIPoliDoc - DEBUG - 处理第 7/18 个元素
+2025-05-26 23:01:56,443 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '提示词本身就是知识。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,444 - AIPoliDoc - DEBUG - 元素内容: 提示词本身就是知识。...
+2025-05-26 23:01:56,445 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 23:01:56,446 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,447 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,448 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,449 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,450 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,451 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,452 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,453 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,454 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,455 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,457 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 23:01:56,458 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,459 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,460 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,461 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,462 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,463 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,463 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,464 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,465 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,466 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,466 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 提示词本身就是知识。...
+2025-05-26 23:01:56,467 - AIPoliDoc - DEBUG - 处理第 8/18 个元素
+2025-05-26 23:01:56,468 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠缺，AI也难以有效发挥作用。更何况，现阶段的人工智能技术并不完善，AI输出的信息，仍需人们辨别使用。如果缺乏独立思考能力、综合判断能力是难以辨别真伪的。从这个意义上说，要想AI为我所用，就要不断学习，进一步提高知识水平和综合能力。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,470 - AIPoliDoc - DEBUG - 元素内容: 想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠...
+2025-05-26 23:01:56,471 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 23:01:56,472 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,473 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,474 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,475 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,477 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,478 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,479 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,480 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,481 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,481 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,482 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 23:01:56,483 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,484 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,485 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,486 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,487 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,488 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,490 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,491 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 23:01:56,492 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,493 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,494 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,495 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 想要AI生成高质量的内容，离不开输入高质...
+2025-05-26 23:01:56,496 - AIPoliDoc - DEBUG - 处理第 9/18 个元素
+2025-05-26 23:01:56,497 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '学习的过程，是刷新认知、重塑自我的过程。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,501 - AIPoliDoc - DEBUG - 元素内容: 学习的过程，是刷新认知、重塑自我的过程。...
+2025-05-26 23:01:56,504 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 23:01:56,505 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,506 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,508 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,509 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,511 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,512 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,513 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,513 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,514 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,514 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,515 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 23:01:56,516 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,516 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,517 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,518 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,518 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,519 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,520 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,520 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,522 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,523 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,524 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 学习的过程，是刷新认知、重塑自我的过程。...
+2025-05-26 23:01:56,524 - AIPoliDoc - DEBUG - 处理第 10/18 个元素
+2025-05-26 23:01:56,525 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,527 - AIPoliDoc - DEBUG - 元素内容: 随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。...
+2025-05-26 23:01:56,528 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 23:01:56,529 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,530 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,531 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,532 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,533 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,534 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,535 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,536 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,536 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,537 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,538 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 23:01:56,539 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,541 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,542 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,546 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,547 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,548 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,549 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,550 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 23:01:56,551 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,552 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,553 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,554 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 随着知识越来越丰富、眼界越来越开阔，一个...
+2025-05-26 23:01:56,555 - AIPoliDoc - DEBUG - 处理第 11/18 个元素
+2025-05-26 23:01:56,556 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,558 - AIPoliDoc - DEBUG - 元素内容: 然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。...
+2025-05-26 23:01:56,560 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 23:01:56,561 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,562 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,564 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,565 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,566 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,567 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,568 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,569 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,570 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,571 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,572 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 23:01:56,574 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,575 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,576 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,577 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,579 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,580 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,581 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,581 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,582 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,583 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,583 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 然而，倘若一味依赖AI获取答案，忽视甚至...
+2025-05-26 23:01:56,584 - AIPoliDoc - DEBUG - 处理第 12/18 个元素
+2025-05-26 23:01:56,585 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': 'AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以产生真正的智慧和洞见。一个人凡事靠AI，时间久了不一定会增加新知识，反倒原有的能力可能因用得少了而退步，以至于到最后，离开AI就寸步难行了。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,586 - AIPoliDoc - DEBUG - 元素内容: AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以...
+2025-05-26 23:01:56,588 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 23:01:56,589 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,590 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,591 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,592 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,593 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,594 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,595 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,596 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,598 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,599 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,600 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 23:01:56,601 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,602 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,603 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,604 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,605 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,606 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,607 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,608 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 23:01:56,609 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,610 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,610 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,611 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: AI在手，一个人看上去无所不知、无所不晓...
+2025-05-26 23:01:56,612 - AIPoliDoc - DEBUG - 处理第 13/18 个元素
+2025-05-26 23:01:56,613 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': 'AI是个人能力和水平的“放大器”，', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,614 - AIPoliDoc - DEBUG - 元素内容: AI是个人能力和水平的“放大器”，...
+2025-05-26 23:01:56,616 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 23:01:56,617 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,618 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,619 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,620 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,622 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,623 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,624 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,625 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,627 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,628 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,629 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 23:01:56,630 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,631 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,632 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,634 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,635 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,636 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,637 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,638 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,640 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,641 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,642 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: AI是个人能力和水平的“放大器”，...
+2025-05-26 23:01:56,643 - AIPoliDoc - DEBUG - 处理第 14/18 个元素
+2025-05-26 23:01:56,644 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI越强大，我们越需要通过学习武装自己，建立起深厚的能力“护城河”。事实上，学习的知识、掌握的本领，都会成为我们更好应对复杂多变外部世界的有力武器。有了完备知识体系的赋能，无论技术如何发展变迁，我们都能赢得先机、掌握主动。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,646 - AIPoliDoc - DEBUG - 元素内容: 一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI...
+2025-05-26 23:01:56,647 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 23:01:56,648 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,649 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,651 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,652 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,653 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,654 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,655 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,656 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,658 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,659 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,660 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 23:01:56,661 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,662 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,664 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,665 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,666 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,667 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,668 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,669 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 23:01:56,670 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,671 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,673 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,674 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 一个人的知识体系越完善，掌握的技能越多，...
+2025-05-26 23:01:56,674 - AIPoliDoc - DEBUG - 处理第 15/18 个元素
+2025-05-26 23:01:56,675 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '拥有超强能力，AI更有助于我们更好学习、更高效学习。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,676 - AIPoliDoc - DEBUG - 元素内容: 拥有超强能力，AI更有助于我们更好学习、更高效学习。...
+2025-05-26 23:01:56,678 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 23:01:56,680 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,681 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,682 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,683 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,684 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,685 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,685 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,686 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,687 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,689 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,690 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 23:01:56,692 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,693 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,695 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,696 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,697 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,699 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,700 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,701 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,702 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,703 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,704 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 拥有超强能力，AI更有助于我们更好学习、...
+2025-05-26 23:01:56,705 - AIPoliDoc - DEBUG - 处理第 16/18 个元素
+2025-05-26 23:01:56,706 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查找资料、分析数据等方面具有强大能力，用好AI这一好帮手，人们能把更多时间和精力投入更高阶的思考和创作中，创造更多、更大价值。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,708 - AIPoliDoc - DEBUG - 元素内容: 有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查...
+2025-05-26 23:01:56,709 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 23:01:56,711 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,712 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,713 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,714 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,715 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,716 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,717 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,718 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,719 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,721 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,722 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 23:01:56,724 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,725 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,726 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,727 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,729 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,730 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,731 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,732 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 23:01:56,733 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,733 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,734 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,738 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 有中学生在网上展示如何借助AI学习外语，...
+2025-05-26 23:01:56,738 - AIPoliDoc - DEBUG - 处理第 17/18 个元素
+2025-05-26 23:01:56,739 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '未来已来。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,740 - AIPoliDoc - DEBUG - 元素内容: 未来已来。...
+2025-05-26 23:01:56,741 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 23:01:56,743 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,744 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,745 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,746 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,747 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,748 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,749 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,750 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,751 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,752 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,753 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 23:01:56,754 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,756 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,757 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,758 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,759 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,760 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,761 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,763 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,764 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,765 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,766 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 未来已来。...
+2025-05-26 23:01:56,767 - AIPoliDoc - DEBUG - 处理第 18/18 个元素
+2025-05-26 23:01:56,768 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。', 'format': {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 23:01:56,769 - AIPoliDoc - DEBUG - 元素内容: 在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、...
+2025-05-26 23:01:56,771 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 23:01:56,772 - AIPoliDoc - DEBUG - 格式信息: {'font': '微软雅黑', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 23:01:56,773 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 23:01:56,774 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 23:01:56,774 - AIPoliDoc - DEBUG - 原始字体名称: 微软雅黑
+2025-05-26 23:01:56,776 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-26 23:01:56,777 - AIPoliDoc - DEBUG - 字体 '微软雅黑' 使用替代字体 'PingFang SC'
+2025-05-26 23:01:56,778 - AIPoliDoc - DEBUG - 用于文档的字体名称: PingFang SC
+2025-05-26 23:01:56,779 - AIPoliDoc - DEBUG - 成功设置中文字体: PingFang SC
+2025-05-26 23:01:56,780 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 23:01:56,781 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 23:01:56,783 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 23:01:56,784 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 23:01:56,785 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 23:01:56,786 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 23:01:56,786 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 23:01:56,787 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 23:01:56,789 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 23:01:56,790 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 23:01:56,791 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 23:01:56,792 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 23:01:56,793 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 23:01:56,794 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 23:01:56,795 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 在技术飞快发展、科技日新月异的今天要想不...
+2025-05-26 23:01:56,796 - AIPoliDoc - DEBUG - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-26 23:01:56,798 - AIPoliDoc - DEBUG - 生成输出文件路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526230156.docx
+2025-05-26 23:01:56,799 - AIPoliDoc - DEBUG - 生成输出文件名: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526230156.docx
+2025-05-26 23:01:56,828 - AIPoliDoc - INFO - 成功应用排版格式并保存到: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526230156.docx
+2025-05-26 23:03:58,502 - AIPoliDoc - INFO - 已打开文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526230156.docx
+2025-05-26 23:04:16,442 - AIPoliDoc - INFO - 排版任务成功完成，输出文件: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526230156.docx
+2025-05-27 12:37:52,993 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-27 12:37:53,078 - AIPoliDoc - INFO - 应用程序正常关闭

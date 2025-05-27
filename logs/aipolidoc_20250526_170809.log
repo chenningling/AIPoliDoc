@@ -31,3 +31,5 @@
 2025-05-26 17:08:15,005 - AIPoliDoc - WARNING - 字体 '微软雅黑' 和后备字体 'SimSun' 均不可用，使用系统默认字体
 2025-05-26 17:08:15,006 - AIPoliDoc - WARNING - 字体 '宋体' 和后备字体 'SimSun' 均不可用，使用系统默认字体
 2025-05-26 17:08:15,006 - AIPoliDoc - WARNING - 字体 '仿宋' 和后备字体 'SimSun' 均不可用，使用系统默认字体
+2025-05-26 17:17:58,187 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 17:17:58,194 - AIPoliDoc - INFO - 应用程序正常关闭

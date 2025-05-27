@@ -1,0 +1,72 @@
+2025-05-26 18:07:35,125 - AIPoliDoc - DEBUG - 加载配置文件: config/api_config.json
+2025-05-26 18:07:35,128 - AIPoliDoc - DEBUG - 加载配置文件: config/app_config.json
+2025-05-26 18:07:35,141 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 18:07:35,154 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 18:07:35,154 - AIPoliDoc - INFO - 配置管理器初始化完成
+2025-05-26 18:07:36,097 - AIPoliDoc - DEBUG - QFontDatabase原始字体列表长度: 202
+2025-05-26 18:07:36,097 - AIPoliDoc - DEBUG - 过滤后的字体列表长度: 202
+2025-05-26 18:07:36,097 - AIPoliDoc - DEBUG - 添加中文字体: 苹方
+2025-05-26 18:07:36,097 - AIPoliDoc - DEBUG - 添加中文字体: 宋体
+2025-05-26 18:07:36,097 - AIPoliDoc - DEBUG - 添加中文字体: 黑体
+2025-05-26 18:07:36,097 - AIPoliDoc - DEBUG - 添加中文字体: 楷体
+2025-05-26 18:07:36,097 - AIPoliDoc - DEBUG - 添加中文字体: 圆体
+2025-05-26 18:07:36,098 - AIPoliDoc - DEBUG - 添加中文字体: 华文宋体
+2025-05-26 18:07:36,098 - AIPoliDoc - DEBUG - 添加中文字体: 华文黑体
+2025-05-26 18:07:36,098 - AIPoliDoc - DEBUG - 添加中文字体: 华文楷体
+2025-05-26 18:07:36,098 - AIPoliDoc - DEBUG - 添加中文字体: 华文仿宋
+2025-05-26 18:07:36,098 - AIPoliDoc - DEBUG - 添加中文字体: 冬青黑体
+2025-05-26 18:07:36,098 - AIPoliDoc - DEBUG - 添加中文字体: 兰亭黑
+2025-05-26 18:07:36,098 - AIPoliDoc - DEBUG - 添加中文字体: 行楷
+2025-05-26 18:07:36,098 - AIPoliDoc - DEBUG - 添加中文字体: 仿宋
+2025-05-26 18:07:36,098 - AIPoliDoc - DEBUG - 添加中文字体: 微软雅黑
+2025-05-26 18:07:36,098 - AIPoliDoc - DEBUG - 添加中文字体: 幼圆
+2025-05-26 18:07:36,099 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文宋体
+2025-05-26 18:07:36,099 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文黑体
+2025-05-26 18:07:36,099 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方
+2025-05-26 18:07:36,099 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方-简
+2025-05-26 18:07:36,099 - AIPoliDoc - DEBUG - 添加中文字体名称: 冬青黑体
+2025-05-26 18:07:36,100 - AIPoliDoc - DEBUG - 添加中文字体名称: 英文
+2025-05-26 18:07:36,100 - AIPoliDoc - DEBUG - 加载系统字体成功，共 208 个字体
+2025-05-26 18:07:36,100 - AIPoliDoc - DEBUG - 识别中文字体 15 个
+2025-05-26 18:07:36,101 - AIPoliDoc - INFO - 从配置文件加载了额外的字体映射
+2025-05-26 18:07:36,101 - AIPoliDoc - INFO - 字体管理器初始化完成，共加载 208 个系统字体
+2025-05-26 18:07:36,101 - AIPoliDoc - DEBUG - 文档处理器初始化完成，字号映射: ['小二', '三号', '小三', '四号', '小四', '五号', '小五', '六号']
+2025-05-26 18:07:36,111 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 18:07:36,120 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 18:07:36,120 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 18:07:36,121 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-26 18:07:36,761 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 18:07:36,765 - AIPoliDoc - INFO - 应用程序启动完成
+2025-05-26 18:07:37,203 - AIPoliDoc - INFO - AI Word文档自动排版工具启动成功
+2025-05-26 18:07:39,679 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 18:07:39,689 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 18:07:39,690 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 18:07:39,720 - AIPoliDoc - DEBUG - 字体 '.AppleSystemUIFont' 直接可用
+2025-05-26 18:07:39,721 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 18:07:39,721 - AIPoliDoc - DEBUG - 字体 '.AppleSystemUIFont' 直接可用
+2025-05-26 18:07:39,722 - AIPoliDoc - DEBUG - 字体 'STSong' 直接可用
+2025-05-26 18:07:39,722 - AIPoliDoc - DEBUG - 字体 '.AppleSystemUIFont' 直接可用
+2025-05-26 18:07:39,723 - AIPoliDoc - DEBUG - 字体 '.AppleSystemUIFont' 直接可用
+2025-05-26 18:20:05,372 - AIPoliDoc - WARNING - 字体 '微软雅黑' 和后备字体 'SimSun' 均不可用，使用系统默认字体
+2025-05-26 18:20:18,876 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 18:20:18,883 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 18:20:18,893 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 18:20:18,894 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 18:20:18,897 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 18:20:20,911 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 18:20:20,924 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 18:20:20,931 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 18:20:20,932 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 18:20:25,059 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 18:20:29,825 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 18:20:32,786 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 18:20:32,796 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 18:20:32,797 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 18:20:32,819 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 18:20:32,819 - AIPoliDoc - DEBUG - 字体 'Songti SC' 直接可用
+2025-05-26 18:20:32,820 - AIPoliDoc - DEBUG - 字体 '.AppleSystemUIFont' 直接可用
+2025-05-26 18:20:32,820 - AIPoliDoc - DEBUG - 字体 'STSong' 直接可用
+2025-05-26 18:20:32,821 - AIPoliDoc - DEBUG - 字体 '.AppleSystemUIFont' 直接可用
+2025-05-26 18:20:32,821 - AIPoliDoc - DEBUG - 字体 '.AppleSystemUIFont' 直接可用
+2025-05-26 18:39:58,301 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 18:39:58,314 - AIPoliDoc - INFO - 应用程序正常关闭

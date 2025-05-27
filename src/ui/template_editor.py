@@ -27,11 +27,12 @@ class FontSelectionDialog(QDialog):
         super().__init__(parent)
         self.setWindowTitle("选择字体")
         self.setMinimumWidth(400)
-        self.setMinimumHeight(300)
+        self.setMinimumHeight(350)  # 增加高度以容纳新的控件
         self.setModal(True)
         
         self.selected_font = current_font
         self.font_manager = FontManager()
+        self.user_input_name = ""  # 用户自定义输入的字体名称
         
         # 初始化UI
         self.init_ui()
@@ -46,25 +47,69 @@ class FontSelectionDialog(QDialog):
         self.font_list = QComboBox()
         self.font_list.setEditable(True)  # 允许用户输入
         
-        # 加载中文字体优先
-        chinese_fonts = self.font_manager.get_chinese_fonts()
+        # 获取字体列表及其显示名称
         all_fonts = self.font_manager.get_all_fonts()
         
-        # 添加中文字体（优先显示）
-        for font in chinese_fonts:
+        # 创建显示名称到系统名称的映射（用于选择时转换回系统名称）
+        self.display_to_system_mapping = {}
+        
+        # 获取所有字体的显示名称
+        display_fonts = []
+        for font in all_fonts:
+            display_name = self.font_manager.get_font_display_name(font)
+            if display_name not in display_fonts:
+                display_fonts.append(display_name)
+                self.display_to_system_mapping[display_name] = font
+        
+        # 将字体分为中文字体和非中文字体
+        chinese_fonts = []
+        other_fonts = []
+        
+        # 判断是否为中文字体名称
+        for font in display_fonts:
+            # 判断字体名称是否包含中文字符
+            if any('一' <= char <= '鿿' for char in font):
+                chinese_fonts.append(font)
+            else:
+                other_fonts.append(font)
+        
+        # 分别排序
+        chinese_fonts.sort()
+        other_fonts.sort()
+        
+        # 合并列表，中文字体在前
+        sorted_fonts = chinese_fonts + other_fonts
+        
+        # 添加到下拉列表
+        for font in sorted_fonts:
             self.font_list.addItem(font)
         
-        # 添加其他字体
-        for font in all_fonts:
-            if font not in chinese_fonts:
-                self.font_list.addItem(font)
-        
-        # 设置当前字体
-        index = self.font_list.findText(self.selected_font)
+        # 设置当前字体的显示名称
+        display_font = self.font_manager.get_font_display_name(self.selected_font)
+        index = self.font_list.findText(display_font)
         if index >= 0:
             self.font_list.setCurrentIndex(index)
         else:
-            self.font_list.setEditText(self.selected_font)
+            # 如果找不到显示名称，尝试原始字体名称
+            index = self.font_list.findText(self.selected_font)
+            if index >= 0:
+                self.font_list.setCurrentIndex(index)
+            else:
+                self.font_list.setEditText(self.selected_font)
+        
+        # 添加自定义字体名称输入框
+        custom_group = QGroupBox("自定义字体名称")
+        custom_layout = QVBoxLayout()
+        
+        # 添加说明文字
+        custom_layout.addWidget(QLabel("如果需要使用特定字体名称（如微软雅黑），可在下方输入"))
+        
+        # 自定义名称输入框
+        self.custom_name_input = QLineEdit()
+        self.custom_name_input.setPlaceholderText("输入自定义字体名称（可选）")
+        custom_layout.addWidget(self.custom_name_input)
+        
+        custom_group.setLayout(custom_layout)
         
         # 字体预览
         self.preview_label = QLabel("字体预览: 中文ABC123")
@@ -83,6 +128,7 @@ class FontSelectionDialog(QDialog):
         # 添加到布局
         layout.addWidget(QLabel("选择字体:"))
         layout.addWidget(self.font_list)
+        layout.addWidget(custom_group)  # 添加自定义字体组
         layout.addWidget(QLabel("预览:"))
         layout.addWidget(self.preview_label)
         layout.addWidget(button_box)
@@ -98,11 +144,50 @@ class FontSelectionDialog(QDialog):
         except Exception as e:
             app_logger.error(f"设置预览字体失败: {str(e)}")
     
+    def accept(self):
+        """
+        对话框接受时的处理
+        """
+        # 保存当前选择的字体
+        self.selected_font = self.font_list.currentText()
+        
+        # 保存用户输入的自定义字体名称
+        self.user_input_name = self.custom_name_input.text().strip()
+        
+        # 调用父类的accept方法
+        super().accept()
+    
+    def get_user_input(self):
+        """
+        获取用户输入的自定义字体名称
+        
+        Returns:
+            str: 用户输入的自定义字体名称，如果没有输入则返回空字符串
+        """
+        return self.user_input_name
+        
     def get_selected_font(self):
         """
         获取选择的字体
+        
+        Returns:
+            str: 系统可用的字体名称
         """
-        return self.selected_font
+        # 获取用户选择的显示名称
+        display_name = self.selected_font
+        
+        # 如果显示名称在映射中，返回对应的系统名称
+        if display_name in self.display_to_system_mapping:
+            system_name = self.display_to_system_mapping[display_name]
+            if self.font_manager.is_font_available(system_name):
+                return system_name
+        
+        # 如果显示名称可用，直接返回
+        if self.font_manager.is_font_available(display_name):
+            return display_name
+        
+        # 如果都不可用，返回后备字体
+        return self.font_manager.get_available_font(display_name)
 
 
 class TemplateEditorDialog(QDialog):
@@ -307,7 +392,15 @@ class TemplateEditorDialog(QDialog):
             # 字体 - 验证字体是否可用
             font_name = rule.get("font", "宋体")
             available_font = self.font_manager.get_available_font(font_name)
-            font_item = QTableWidgetItem(available_font)
+            
+            # 检查是否有保存的显示名称
+            if "font_display_name" in rule:
+                display_name = rule["font_display_name"]
+            else:
+                # 获取字体的显示名称（优先使用中文名称）
+                display_name = self.font_manager.get_font_display_name(available_font)
+            
+            font_item = QTableWidgetItem(display_name)
             self.rules_table.setItem(i, 1, font_item)
             
             # 字号
@@ -340,22 +433,36 @@ class TemplateEditorDialog(QDialog):
         self.preview_text.append(f"模板描述: {self.desc_edit.text()}\n")
         self.preview_text.append("排版规则:")
         
+        # 创建字体管理器实例
+        font_manager = FontManager()
+        
         for row in range(self.rules_table.rowCount()):
             element_type = self.rules_table.item(row, 0).text()
-            font = self.rules_table.item(row, 1).text()
+            font_display_name = self.rules_table.item(row, 1).text()  # 这已经是显示名称
             size = self.rules_table.item(row, 2).text()
             bold = self.rules_table.item(row, 3).text()
             spacing = self.rules_table.item(row, 4).text()
             
             # 创建带格式的预览文本
-            rule_text = f"- {element_type}: {font} {size} {bold} 行距{spacing}"
+            rule_text = f"- {element_type}: {font_display_name} {size} {bold} 行距{spacing}"
             
             # 应用字体预览
             cursor = self.preview_text.textCursor()
             format = cursor.charFormat()
             
+            # 获取系统字体名称（用于实际应用）
+            system_font_name = font_display_name
+            
+            # 如果在映射中有对应的系统字体名称，使用系统字体名称
+            if font_display_name in font_manager.font_mapping:
+                system_font_name = font_manager.font_mapping[font_display_name]
+            
+            # 确保字体可用
+            if not font_manager.is_font_available(system_font_name):
+                system_font_name = font_manager.get_available_font(system_font_name)
+            
             # 设置字体
-            preview_font = QFont(font)
+            preview_font = QFont(system_font_name)
             
             # 设置粗体
             preview_font.setBold(bold == "是")
@@ -443,28 +550,33 @@ class TemplateEditorDialog(QDialog):
                 spacing = 1.5
                 QMessageBox.warning(self, "输入错误", f"规则 '{element_type}' 的行间距格式无效，已设为默认值1.5。")
             
+            # 使用用户选择的字体名称，不进行自动映射
+            system_font = font
+            
             # 验证字体是否可用
-            if not self.font_manager.is_font_available(font):
-                available_font = self.font_manager.get_available_font(font)
+            if not self.font_manager.is_font_available(system_font):
+                available_font = self.font_manager.get_available_font(system_font)
                 reply = QMessageBox.question(
                     self,
                     "字体不可用",
-                    f"字体 '{font}' 在系统中不可用，是否使用 '{available_font}' 替代？",
+                    f"字体 '{font}' 在系统中不可用，是否使用 '{self.font_manager.get_font_display_name(available_font)}' 替代？",
                     QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
                     QMessageBox.StandardButton.Yes
                 )
                 
                 if reply == QMessageBox.StandardButton.Yes:
-                    font = available_font
-                    # 更新表格中的字体
-                    self.rules_table.item(row, 1).setText(font)
+                    system_font = available_font
+                    # 更新表格中的字体（显示名称）
+                    display_name = self.font_manager.get_font_display_name(available_font)
+                    self.rules_table.item(row, 1).setText(display_name)
             
             # 添加到规则字典
             rules[element_type] = {
-                "font": font,
+                "font": system_font,  # 使用系统字体名称而不是显示名称
                 "size": size,
                 "bold": bold,
-                "line_spacing": spacing
+                "line_spacing": spacing,
+                "font_display_name": font  # 保存显示名称，便于后续显示
             }
         
         # 构建模板
@@ -547,8 +659,25 @@ class TemplateEditorDialog(QDialog):
         dialog = FontSelectionDialog(self, current_font)
         
         if dialog.exec():
-            selected_font = dialog.get_selected_font()
-            self.rules_table.setItem(row, column, QTableWidgetItem(selected_font))
+            # 获取系统可用的字体名称
+            system_font = dialog.get_selected_font()
+            
+            # 获取字体的显示名称（中文名称）
+            font_manager = FontManager()
+            display_name = font_manager.get_font_display_name(system_font)
+            
+            # 如果用户输入了自定义名称，使用用户输入的名称
+            user_input = dialog.get_user_input()
+            if user_input:
+                display_name = user_input
+                
+                # 不再自动创建字体映射，直接使用用户输入的名称
+                # font_manager.add_font_mapping(display_name, system_font)
+            
+            # 在表格中显示字体名称
+            self.rules_table.setItem(row, column, QTableWidgetItem(display_name))
+            
+            # 更新预览
             self.update_preview()
     
     def edit_size(self, row, column):

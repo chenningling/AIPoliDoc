@@ -1,0 +1,691 @@
+2025-05-26 19:06:01,239 - AIPoliDoc - DEBUG - 加载配置文件: config/api_config.json
+2025-05-26 19:06:01,242 - AIPoliDoc - DEBUG - 加载配置文件: config/app_config.json
+2025-05-26 19:06:01,255 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:06:01,274 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:06:01,274 - AIPoliDoc - INFO - 配置管理器初始化完成
+2025-05-26 19:06:02,805 - AIPoliDoc - DEBUG - QFontDatabase原始字体列表长度: 205
+2025-05-26 19:06:02,806 - AIPoliDoc - DEBUG - 过滤后的字体列表长度: 205
+2025-05-26 19:06:02,806 - AIPoliDoc - DEBUG - 添加中文字体: 苹方
+2025-05-26 19:06:02,806 - AIPoliDoc - DEBUG - 添加中文字体: 宋体
+2025-05-26 19:06:02,806 - AIPoliDoc - DEBUG - 添加中文字体: 黑体
+2025-05-26 19:06:02,806 - AIPoliDoc - DEBUG - 添加中文字体: 楷体
+2025-05-26 19:06:02,806 - AIPoliDoc - DEBUG - 添加中文字体: 圆体
+2025-05-26 19:06:02,806 - AIPoliDoc - DEBUG - 添加中文字体: 华文宋体
+2025-05-26 19:06:02,806 - AIPoliDoc - DEBUG - 添加中文字体: 华文黑体
+2025-05-26 19:06:02,806 - AIPoliDoc - DEBUG - 添加中文字体: 华文楷体
+2025-05-26 19:06:02,807 - AIPoliDoc - DEBUG - 添加中文字体: 华文仿宋
+2025-05-26 19:06:02,807 - AIPoliDoc - DEBUG - 添加中文字体: 冬青黑体
+2025-05-26 19:06:02,807 - AIPoliDoc - DEBUG - 添加中文字体: 兰亭黑
+2025-05-26 19:06:02,807 - AIPoliDoc - DEBUG - 添加中文字体: 行楷
+2025-05-26 19:06:02,807 - AIPoliDoc - DEBUG - 添加中文字体: 仿宋
+2025-05-26 19:06:02,807 - AIPoliDoc - DEBUG - 添加中文字体: 微软雅黑
+2025-05-26 19:06:02,807 - AIPoliDoc - DEBUG - 添加中文字体: 幼圆
+2025-05-26 19:06:02,808 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文宋体
+2025-05-26 19:06:02,808 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文黑体
+2025-05-26 19:06:02,808 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文楷体
+2025-05-26 19:06:02,809 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方
+2025-05-26 19:06:02,809 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方-简
+2025-05-26 19:06:02,809 - AIPoliDoc - DEBUG - 添加中文字体名称: 冬青黑体
+2025-05-26 19:06:02,809 - AIPoliDoc - DEBUG - 添加中文字体名称: 英文
+2025-05-26 19:06:02,809 - AIPoliDoc - DEBUG - 加载系统字体成功，共 212 个字体
+2025-05-26 19:06:02,809 - AIPoliDoc - DEBUG - 识别中文字体 15 个
+2025-05-26 19:06:02,811 - AIPoliDoc - INFO - 从配置文件加载了额外的字体映射
+2025-05-26 19:06:02,811 - AIPoliDoc - INFO - 字体管理器初始化完成，共加载 212 个系统字体
+2025-05-26 19:06:02,812 - AIPoliDoc - DEBUG - 文档处理器初始化完成，字号映射: ['小二', '三号', '小三', '四号', '小四', '五号', '小五', '六号']
+2025-05-26 19:06:02,823 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:06:02,836 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:06:02,836 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 19:06:02,836 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-26 19:06:03,447 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 19:06:03,448 - AIPoliDoc - INFO - 应用程序启动完成
+2025-05-26 19:06:03,830 - AIPoliDoc - INFO - AI Word文档自动排版工具启动成功
+2025-05-26 19:06:06,774 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:06:06,784 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:06:06,785 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 19:06:06,812 - AIPoliDoc - DEBUG - 字体 'Songti SC' 直接可用
+2025-05-26 19:06:06,813 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 19:06:06,814 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 19:06:06,814 - AIPoliDoc - DEBUG - 字体 'STSong' 直接可用
+2025-05-26 19:06:06,815 - AIPoliDoc - DEBUG - 字体 'STKaiti' 直接可用
+2025-05-26 19:06:06,815 - AIPoliDoc - DEBUG - 字体 '冬青黑体' 直接可用
+2025-05-26 19:06:15,150 - AIPoliDoc - INFO - 添加字体映射: 微软雅黑 -> Alimama FangYuanTi VF
+2025-05-26 19:06:23,311 - AIPoliDoc - INFO - 添加字体映射: 宋体 -> 苹方-简
+2025-05-26 19:06:33,477 - AIPoliDoc - INFO - 添加字体映射: 仿宋 -> Alimama FangYuanTi VF
+2025-05-26 19:06:37,440 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 19:06:37,443 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 19:06:37,445 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 19:06:37,446 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 19:06:37,447 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 19:06:40,377 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:06:40,390 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:06:40,397 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 19:06:40,398 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 19:07:04,798 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:07:04,809 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:07:04,810 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 19:07:04,814 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 19:07:04,815 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 19:07:04,816 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 19:07:04,816 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 19:07:04,817 - AIPoliDoc - DEBUG - 字体 'STKaiti' 直接可用
+2025-05-26 19:07:04,817 - AIPoliDoc - DEBUG - 字体 '冬青黑体' 直接可用
+2025-05-26 19:07:50,369 - AIPoliDoc - INFO - 添加字体映射: 宋体 -> Alimama FangYuanTi VF
+2025-05-26 19:07:58,249 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 19:07:58,250 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 19:07:58,252 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 19:07:58,252 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 19:07:58,253 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 19:08:00,061 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:08:00,076 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:08:00,078 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 19:08:00,079 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 19:08:10,793 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 19:08:15,048 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 19:08:21,566 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:08:21,577 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:08:21,578 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 19:08:21,584 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 19:08:21,585 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 19:08:21,585 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 19:08:21,586 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 19:08:21,587 - AIPoliDoc - DEBUG - 字体 'STKaiti' 直接可用
+2025-05-26 19:08:21,587 - AIPoliDoc - DEBUG - 字体 '冬青黑体' 直接可用
+2025-05-26 19:08:32,920 - AIPoliDoc - INFO - 添加字体映射: 楷体 -> Alimama FangYuanTi VF
+2025-05-26 19:08:36,613 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 19:08:36,614 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 19:08:36,616 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 19:08:36,617 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 19:08:36,618 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 19:08:38,532 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:08:38,542 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:08:38,544 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 19:08:38,544 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 19:08:53,998 - AIPoliDoc - INFO - 已选择文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-26 19:08:59,899 - AIPoliDoc - INFO - API配置验证成功
+2025-05-26 19:08:59,907 - AIPoliDoc - INFO - 开始排版任务
+2025-05-26 19:08:59,960 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-26 19:08:59,972 - AIPoliDoc - DEBUG - 文档包含 11 个段落
+2025-05-26 19:08:59,983 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 1 个潜在标题
+2025-05-26 19:08:59,985 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-26 19:09:00,013 - AIPoliDoc - DEBUG - 文档长度: 1181 字符, 规则数量: 6
+2025-05-26 19:09:00,015 - AIPoliDoc - DEBUG - 生成的提示词长度: 2607 字符
+2025-05-26 19:09:00,018 - AIPoliDoc - DEBUG - 提示词开头: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+AI时代，该怎样看待学习？（青年观）
+
+孟祥夫《人民日报》（2025年04月13日 第 05 版）
+
+“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一...
+2025-05-26 19:09:00,023 - AIPoliDoc - DEBUG - 提示词结尾: ...type": "标题",
+      "content": "文本内容",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "line_spacing": 1.0
+      }
+    },
+    ...
+  ]
+}
+
+请确保返回的JSON格式正确，可以被解析。只返回JSON内容，不要有其他说明文字。
+
+2025-05-26 19:09:00,063 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-26 19:09:00,120 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-26 19:09:00,121 - AIPoliDoc - DEBUG - 请求头信息: {'Content-Type': 'application/json', 'Authorization': 'Bearer sk-c7d66ad568c849ffbd6563762abc0fdf'}
+2025-05-26 19:09:00,122 - AIPoliDoc - DEBUG - 提示词预览: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+AI时代，该怎样看待学习？（青年观）
+
+孟祥夫《人民日报》（2025年04月13日 第 05 版）
+
+“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一...
+2025-05-26 19:09:00,124 - AIPoliDoc - DEBUG - 使用模型: deepseek-chat
+2025-05-26 19:09:00,136 - AIPoliDoc - INFO - 开始发送请求，超时时间设置为180秒
+2025-05-26 19:10:16,223 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:10:16,239 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:10:16,240 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 19:10:16,258 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 19:10:16,259 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 19:10:16,260 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 19:10:16,261 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 19:10:16,262 - AIPoliDoc - DEBUG - 字体 'STKaiti' 直接可用
+2025-05-26 19:10:16,263 - AIPoliDoc - DEBUG - 字体 '冬青黑体' 直接可用
+2025-05-26 19:10:32,667 - AIPoliDoc - INFO - 收到响应，状态码: 200
+2025-05-26 19:10:32,672 - AIPoliDoc - INFO - AI API请求成功
+2025-05-26 19:10:32,677 - AIPoliDoc - DEBUG - 响应内容预览: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "AI时代，该怎样看待学习？（青年观）",
+      "format": {
+        "font": "Alimama FangYuanTi VF",
+        "size": "小二",
+        "bold": true,
+        "line_...
+2025-05-26 19:10:32,679 - AIPoliDoc - DEBUG - 响应使用的模型: deepseek-chat
+2025-05-26 19:10:32,681 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1298, 'completion_tokens': 2016, 'total_tokens': 3314, 'prompt_tokens_details': {'cached_tokens': 704}, 'prompt_cache_hit_tokens': 704, 'prompt_cache_miss_tokens': 594}
+2025-05-26 19:10:32,688 - AIPoliDoc - DEBUG - 响应完整结构的键: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-26 19:10:32,691 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1298, 'completion_tokens': 2016, 'total_tokens': 3314, 'prompt_tokens_details': {'cached_tokens': 704}, 'prompt_cache_hit_tokens': 704, 'prompt_cache_miss_tokens': 594}
+2025-05-26 19:10:32,693 - AIPoliDoc - DEBUG - 原始响应内容长度: 5283 字符
+2025-05-26 19:10:32,695 - AIPoliDoc - DEBUG - 响应内容开头: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "AI时代，该怎样看待学习？（青年观）",
+      "format": {
+        "font": "Alimama FangYuanTi VF",
+        "size": "小二",
+        "bold": true,
+        "line_...
+2025-05-26 19:10:32,702 - AIPoliDoc - DEBUG - 响应内容结尾: ...AI的助力下抵达远方。",
+      "format": {
+        "font": "Alimama FangYuanTi VF",
+        "size": "五号",
+        "bold": false,
+        "line_spacing": 1.5,
+        "font_display_name": "宋体"
+      }
+    }
+  ]
+}
+2025-05-26 19:10:32,704 - AIPoliDoc - DEBUG - JSON内容起始位置: 0, 结束位置: 5282
+2025-05-26 19:10:32,706 - AIPoliDoc - DEBUG - 提取的JSON内容长度: 5283 字符
+2025-05-26 19:10:32,718 - AIPoliDoc - DEBUG - JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 19:10:32,720 - AIPoliDoc - DEBUG - JSON解析成功，得到字典类型数据
+2025-05-26 19:10:32,721 - AIPoliDoc - DEBUG - 格式化指令的键: ['elements']
+2025-05-26 19:10:32,722 - AIPoliDoc - DEBUG - 元素数量: 18
+2025-05-26 19:10:32,723 - AIPoliDoc - DEBUG - 前三个元素类型: ['标题', '一级标题', '正文']
+2025-05-26 19:10:32,725 - AIPoliDoc - INFO - 结构验证完成，共18个元素
+2025-05-26 19:10:32,728 - AIPoliDoc - DEBUG - 格式化指令: {'elements': [{'type': '标题', 'content': 'AI时代，该怎样看待学习？（青年观）', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'font_display_name': '微软雅黑'}}, {'type': '一级标题', 'content': '孟祥夫《人民日报》（2025年04月13日 第 05 版）', 'format': {'font': '苹方-简', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '苹方-简'}}, {'type': '正文', 'content': '“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说道，言语间透着些许困惑和无奈。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '正文', 'content': '人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……面对人工智能这一似乎没有能力边界的新事物，部分年轻人难免有本领恐慌和危机感。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '有了AI“加持”，努力学习就没有意义了吗？其实不然。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}, {'type': '正文', 'content': '正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供的“提示词”来生成回答。提示词越详细、准确，答案就越充分。反之，如果提示词大而化之、模棱两可，提供给AI的有用信息有限，回答也就相应地简单甚至敷衍。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '提示词本身就是知识。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}, {'type': '正文', 'content': '想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠缺，AI也难以有效发挥作用。更何况，现阶段的人工智能技术并不完善，AI输出的信息，仍需人们辨别使用。如果缺乏独立思考能力、综合判断能力是难以辨别真伪的。从这个意义上说，要想AI为我所用，就要不断学习，进一步提高知识水平和综合能力。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '学习的过程，是刷新认知、重塑自我的过程。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}, {'type': '正文', 'content': '随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}, {'type': '正文', 'content': 'AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以产生真正的智慧和洞见。一个人凡事靠AI，时间久了不一定会增加新知识，反倒原有的能力可能因用得少了而退步，以至于到最后，离开AI就寸步难行了。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': 'AI是个人能力和水平的“放大器”，', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}, {'type': '正文', 'content': '一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI越强大，我们越需要通过学习武装自己，建立起深厚的能力“护城河”。事实上，学习的知识、掌握的本领，都会成为我们更好应对复杂多变外部世界的有力武器。有了完备知识体系的赋能，无论技术如何发展变迁，我们都能赢得先机、掌握主动。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '拥有超强能力，AI更有助于我们更好学习、更高效学习。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}, {'type': '正文', 'content': '有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查找资料、分析数据等方面具有强大能力，用好AI这一好帮手，人们能把更多时间和精力投入更高阶的思考和创作中，创造更多、更大价值。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '二级标题', 'content': '未来已来。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}, {'type': '正文', 'content': '在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}]}
+2025-05-26 19:10:32,771 - AIPoliDoc - INFO - 开始应用排版格式，共有 18 个元素
+2025-05-26 19:10:32,780 - AIPoliDoc - INFO - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-26 19:10:32,830 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_backup_20250526191032.docx
+2025-05-26 19:10:32,831 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_backup_20250526191032.docx
+2025-05-26 19:10:32,852 - AIPoliDoc - DEBUG - 成功创建新文档
+2025-05-26 19:10:32,853 - AIPoliDoc - DEBUG - 处理第 1/18 个元素
+2025-05-26 19:10:32,855 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '标题', 'content': 'AI时代，该怎样看待学习？（青年观）', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'font_display_name': '微软雅黑'}}
+2025-05-26 19:10:32,856 - AIPoliDoc - DEBUG - 元素内容: AI时代，该怎样看待学习？（青年观）...
+2025-05-26 19:10:32,857 - AIPoliDoc - DEBUG - 元素类型: 标题
+2025-05-26 19:10:32,857 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'font_display_name': '微软雅黑'}
+2025-05-26 19:10:32,864 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:32,867 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:32,868 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:32,869 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:32,872 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:32,872 - AIPoliDoc - DEBUG - 原始字体大小: 小二
+2025-05-26 19:10:32,873 - AIPoliDoc - DEBUG - 映射后的字体大小: 228600
+2025-05-26 19:10:32,874 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 19:10:32,876 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:32,877 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:32,878 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:32,879 - AIPoliDoc - DEBUG - 设置行间距: 1.0
+2025-05-26 19:10:32,882 - AIPoliDoc - DEBUG - 设置单倍行间距
+2025-05-26 19:10:32,883 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:32,884 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:32,885 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:32,886 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:32,886 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:32,887 - AIPoliDoc - DEBUG - 完成元素处理: 标题, 内容: AI时代，该怎样看待学习？（青年观）...
+2025-05-26 19:10:32,887 - AIPoliDoc - DEBUG - 处理第 2/18 个元素
+2025-05-26 19:10:32,888 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '孟祥夫《人民日报》（2025年04月13日 第 05 版）', 'format': {'font': '苹方-简', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '苹方-简'}}
+2025-05-26 19:10:32,889 - AIPoliDoc - DEBUG - 元素内容: 孟祥夫《人民日报》（2025年04月13日 第 05 版）...
+2025-05-26 19:10:32,889 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 19:10:32,890 - AIPoliDoc - DEBUG - 格式信息: {'font': '苹方-简', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '苹方-简'}
+2025-05-26 19:10:32,891 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:32,892 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:32,892 - AIPoliDoc - DEBUG - 原始字体名称: 苹方-简
+2025-05-26 19:10:32,893 - AIPoliDoc - DEBUG - 直接使用原始字体名称: 苹方-简
+2025-05-26 19:10:32,894 - AIPoliDoc - DEBUG - 成功设置中文字体: 苹方-简
+2025-05-26 19:10:32,894 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:32,895 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:32,896 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 19:10:32,897 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:32,898 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:32,899 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:32,899 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:32,901 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:32,902 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:32,903 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:32,903 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:32,904 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:32,904 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:32,905 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 孟祥夫《人民日报》（2025年04月13...
+2025-05-26 19:10:32,906 - AIPoliDoc - DEBUG - 处理第 3/18 个元素
+2025-05-26 19:10:32,907 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说道，言语间透着些许困惑和无奈。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 19:10:32,908 - AIPoliDoc - DEBUG - 元素内容: “现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说...
+2025-05-26 19:10:32,909 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 19:10:32,910 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 19:10:32,911 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:32,912 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:32,912 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:32,913 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:32,915 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:32,916 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:32,916 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:32,917 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 19:10:32,920 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:32,921 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:32,922 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:32,922 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:32,923 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:32,924 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:32,925 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:32,926 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 19:10:32,927 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:32,928 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:32,929 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:32,930 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: “现在，人工智能这么强大，啥都会，孩子还...
+2025-05-26 19:10:32,930 - AIPoliDoc - DEBUG - 处理第 4/18 个元素
+2025-05-26 19:10:32,932 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……面对人工智能这一似乎没有能力边界的新事物，部分年轻人难免有本领恐慌和危机感。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 19:10:32,933 - AIPoliDoc - DEBUG - 元素内容: 人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……...
+2025-05-26 19:10:32,936 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 19:10:32,937 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 19:10:32,938 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:32,940 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:32,940 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:32,941 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:32,942 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:32,943 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:32,944 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:32,945 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 19:10:32,946 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:32,947 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:32,948 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:32,949 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:32,950 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:32,951 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:32,953 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:32,954 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 19:10:32,954 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:32,955 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:32,956 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:32,957 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 人工智能来势汹汹，一些年轻人在网上发问，...
+2025-05-26 19:10:32,957 - AIPoliDoc - DEBUG - 处理第 5/18 个元素
+2025-05-26 19:10:32,958 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '有了AI“加持”，努力学习就没有意义了吗？其实不然。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}
+2025-05-26 19:10:32,959 - AIPoliDoc - DEBUG - 元素内容: 有了AI“加持”，努力学习就没有意义了吗？其实不然。...
+2025-05-26 19:10:32,961 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 19:10:32,962 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}
+2025-05-26 19:10:32,963 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:32,964 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:32,965 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:32,966 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:32,968 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:32,970 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:32,971 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:32,972 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 19:10:32,972 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:32,973 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:32,975 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:32,975 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:32,976 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:32,977 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:32,978 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:32,978 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:32,979 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:32,980 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:32,982 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 有了AI“加持”，努力学习就没有意义了吗...
+2025-05-26 19:10:32,983 - AIPoliDoc - DEBUG - 处理第 6/18 个元素
+2025-05-26 19:10:32,984 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供的“提示词”来生成回答。提示词越详细、准确，答案就越充分。反之，如果提示词大而化之、模棱两可，提供给AI的有用信息有限，回答也就相应地简单甚至敷衍。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 19:10:32,986 - AIPoliDoc - DEBUG - 元素内容: 正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供...
+2025-05-26 19:10:32,988 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 19:10:32,989 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 19:10:32,989 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:32,991 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:32,991 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:32,992 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:32,993 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:32,994 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:32,994 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:32,995 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 19:10:32,996 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:32,998 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:32,999 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,000 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,001 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,002 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,003 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,003 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 19:10:33,004 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,005 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,006 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,007 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 正如相关领域专家所言：“你是什么水平，A...
+2025-05-26 19:10:33,007 - AIPoliDoc - DEBUG - 处理第 7/18 个元素
+2025-05-26 19:10:33,008 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '提示词本身就是知识。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}
+2025-05-26 19:10:33,009 - AIPoliDoc - DEBUG - 元素内容: 提示词本身就是知识。...
+2025-05-26 19:10:33,010 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 19:10:33,011 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}
+2025-05-26 19:10:33,012 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,013 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,014 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,015 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,017 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,019 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,021 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,022 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 19:10:33,023 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,024 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,025 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,026 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,026 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,027 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,028 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,029 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,029 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,030 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,031 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 提示词本身就是知识。...
+2025-05-26 19:10:33,032 - AIPoliDoc - DEBUG - 处理第 8/18 个元素
+2025-05-26 19:10:33,034 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠缺，AI也难以有效发挥作用。更何况，现阶段的人工智能技术并不完善，AI输出的信息，仍需人们辨别使用。如果缺乏独立思考能力、综合判断能力是难以辨别真伪的。从这个意义上说，要想AI为我所用，就要不断学习，进一步提高知识水平和综合能力。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 19:10:33,036 - AIPoliDoc - DEBUG - 元素内容: 想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠...
+2025-05-26 19:10:33,038 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 19:10:33,039 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 19:10:33,039 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,040 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,042 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,042 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,043 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,044 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,045 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,046 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 19:10:33,047 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,048 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,049 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,051 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,052 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,053 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,053 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,054 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 19:10:33,055 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,056 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,056 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,057 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 想要AI生成高质量的内容，离不开输入高质...
+2025-05-26 19:10:33,058 - AIPoliDoc - DEBUG - 处理第 9/18 个元素
+2025-05-26 19:10:33,059 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '学习的过程，是刷新认知、重塑自我的过程。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}
+2025-05-26 19:10:33,060 - AIPoliDoc - DEBUG - 元素内容: 学习的过程，是刷新认知、重塑自我的过程。...
+2025-05-26 19:10:33,061 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 19:10:33,062 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}
+2025-05-26 19:10:33,064 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,066 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,067 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,068 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,069 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,071 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,072 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,073 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 19:10:33,074 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,075 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,076 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,077 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,078 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,080 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,083 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,084 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,088 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,089 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,090 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 学习的过程，是刷新认知、重塑自我的过程。...
+2025-05-26 19:10:33,091 - AIPoliDoc - DEBUG - 处理第 10/18 个元素
+2025-05-26 19:10:33,093 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 19:10:33,095 - AIPoliDoc - DEBUG - 元素内容: 随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。...
+2025-05-26 19:10:33,096 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 19:10:33,098 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 19:10:33,100 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,106 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,107 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,108 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,110 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,111 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,112 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,113 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 19:10:33,115 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,117 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,120 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,121 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,122 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,123 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,124 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,125 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 19:10:33,126 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,127 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,127 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,128 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 随着知识越来越丰富、眼界越来越开阔，一个...
+2025-05-26 19:10:33,129 - AIPoliDoc - DEBUG - 处理第 11/18 个元素
+2025-05-26 19:10:33,130 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}
+2025-05-26 19:10:33,131 - AIPoliDoc - DEBUG - 元素内容: 然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。...
+2025-05-26 19:10:33,133 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 19:10:33,134 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}
+2025-05-26 19:10:33,136 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,138 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,139 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,140 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,141 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,142 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,143 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,144 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 19:10:33,146 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,147 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,148 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,150 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,151 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,153 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,154 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,155 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,156 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,156 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,157 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 然而，倘若一味依赖AI获取答案，忽视甚至...
+2025-05-26 19:10:33,157 - AIPoliDoc - DEBUG - 处理第 12/18 个元素
+2025-05-26 19:10:33,158 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': 'AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以产生真正的智慧和洞见。一个人凡事靠AI，时间久了不一定会增加新知识，反倒原有的能力可能因用得少了而退步，以至于到最后，离开AI就寸步难行了。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 19:10:33,159 - AIPoliDoc - DEBUG - 元素内容: AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以...
+2025-05-26 19:10:33,161 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 19:10:33,161 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 19:10:33,163 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,164 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,165 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,166 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,167 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,169 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,170 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,171 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 19:10:33,172 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,173 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,174 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,175 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,176 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,176 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,177 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,178 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 19:10:33,178 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,180 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,181 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,182 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: AI在手，一个人看上去无所不知、无所不晓...
+2025-05-26 19:10:33,183 - AIPoliDoc - DEBUG - 处理第 13/18 个元素
+2025-05-26 19:10:33,184 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': 'AI是个人能力和水平的“放大器”，', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}
+2025-05-26 19:10:33,185 - AIPoliDoc - DEBUG - 元素内容: AI是个人能力和水平的“放大器”，...
+2025-05-26 19:10:33,189 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 19:10:33,190 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}
+2025-05-26 19:10:33,191 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,192 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,192 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,193 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,194 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,195 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,196 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,196 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 19:10:33,197 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,199 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,200 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,201 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,202 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,203 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,204 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,205 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,206 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,206 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,207 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: AI是个人能力和水平的“放大器”，...
+2025-05-26 19:10:33,208 - AIPoliDoc - DEBUG - 处理第 14/18 个元素
+2025-05-26 19:10:33,208 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI越强大，我们越需要通过学习武装自己，建立起深厚的能力“护城河”。事实上，学习的知识、掌握的本领，都会成为我们更好应对复杂多变外部世界的有力武器。有了完备知识体系的赋能，无论技术如何发展变迁，我们都能赢得先机、掌握主动。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 19:10:33,210 - AIPoliDoc - DEBUG - 元素内容: 一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI...
+2025-05-26 19:10:33,211 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 19:10:33,211 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 19:10:33,213 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,214 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,214 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,215 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,216 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,217 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,218 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,219 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 19:10:33,220 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,221 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,221 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,222 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,223 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,224 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,225 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,225 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 19:10:33,226 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,226 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,227 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,228 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 一个人的知识体系越完善，掌握的技能越多，...
+2025-05-26 19:10:33,228 - AIPoliDoc - DEBUG - 处理第 15/18 个元素
+2025-05-26 19:10:33,230 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '拥有超强能力，AI更有助于我们更好学习、更高效学习。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}
+2025-05-26 19:10:33,231 - AIPoliDoc - DEBUG - 元素内容: 拥有超强能力，AI更有助于我们更好学习、更高效学习。...
+2025-05-26 19:10:33,232 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 19:10:33,233 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}
+2025-05-26 19:10:33,234 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,235 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,236 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,236 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,237 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,238 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,239 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,240 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 19:10:33,241 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,242 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,243 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,243 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,244 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,244 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,245 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,246 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,247 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,247 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,249 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 拥有超强能力，AI更有助于我们更好学习、...
+2025-05-26 19:10:33,249 - AIPoliDoc - DEBUG - 处理第 16/18 个元素
+2025-05-26 19:10:33,250 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查找资料、分析数据等方面具有强大能力，用好AI这一好帮手，人们能把更多时间和精力投入更高阶的思考和创作中，创造更多、更大价值。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 19:10:33,251 - AIPoliDoc - DEBUG - 元素内容: 有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查...
+2025-05-26 19:10:33,252 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 19:10:33,253 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 19:10:33,254 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,255 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,255 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,256 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,257 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,258 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,258 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,259 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 19:10:33,260 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,261 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,262 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,263 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,263 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,264 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,265 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,266 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 19:10:33,267 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,268 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,269 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,269 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 有中学生在网上展示如何借助AI学习外语，...
+2025-05-26 19:10:33,270 - AIPoliDoc - DEBUG - 处理第 17/18 个元素
+2025-05-26 19:10:33,271 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '二级标题', 'content': '未来已来。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}}
+2025-05-26 19:10:33,271 - AIPoliDoc - DEBUG - 元素内容: 未来已来。...
+2025-05-26 19:10:33,272 - AIPoliDoc - DEBUG - 元素类型: 二级标题
+2025-05-26 19:10:33,273 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '楷体'}
+2025-05-26 19:10:33,274 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,275 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,276 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,276 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,277 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,278 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,278 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,279 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 19:10:33,280 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,281 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,282 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,282 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,283 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,284 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,285 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,285 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,286 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,287 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,287 - AIPoliDoc - DEBUG - 完成元素处理: 二级标题, 内容: 未来已来。...
+2025-05-26 19:10:33,288 - AIPoliDoc - DEBUG - 处理第 18/18 个元素
+2025-05-26 19:10:33,288 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。', 'format': {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 19:10:33,289 - AIPoliDoc - DEBUG - 元素内容: 在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、...
+2025-05-26 19:10:33,290 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 19:10:33,291 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Alimama FangYuanTi VF', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 19:10:33,291 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 19:10:33,292 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 19:10:33,293 - AIPoliDoc - DEBUG - 原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,293 - AIPoliDoc - DEBUG - 直接使用原始字体名称: Alimama FangYuanTi VF
+2025-05-26 19:10:33,294 - AIPoliDoc - DEBUG - 成功设置中文字体: Alimama FangYuanTi VF
+2025-05-26 19:10:33,295 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 19:10:33,295 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 19:10:33,296 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 19:10:33,297 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 19:10:33,298 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 19:10:33,299 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 19:10:33,300 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 19:10:33,301 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 19:10:33,301 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 19:10:33,302 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 19:10:33,303 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 19:10:33,304 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 19:10:33,304 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 19:10:33,305 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 19:10:33,306 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 在技术飞快发展、科技日新月异的今天要想不...
+2025-05-26 19:10:33,307 - AIPoliDoc - DEBUG - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-26 19:10:33,307 - AIPoliDoc - DEBUG - 生成输出文件路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526191033.docx
+2025-05-26 19:10:33,308 - AIPoliDoc - DEBUG - 生成输出文件名: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526191033.docx
+2025-05-26 19:10:33,327 - AIPoliDoc - INFO - 成功应用排版格式并保存到: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526191033.docx
+2025-05-26 19:10:36,445 - AIPoliDoc - INFO - 已打开文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526191033.docx
+2025-05-26 19:10:51,541 - AIPoliDoc - INFO - 排版任务成功完成，输出文件: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526191033.docx
+2025-05-26 19:11:08,643 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 19:11:08,647 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 19:11:08,650 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 19:11:08,651 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 19:11:08,652 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 19:11:10,506 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:11:10,519 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:11:10,522 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 19:11:10,524 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 19:11:15,959 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:11:15,970 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:11:15,971 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 19:11:15,975 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 19:11:15,976 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 19:11:15,977 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 19:11:15,977 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 19:11:15,978 - AIPoliDoc - DEBUG - 字体 'STKaiti' 直接可用
+2025-05-26 19:11:15,978 - AIPoliDoc - DEBUG - 字体 '冬青黑体' 直接可用
+2025-05-26 19:11:26,514 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 19:11:26,517 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 19:11:26,519 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 19:11:26,520 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 19:11:26,521 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 19:11:28,335 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 19:11:28,351 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 19:11:28,353 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 19:11:28,354 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 20:22:03,606 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 20:22:03,645 - AIPoliDoc - INFO - 应用程序正常关闭

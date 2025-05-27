@@ -1,0 +1,994 @@
+2025-05-26 21:13:28,482 - AIPoliDoc - DEBUG - 加载配置文件: config/api_config.json
+2025-05-26 21:13:28,485 - AIPoliDoc - DEBUG - 加载配置文件: config/app_config.json
+2025-05-26 21:13:28,505 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:13:28,518 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:13:28,518 - AIPoliDoc - INFO - 配置管理器初始化完成
+2025-05-26 21:13:29,766 - AIPoliDoc - DEBUG - QFontDatabase原始字体列表长度: 205
+2025-05-26 21:13:29,766 - AIPoliDoc - DEBUG - 过滤后的字体列表长度: 205
+2025-05-26 21:13:29,766 - AIPoliDoc - DEBUG - 添加中文字体: 苹方
+2025-05-26 21:13:29,766 - AIPoliDoc - DEBUG - 添加中文字体: 宋体
+2025-05-26 21:13:29,766 - AIPoliDoc - DEBUG - 添加中文字体: 黑体
+2025-05-26 21:13:29,766 - AIPoliDoc - DEBUG - 添加中文字体: 楷体
+2025-05-26 21:13:29,767 - AIPoliDoc - DEBUG - 添加中文字体: 圆体
+2025-05-26 21:13:29,767 - AIPoliDoc - DEBUG - 添加中文字体: 华文宋体
+2025-05-26 21:13:29,767 - AIPoliDoc - DEBUG - 添加中文字体: 华文黑体
+2025-05-26 21:13:29,767 - AIPoliDoc - DEBUG - 添加中文字体: 华文楷体
+2025-05-26 21:13:29,767 - AIPoliDoc - DEBUG - 添加中文字体: 华文仿宋
+2025-05-26 21:13:29,767 - AIPoliDoc - DEBUG - 添加中文字体: 冬青黑体
+2025-05-26 21:13:29,767 - AIPoliDoc - DEBUG - 添加中文字体: 兰亭黑
+2025-05-26 21:13:29,767 - AIPoliDoc - DEBUG - 添加中文字体: 行楷
+2025-05-26 21:13:29,767 - AIPoliDoc - DEBUG - 添加中文字体: 仿宋
+2025-05-26 21:13:29,767 - AIPoliDoc - DEBUG - 添加中文字体: 微软雅黑
+2025-05-26 21:13:29,767 - AIPoliDoc - DEBUG - 添加中文字体: 幼圆
+2025-05-26 21:13:29,768 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文宋体
+2025-05-26 21:13:29,768 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文黑体
+2025-05-26 21:13:29,768 - AIPoliDoc - DEBUG - 添加中文字体名称: 华文楷体
+2025-05-26 21:13:29,768 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方
+2025-05-26 21:13:29,768 - AIPoliDoc - DEBUG - 添加中文字体名称: 苹方-简
+2025-05-26 21:13:29,768 - AIPoliDoc - DEBUG - 添加中文字体名称: 冬青黑体
+2025-05-26 21:13:29,769 - AIPoliDoc - DEBUG - 添加中文字体名称: 英文
+2025-05-26 21:13:29,769 - AIPoliDoc - DEBUG - 加载系统字体成功，共 212 个字体
+2025-05-26 21:13:29,769 - AIPoliDoc - DEBUG - 识别中文字体 15 个
+2025-05-26 21:13:29,769 - AIPoliDoc - INFO - 从配置文件加载了额外的字体映射
+2025-05-26 21:13:29,769 - AIPoliDoc - INFO - 字体管理器初始化完成，共加载 212 个系统字体
+2025-05-26 21:13:29,769 - AIPoliDoc - DEBUG - 文档处理器初始化完成，字号映射: ['小二', '三号', '小三', '四号', '小四', '五号', '小五', '六号']
+2025-05-26 21:13:29,779 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:13:29,788 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:13:29,789 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:13:29,789 - AIPoliDoc - INFO - AI连接器初始化完成，使用模型: deepseek-chat
+2025-05-26 21:13:30,311 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:13:30,312 - AIPoliDoc - INFO - 应用程序启动完成
+2025-05-26 21:13:30,666 - AIPoliDoc - INFO - AI Word文档自动排版工具启动成功
+2025-05-26 21:13:33,476 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:13:33,485 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:13:33,486 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:13:33,504 - AIPoliDoc - DEBUG - 字体 'STKaiti' 直接可用
+2025-05-26 21:13:33,505 - AIPoliDoc - DEBUG - 字体 'STKaiti' 直接可用
+2025-05-26 21:13:33,505 - AIPoliDoc - DEBUG - 字体 'Alimama DaoLiTi' 直接可用
+2025-05-26 21:13:33,505 - AIPoliDoc - DEBUG - 字体 'Alimama FangYuanTi VF' 直接可用
+2025-05-26 21:13:33,506 - AIPoliDoc - DEBUG - 字体 'STKaiti' 直接可用
+2025-05-26 21:13:33,506 - AIPoliDoc - DEBUG - 字体 'PingFang SC' 直接可用
+2025-05-26 21:13:33,510 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:13:33,512 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:13:33,513 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-26 21:13:33,513 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:13:49,467 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:13:49,468 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:13:49,475 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-26 21:13:49,476 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:13:57,212 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:13:57,214 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:13:57,215 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-26 21:13:57,217 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:14:06,965 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:14:06,967 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:14:06,975 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:14:19,503 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:14:19,505 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:14:19,508 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-26 21:14:19,511 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:14:23,236 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:14:28,614 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:14:30,258 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-26 21:14:31,108 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:14:31,800 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 21:14:31,801 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 21:14:31,803 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 21:14:31,803 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 21:14:31,804 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 21:14:33,621 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:14:33,631 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:14:33,635 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:14:33,636 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 21:14:57,632 - AIPoliDoc - INFO - 已选择文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/未排版/人工智能在学术论文排版中的应用研究.docx
+2025-05-26 21:15:02,875 - AIPoliDoc - INFO - API配置验证成功
+2025-05-26 21:15:02,883 - AIPoliDoc - INFO - 开始排版任务
+2025-05-26 21:15:02,927 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/未排版/人工智能在学术论文排版中的应用研究.docx
+2025-05-26 21:15:02,934 - AIPoliDoc - DEBUG - 文档包含 79 个段落
+2025-05-26 21:15:02,941 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 17 个潜在标题
+2025-05-26 21:15:02,958 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-26 21:15:02,959 - AIPoliDoc - DEBUG - 文档长度: 1757 字符, 规则数量: 6
+2025-05-26 21:15:02,970 - AIPoliDoc - DEBUG - 生成的提示词长度: 3182 字符
+2025-05-26 21:15:02,972 - AIPoliDoc - DEBUG - 提示词开头: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+# 人工智能在学术论文排版中的应用研究  
+
+**中国科学技术大学·智能计算研究所** 张学术  
+
+
+
+## 摘要  
+
+随着学术论文数量的快速增长，传统排版方式已无法满足高效、规范的...
+2025-05-26 21:15:02,973 - AIPoliDoc - DEBUG - 提示词结尾: ...type": "标题",
+      "content": "文本内容",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "line_spacing": 1.0
+      }
+    },
+    ...
+  ]
+}
+
+请确保返回的JSON格式正确，可以被解析。只返回JSON内容，不要有其他说明文字。
+
+2025-05-26 21:15:02,975 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-26 21:15:02,977 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-26 21:15:02,979 - AIPoliDoc - DEBUG - 请求头信息: {'Content-Type': 'application/json', 'Authorization': 'Bearer sk-c7d66ad568c849ffbd6563762abc0fdf'}
+2025-05-26 21:15:02,982 - AIPoliDoc - DEBUG - 提示词预览: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+# 人工智能在学术论文排版中的应用研究  
+
+**中国科学技术大学·智能计算研究所** 张学术  
+
+
+
+## 摘要  
+
+随着学术论文数量的快速增长，传统排版方式已无法满足高效、规范的...
+2025-05-26 21:15:03,055 - AIPoliDoc - DEBUG - 使用模型: deepseek-chat
+2025-05-26 21:15:03,056 - AIPoliDoc - INFO - 开始发送请求，超时时间设置为180秒
+2025-05-26 21:17:53,677 - AIPoliDoc - INFO - 收到响应，状态码: 200
+2025-05-26 21:17:53,699 - AIPoliDoc - INFO - AI API请求成功
+2025-05-26 21:17:53,701 - AIPoliDoc - DEBUG - 响应内容预览: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "人工智能在学术论文排版中的应用研究",
+      "format": {
+        "font": "Microsoft YaHei",
+        "size": "小二",
+        "bold": true,
+        "line_spacing...
+2025-05-26 21:17:53,703 - AIPoliDoc - DEBUG - 响应使用的模型: deepseek-chat
+2025-05-26 21:17:53,706 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1536, 'completion_tokens': 4096, 'total_tokens': 5632, 'prompt_tokens_details': {'cached_tokens': 960}, 'prompt_cache_hit_tokens': 960, 'prompt_cache_miss_tokens': 576}
+2025-05-26 21:17:53,710 - AIPoliDoc - DEBUG - 响应完整结构的键: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-26 21:17:53,711 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1536, 'completion_tokens': 4096, 'total_tokens': 5632, 'prompt_tokens_details': {'cached_tokens': 960}, 'prompt_cache_hit_tokens': 960, 'prompt_cache_miss_tokens': 576}
+2025-05-26 21:17:53,712 - AIPoliDoc - DEBUG - 原始响应内容长度: 11704 字符
+2025-05-26 21:17:53,713 - AIPoliDoc - DEBUG - 响应内容开头: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "人工智能在学术论文排版中的应用研究",
+      "format": {
+        "font": "Microsoft YaHei",
+        "size": "小二",
+        "bold": true,
+        "line_spacing...
+2025-05-26 21:17:53,714 - AIPoliDoc - DEBUG - 响应内容结尾: ...宋体"
+      }
+    },
+    {
+      "type": "正文",
+      "content": "2. 跨平台格式兼容性",
+      "format": {
+        "font": "宋体",
+        "size": "五号",
+        "bold": false,
+        "line_spacing": 1.5,
+        "
+2025-05-26 21:17:53,715 - AIPoliDoc - DEBUG - JSON内容起始位置: 0, 结束位置: 11520
+2025-05-26 21:17:53,716 - AIPoliDoc - DEBUG - 提取的JSON内容长度: 11521 字符
+2025-05-26 21:17:53,717 - AIPoliDoc - DEBUG - JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 21:17:53,719 - AIPoliDoc - WARNING - 原始JSON解析失败，尝试修复: Expecting ',' delimiter: line 519 column 6 (char 11521)
+2025-05-26 21:17:53,756 - AIPoliDoc - DEBUG - 开始修复JSON格式
+2025-05-26 21:17:53,761 - AIPoliDoc - INFO - 添加 1 个缺失的右花括号
+2025-05-26 21:17:53,762 - AIPoliDoc - INFO - 添加 1 个缺失的右方括号
+2025-05-26 21:17:53,765 - AIPoliDoc - WARNING - 无法修复JSON格式，返回原始字符串
+2025-05-26 21:17:53,768 - AIPoliDoc - DEBUG - 尝试修复后的JSON内容长度: 11521 字符
+2025-05-26 21:17:53,769 - AIPoliDoc - DEBUG - 修复后的JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 21:17:53,770 - AIPoliDoc - ERROR - 修复后的JSON仍然无法解析: Expecting ',' delimiter: line 519 column 6 (char 11521)
+2025-05-26 21:17:53,771 - AIPoliDoc - ERROR - JSON解析失败: Expecting ',' delimiter: line 519 column 6 (char 11521)
+2025-05-26 21:17:53,771 - AIPoliDoc - ERROR - 解析失败位置附近的内容: ...5,
+        "font_display_name": "宋体"
+      }
+    }...
+2025-05-26 21:17:53,772 - AIPoliDoc - ERROR - 解析失败位置: 11521, 行: 519, 列: 6
+2025-05-26 21:22:45,068 - AIPoliDoc - ERROR - 排版任务失败: 解析AI响应失败
+2025-05-26 21:22:56,531 - AIPoliDoc - INFO - 已选择文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-26 21:23:02,733 - AIPoliDoc - INFO - API配置验证成功
+2025-05-26 21:23:02,752 - AIPoliDoc - INFO - 开始排版任务
+2025-05-26 21:23:02,783 - AIPoliDoc - INFO - 成功读取文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx
+2025-05-26 21:23:02,796 - AIPoliDoc - DEBUG - 文档包含 11 个段落
+2025-05-26 21:23:02,800 - AIPoliDoc - DEBUG - 完成文本特征分析，发现 1 个潜在标题
+2025-05-26 21:23:02,815 - AIPoliDoc - DEBUG - 生成结构提示完成
+2025-05-26 21:23:02,816 - AIPoliDoc - DEBUG - 文档长度: 1181 字符, 规则数量: 6
+2025-05-26 21:23:02,817 - AIPoliDoc - DEBUG - 生成的提示词长度: 2606 字符
+2025-05-26 21:23:02,818 - AIPoliDoc - DEBUG - 提示词开头: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+AI时代，该怎样看待学习？（青年观）
+
+孟祥夫《人民日报》（2025年04月13日 第 05 版）
+
+“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一...
+2025-05-26 21:23:02,820 - AIPoliDoc - DEBUG - 提示词结尾: ...type": "标题",
+      "content": "文本内容",
+      "format": {
+        "font": "黑体",
+        "size": "小二",
+        "line_spacing": 1.0
+      }
+    },
+    ...
+  ]
+}
+
+请确保返回的JSON格式正确，可以被解析。只返回JSON内容，不要有其他说明文字。
+
+2025-05-26 21:23:02,821 - AIPoliDoc - DEBUG - 生成AI提示词完成
+2025-05-26 21:23:02,830 - AIPoliDoc - INFO - 发送请求到AI API: https://api.deepseek.com/chat/completions
+2025-05-26 21:23:02,831 - AIPoliDoc - DEBUG - 请求头信息: {'Content-Type': 'application/json', 'Authorization': 'Bearer sk-c7d66ad568c849ffbd6563762abc0fdf'}
+2025-05-26 21:23:02,881 - AIPoliDoc - DEBUG - 提示词预览: 
+你是一个专业的文档排版助手。请分析以下未经排版的文档内容（全部使用默认正文格式），通过语义理解识别其中的结构元素（如标题、正文、列表等），并严格按照提供的排版规则，返回详细的排版指令。
+
+文档内容：
+<doc>
+AI时代，该怎样看待学习？（青年观）
+
+孟祥夫《人民日报》（2025年04月13日 第 05 版）
+
+“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一...
+2025-05-26 21:23:02,884 - AIPoliDoc - DEBUG - 使用模型: deepseek-chat
+2025-05-26 21:23:02,885 - AIPoliDoc - INFO - 开始发送请求，超时时间设置为180秒
+2025-05-26 21:24:23,011 - AIPoliDoc - INFO - 收到响应，状态码: 200
+2025-05-26 21:24:23,014 - AIPoliDoc - INFO - AI API请求成功
+2025-05-26 21:24:23,016 - AIPoliDoc - DEBUG - 响应内容预览: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "AI时代，该怎样看待学习？（青年观）",
+      "format": {
+        "font": "Microsoft YaHei",
+        "size": "小二",
+        "bold": true,
+        "line_spacin...
+2025-05-26 21:24:23,020 - AIPoliDoc - DEBUG - 响应使用的模型: deepseek-chat
+2025-05-26 21:24:23,022 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1283, 'completion_tokens': 1845, 'total_tokens': 3128, 'prompt_tokens_details': {'cached_tokens': 704}, 'prompt_cache_hit_tokens': 704, 'prompt_cache_miss_tokens': 579}
+2025-05-26 21:24:23,025 - AIPoliDoc - DEBUG - 响应完整结构的键: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-26 21:24:23,027 - AIPoliDoc - DEBUG - 令牌使用情况: {'prompt_tokens': 1283, 'completion_tokens': 1845, 'total_tokens': 3128, 'prompt_tokens_details': {'cached_tokens': 704}, 'prompt_cache_hit_tokens': 704, 'prompt_cache_miss_tokens': 579}
+2025-05-26 21:24:23,029 - AIPoliDoc - DEBUG - 原始响应内容长度: 4862 字符
+2025-05-26 21:24:23,031 - AIPoliDoc - DEBUG - 响应内容开头: {
+  "elements": [
+    {
+      "type": "标题",
+      "content": "AI时代，该怎样看待学习？（青年观）",
+      "format": {
+        "font": "Microsoft YaHei",
+        "size": "小二",
+        "bold": true,
+        "line_spacin...
+2025-05-26 21:24:23,046 - AIPoliDoc - DEBUG - 响应内容结尾: ...困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。",
+      "format": {
+        "font": "宋体",
+        "size": "五号",
+        "bold": false,
+        "line_spacing": 1.5,
+        "font_display_name": "宋体"
+      }
+    }
+  ]
+}
+2025-05-26 21:24:23,049 - AIPoliDoc - DEBUG - JSON内容起始位置: 0, 结束位置: 4861
+2025-05-26 21:24:23,050 - AIPoliDoc - DEBUG - 提取的JSON内容长度: 4862 字符
+2025-05-26 21:24:23,051 - AIPoliDoc - DEBUG - JSON内容前50个字符: {
+  "elements": [
+    {
+      "type": "标题",
+      ...
+2025-05-26 21:24:23,054 - AIPoliDoc - DEBUG - JSON解析成功，得到字典类型数据
+2025-05-26 21:24:23,057 - AIPoliDoc - DEBUG - 格式化指令的键: ['elements']
+2025-05-26 21:24:23,058 - AIPoliDoc - DEBUG - 元素数量: 17
+2025-05-26 21:24:23,059 - AIPoliDoc - DEBUG - 前三个元素类型: ['标题', '一级标题', '正文']
+2025-05-26 21:24:23,061 - AIPoliDoc - INFO - 结构验证完成，共17个元素
+2025-05-26 21:24:23,062 - AIPoliDoc - DEBUG - 格式化指令: {'elements': [{'type': '标题', 'content': 'AI时代，该怎样看待学习？（青年观）', 'format': {'font': 'Microsoft YaHei', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'font_display_name': '微软雅黑'}}, {'type': '一级标题', 'content': '孟祥夫《人民日报》（2025年04月13日 第 05 版）', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说道，言语间透着些许困惑和无奈。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '正文', 'content': '人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……面对人工智能这一似乎没有能力边界的新事物，部分年轻人难免有本领恐慌和危机感。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '一级标题', 'content': '有了AI“加持”，努力学习就没有意义了吗？', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '其实不然。正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供的“提示词”来生成回答。提示词越详细、准确，答案就越充分。反之，如果提示词大而化之、模棱两可，提供给AI的有用信息有限，回答也就相应地简单甚至敷衍。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '一级标题', 'content': '提示词本身就是知识。', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠缺，AI也难以有效发挥作用。更何况，现阶段的人工智能技术并不完善，AI输出的信息，仍需人们辨别使用。如果缺乏独立思考能力、综合判断能力是难以辨别真伪的。从这个意义上说，要想AI为我所用，就要不断学习，进一步提高知识水平和综合能力。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '一级标题', 'content': '学习的过程，是刷新认知、重塑自我的过程。', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '正文', 'content': '然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以产生真正的智慧和洞见。一个人凡事靠AI，时间久了不一定会增加新知识，反倒原有的能力可能因用得少了而退步，以至于到最后，离开AI就寸步难行了。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '一级标题', 'content': 'AI是个人能力和水平的“放大器”', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI越强大，我们越需要通过学习武装自己，建立起深厚的能力“护城河”。事实上，学习的知识、掌握的本领，都会成为我们更好应对复杂多变外部世界的有力武器。有了完备知识体系的赋能，无论技术如何发展变迁，我们都能赢得先机、掌握主动。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '一级标题', 'content': '拥有超强能力，AI更有助于我们更好学习、更高效学习。', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查找资料、分析数据等方面具有强大能力，用好AI这一好帮手，人们能把更多时间和精力投入更高阶的思考和创作中，创造更多、更大价值。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}, {'type': '一级标题', 'content': '未来已来。', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}, {'type': '正文', 'content': '在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}]}
+2025-05-26 21:24:23,128 - AIPoliDoc - INFO - 开始应用排版格式，共有 17 个元素
+2025-05-26 21:24:23,141 - AIPoliDoc - INFO - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-26 21:24:23,333 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_backup_20250526212423.docx
+2025-05-26 21:24:23,335 - AIPoliDoc - INFO - 文件备份成功: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎.docx -> /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/AI时代,该怎_backup_20250526212423.docx
+2025-05-26 21:24:23,361 - AIPoliDoc - DEBUG - 成功创建新文档
+2025-05-26 21:24:23,362 - AIPoliDoc - DEBUG - 处理第 1/17 个元素
+2025-05-26 21:24:23,363 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '标题', 'content': 'AI时代，该怎样看待学习？（青年观）', 'format': {'font': 'Microsoft YaHei', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'font_display_name': '微软雅黑'}}
+2025-05-26 21:24:23,364 - AIPoliDoc - DEBUG - 元素内容: AI时代，该怎样看待学习？（青年观）...
+2025-05-26 21:24:23,366 - AIPoliDoc - DEBUG - 元素类型: 标题
+2025-05-26 21:24:23,367 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Microsoft YaHei', 'size': '小二', 'bold': True, 'line_spacing': 1.0, 'font_display_name': '微软雅黑'}
+2025-05-26 21:24:23,377 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,380 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,381 - AIPoliDoc - DEBUG - 原始字体名称: Microsoft YaHei
+2025-05-26 21:24:23,384 - AIPoliDoc - DEBUG - 字体 'Microsoft YaHei' 没有映射，使用原始名称
+2025-05-26 21:24:23,385 - AIPoliDoc - DEBUG - 用于文档的字体名称: Microsoft YaHei
+2025-05-26 21:24:23,389 - AIPoliDoc - DEBUG - 成功设置中文字体: Microsoft YaHei
+2025-05-26 21:24:23,391 - AIPoliDoc - DEBUG - 原始字体大小: 小二
+2025-05-26 21:24:23,394 - AIPoliDoc - DEBUG - 映射后的字体大小: 228600
+2025-05-26 21:24:23,396 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 21:24:23,398 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,400 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,402 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,404 - AIPoliDoc - DEBUG - 设置行间距: 1.0
+2025-05-26 21:24:23,408 - AIPoliDoc - DEBUG - 设置单倍行间距
+2025-05-26 21:24:23,409 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,410 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,411 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,412 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,412 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,413 - AIPoliDoc - DEBUG - 完成元素处理: 标题, 内容: AI时代，该怎样看待学习？（青年观）...
+2025-05-26 21:24:23,414 - AIPoliDoc - DEBUG - 处理第 2/17 个元素
+2025-05-26 21:24:23,414 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '孟祥夫《人民日报》（2025年04月13日 第 05 版）', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 21:24:23,415 - AIPoliDoc - DEBUG - 元素内容: 孟祥夫《人民日报》（2025年04月13日 第 05 版）...
+2025-05-26 21:24:23,417 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 21:24:23,418 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 21:24:23,420 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,422 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,423 - AIPoliDoc - DEBUG - 原始字体名称: Microsoft YaHei
+2025-05-26 21:24:23,424 - AIPoliDoc - DEBUG - 字体 'Microsoft YaHei' 没有映射，使用原始名称
+2025-05-26 21:24:23,425 - AIPoliDoc - DEBUG - 用于文档的字体名称: Microsoft YaHei
+2025-05-26 21:24:23,426 - AIPoliDoc - DEBUG - 成功设置中文字体: Microsoft YaHei
+2025-05-26 21:24:23,427 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,428 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,429 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 21:24:23,431 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,432 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,433 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,435 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,436 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,437 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,438 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,440 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,441 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,442 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,443 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 孟祥夫《人民日报》（2025年04月13...
+2025-05-26 21:24:23,444 - AIPoliDoc - DEBUG - 处理第 3/17 个元素
+2025-05-26 21:24:23,445 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '“现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说道，言语间透着些许困惑和无奈。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 21:24:23,447 - AIPoliDoc - DEBUG - 元素内容: “现在，人工智能这么强大，啥都会，孩子还那么努力学习干吗？绘画、书法都不用学了。”一位朋友在聊天中说...
+2025-05-26 21:24:23,449 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 21:24:23,450 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 21:24:23,451 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,453 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,454 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-26 21:24:23,455 - AIPoliDoc - DEBUG - 字体 '宋体' 映射为 'SimSun'
+2025-05-26 21:24:23,456 - AIPoliDoc - DEBUG - 用于文档的字体名称: SimSun
+2025-05-26 21:24:23,457 - AIPoliDoc - DEBUG - 成功设置中文字体: SimSun
+2025-05-26 21:24:23,459 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,460 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,461 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 21:24:23,462 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,462 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,463 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,464 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,466 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,466 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,468 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,470 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 21:24:23,472 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,475 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,476 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,477 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: “现在，人工智能这么强大，啥都会，孩子还...
+2025-05-26 21:24:23,478 - AIPoliDoc - DEBUG - 处理第 4/17 个元素
+2025-05-26 21:24:23,479 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……面对人工智能这一似乎没有能力边界的新事物，部分年轻人难免有本领恐慌和危机感。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 21:24:23,480 - AIPoliDoc - DEBUG - 元素内容: 人工智能来势汹汹，一些年轻人在网上发问，“学什么最有用”“刷题还有意义吗”“大学生还要写论文吗”……...
+2025-05-26 21:24:23,482 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 21:24:23,483 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 21:24:23,485 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,487 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,488 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-26 21:24:23,489 - AIPoliDoc - DEBUG - 字体 '宋体' 映射为 'SimSun'
+2025-05-26 21:24:23,492 - AIPoliDoc - DEBUG - 用于文档的字体名称: SimSun
+2025-05-26 21:24:23,493 - AIPoliDoc - DEBUG - 成功设置中文字体: SimSun
+2025-05-26 21:24:23,494 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,495 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,497 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 21:24:23,498 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,500 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,501 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,502 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,503 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,504 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,506 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,508 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 21:24:23,509 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,510 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,511 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,511 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 人工智能来势汹汹，一些年轻人在网上发问，...
+2025-05-26 21:24:23,512 - AIPoliDoc - DEBUG - 处理第 5/17 个元素
+2025-05-26 21:24:23,513 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '有了AI“加持”，努力学习就没有意义了吗？', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 21:24:23,514 - AIPoliDoc - DEBUG - 元素内容: 有了AI“加持”，努力学习就没有意义了吗？...
+2025-05-26 21:24:23,515 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 21:24:23,515 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 21:24:23,517 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,518 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,519 - AIPoliDoc - DEBUG - 原始字体名称: Microsoft YaHei
+2025-05-26 21:24:23,520 - AIPoliDoc - DEBUG - 字体 'Microsoft YaHei' 没有映射，使用原始名称
+2025-05-26 21:24:23,521 - AIPoliDoc - DEBUG - 用于文档的字体名称: Microsoft YaHei
+2025-05-26 21:24:23,522 - AIPoliDoc - DEBUG - 成功设置中文字体: Microsoft YaHei
+2025-05-26 21:24:23,523 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,524 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,525 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 21:24:23,527 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,528 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,529 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,530 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,531 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,532 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,534 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,535 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,535 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,536 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,538 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 有了AI“加持”，努力学习就没有意义了吗...
+2025-05-26 21:24:23,539 - AIPoliDoc - DEBUG - 处理第 6/17 个元素
+2025-05-26 21:24:23,541 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '其实不然。正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通过用户提供的“提示词”来生成回答。提示词越详细、准确，答案就越充分。反之，如果提示词大而化之、模棱两可，提供给AI的有用信息有限，回答也就相应地简单甚至敷衍。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 21:24:23,543 - AIPoliDoc - DEBUG - 元素内容: 其实不然。正如相关领域专家所言：“你是什么水平，AI就是什么水平。”简单理解，现阶段AI大模型主要通...
+2025-05-26 21:24:23,545 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 21:24:23,546 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 21:24:23,547 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,549 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,550 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-26 21:24:23,551 - AIPoliDoc - DEBUG - 字体 '宋体' 映射为 'SimSun'
+2025-05-26 21:24:23,553 - AIPoliDoc - DEBUG - 用于文档的字体名称: SimSun
+2025-05-26 21:24:23,555 - AIPoliDoc - DEBUG - 成功设置中文字体: SimSun
+2025-05-26 21:24:23,557 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,557 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,558 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 21:24:23,559 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,560 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,561 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,562 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,562 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,563 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,564 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,565 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 21:24:23,566 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,568 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,569 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,570 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 其实不然。正如相关领域专家所言：“你是什...
+2025-05-26 21:24:23,571 - AIPoliDoc - DEBUG - 处理第 7/17 个元素
+2025-05-26 21:24:23,572 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '提示词本身就是知识。', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 21:24:23,573 - AIPoliDoc - DEBUG - 元素内容: 提示词本身就是知识。...
+2025-05-26 21:24:23,574 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 21:24:23,575 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 21:24:23,577 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,578 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,579 - AIPoliDoc - DEBUG - 原始字体名称: Microsoft YaHei
+2025-05-26 21:24:23,580 - AIPoliDoc - DEBUG - 字体 'Microsoft YaHei' 没有映射，使用原始名称
+2025-05-26 21:24:23,581 - AIPoliDoc - DEBUG - 用于文档的字体名称: Microsoft YaHei
+2025-05-26 21:24:23,583 - AIPoliDoc - DEBUG - 成功设置中文字体: Microsoft YaHei
+2025-05-26 21:24:23,584 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,585 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,586 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 21:24:23,588 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,590 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,591 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,592 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,593 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,594 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,596 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,597 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,597 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,598 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,601 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 提示词本身就是知识。...
+2025-05-26 21:24:23,603 - AIPoliDoc - DEBUG - 处理第 8/17 个元素
+2025-05-26 21:24:23,608 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠缺，AI也难以有效发挥作用。更何况，现阶段的人工智能技术并不完善，AI输出的信息，仍需人们辨别使用。如果缺乏独立思考能力、综合判断能力是难以辨别真伪的。从这个意义上说，要想AI为我所用，就要不断学习，进一步提高知识水平和综合能力。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 21:24:23,611 - AIPoliDoc - DEBUG - 元素内容: 想要AI生成高质量的内容，离不开输入高质量的提示词，这就对使用者自身的知识水平提出了要求。如果知识欠...
+2025-05-26 21:24:23,613 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 21:24:23,615 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 21:24:23,616 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,618 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,619 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-26 21:24:23,620 - AIPoliDoc - DEBUG - 字体 '宋体' 映射为 'SimSun'
+2025-05-26 21:24:23,621 - AIPoliDoc - DEBUG - 用于文档的字体名称: SimSun
+2025-05-26 21:24:23,623 - AIPoliDoc - DEBUG - 成功设置中文字体: SimSun
+2025-05-26 21:24:23,624 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,625 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,627 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 21:24:23,628 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,629 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,631 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,631 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,632 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,634 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,636 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,637 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 21:24:23,638 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,639 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,640 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,641 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 想要AI生成高质量的内容，离不开输入高质...
+2025-05-26 21:24:23,642 - AIPoliDoc - DEBUG - 处理第 9/17 个元素
+2025-05-26 21:24:23,643 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '学习的过程，是刷新认知、重塑自我的过程。', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 21:24:23,644 - AIPoliDoc - DEBUG - 元素内容: 学习的过程，是刷新认知、重塑自我的过程。...
+2025-05-26 21:24:23,646 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 21:24:23,647 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 21:24:23,648 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,650 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,650 - AIPoliDoc - DEBUG - 原始字体名称: Microsoft YaHei
+2025-05-26 21:24:23,651 - AIPoliDoc - DEBUG - 字体 'Microsoft YaHei' 没有映射，使用原始名称
+2025-05-26 21:24:23,652 - AIPoliDoc - DEBUG - 用于文档的字体名称: Microsoft YaHei
+2025-05-26 21:24:23,654 - AIPoliDoc - DEBUG - 成功设置中文字体: Microsoft YaHei
+2025-05-26 21:24:23,655 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,656 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,656 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 21:24:23,657 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,658 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,659 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,660 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,661 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,662 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,662 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,663 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,664 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,665 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,666 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 学习的过程，是刷新认知、重塑自我的过程。...
+2025-05-26 21:24:23,667 - AIPoliDoc - DEBUG - 处理第 10/17 个元素
+2025-05-26 21:24:23,668 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 21:24:23,669 - AIPoliDoc - DEBUG - 元素内容: 随着知识越来越丰富、眼界越来越开阔，一个人的思考能力就越来越强，思考更有深度，从而催生创新创造。...
+2025-05-26 21:24:23,670 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 21:24:23,670 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 21:24:23,671 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,672 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,673 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-26 21:24:23,674 - AIPoliDoc - DEBUG - 字体 '宋体' 映射为 'SimSun'
+2025-05-26 21:24:23,674 - AIPoliDoc - DEBUG - 用于文档的字体名称: SimSun
+2025-05-26 21:24:23,675 - AIPoliDoc - DEBUG - 成功设置中文字体: SimSun
+2025-05-26 21:24:23,676 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,677 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,678 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 21:24:23,679 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,680 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,681 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,682 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,683 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,684 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,685 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,686 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 21:24:23,687 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,688 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,688 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,689 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 随着知识越来越丰富、眼界越来越开阔，一个...
+2025-05-26 21:24:23,690 - AIPoliDoc - DEBUG - 处理第 11/17 个元素
+2025-05-26 21:24:23,691 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。AI在手，一个人看上去无所不知、无所不晓，但这些知识并非“私人拥有”，顶多让人成为“知道分子”，难以产生真正的智慧和洞见。一个人凡事靠AI，时间久了不一定会增加新知识，反倒原有的能力可能因用得少了而退步，以至于到最后，离开AI就寸步难行了。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 21:24:23,696 - AIPoliDoc - DEBUG - 元素内容: 然而，倘若一味依赖AI获取答案，忽视甚至放弃学习，就难以擦出思想的火花。AI在手，一个人看上去无所不...
+2025-05-26 21:24:23,698 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 21:24:23,699 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 21:24:23,700 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,701 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,702 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-26 21:24:23,703 - AIPoliDoc - DEBUG - 字体 '宋体' 映射为 'SimSun'
+2025-05-26 21:24:23,703 - AIPoliDoc - DEBUG - 用于文档的字体名称: SimSun
+2025-05-26 21:24:23,704 - AIPoliDoc - DEBUG - 成功设置中文字体: SimSun
+2025-05-26 21:24:23,705 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,706 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,707 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 21:24:23,708 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,709 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,710 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,710 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,711 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,711 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,712 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,713 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 21:24:23,714 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,715 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,716 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,717 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 然而，倘若一味依赖AI获取答案，忽视甚至...
+2025-05-26 21:24:23,718 - AIPoliDoc - DEBUG - 处理第 12/17 个元素
+2025-05-26 21:24:23,718 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': 'AI是个人能力和水平的“放大器”', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 21:24:23,720 - AIPoliDoc - DEBUG - 元素内容: AI是个人能力和水平的“放大器”...
+2025-05-26 21:24:23,721 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 21:24:23,722 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 21:24:23,723 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,724 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,725 - AIPoliDoc - DEBUG - 原始字体名称: Microsoft YaHei
+2025-05-26 21:24:23,727 - AIPoliDoc - DEBUG - 字体 'Microsoft YaHei' 没有映射，使用原始名称
+2025-05-26 21:24:23,728 - AIPoliDoc - DEBUG - 用于文档的字体名称: Microsoft YaHei
+2025-05-26 21:24:23,729 - AIPoliDoc - DEBUG - 成功设置中文字体: Microsoft YaHei
+2025-05-26 21:24:23,730 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,731 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,732 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 21:24:23,734 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,735 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,736 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,736 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,737 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,738 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,739 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,740 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,741 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,742 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,743 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: AI是个人能力和水平的“放大器”...
+2025-05-26 21:24:23,744 - AIPoliDoc - DEBUG - 处理第 13/17 个元素
+2025-05-26 21:24:23,744 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI越强大，我们越需要通过学习武装自己，建立起深厚的能力“护城河”。事实上，学习的知识、掌握的本领，都会成为我们更好应对复杂多变外部世界的有力武器。有了完备知识体系的赋能，无论技术如何发展变迁，我们都能赢得先机、掌握主动。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 21:24:23,746 - AIPoliDoc - DEBUG - 元素内容: 一个人的知识体系越完善，掌握的技能越多，在AI帮助下，越能抵达更远、更辽阔的地方。非学无以广才。AI...
+2025-05-26 21:24:23,747 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 21:24:23,749 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 21:24:23,750 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,751 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,753 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-26 21:24:23,753 - AIPoliDoc - DEBUG - 字体 '宋体' 映射为 'SimSun'
+2025-05-26 21:24:23,754 - AIPoliDoc - DEBUG - 用于文档的字体名称: SimSun
+2025-05-26 21:24:23,755 - AIPoliDoc - DEBUG - 成功设置中文字体: SimSun
+2025-05-26 21:24:23,756 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,757 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,758 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 21:24:23,759 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,760 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,761 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,761 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,762 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,763 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,764 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,765 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 21:24:23,765 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,766 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,767 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,768 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 一个人的知识体系越完善，掌握的技能越多，...
+2025-05-26 21:24:23,768 - AIPoliDoc - DEBUG - 处理第 14/17 个元素
+2025-05-26 21:24:23,769 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '拥有超强能力，AI更有助于我们更好学习、更高效学习。', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 21:24:23,771 - AIPoliDoc - DEBUG - 元素内容: 拥有超强能力，AI更有助于我们更好学习、更高效学习。...
+2025-05-26 21:24:23,772 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 21:24:23,773 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 21:24:23,774 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,775 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,776 - AIPoliDoc - DEBUG - 原始字体名称: Microsoft YaHei
+2025-05-26 21:24:23,777 - AIPoliDoc - DEBUG - 字体 'Microsoft YaHei' 没有映射，使用原始名称
+2025-05-26 21:24:23,778 - AIPoliDoc - DEBUG - 用于文档的字体名称: Microsoft YaHei
+2025-05-26 21:24:23,779 - AIPoliDoc - DEBUG - 成功设置中文字体: Microsoft YaHei
+2025-05-26 21:24:23,780 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,781 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,782 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 21:24:23,784 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,785 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,786 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,787 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,788 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,789 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,790 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,791 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,792 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,793 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,794 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 拥有超强能力，AI更有助于我们更好学习、...
+2025-05-26 21:24:23,795 - AIPoliDoc - DEBUG - 处理第 15/17 个元素
+2025-05-26 21:24:23,796 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查找资料、分析数据等方面具有强大能力，用好AI这一好帮手，人们能把更多时间和精力投入更高阶的思考和创作中，创造更多、更大价值。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 21:24:23,797 - AIPoliDoc - DEBUG - 元素内容: 有中学生在网上展示如何借助AI学习外语，有大学生利用AI提升表达能力和思辨能力……实践证明，AI在查...
+2025-05-26 21:24:23,799 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 21:24:23,800 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 21:24:23,801 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,802 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,803 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-26 21:24:23,804 - AIPoliDoc - DEBUG - 字体 '宋体' 映射为 'SimSun'
+2025-05-26 21:24:23,804 - AIPoliDoc - DEBUG - 用于文档的字体名称: SimSun
+2025-05-26 21:24:23,805 - AIPoliDoc - DEBUG - 成功设置中文字体: SimSun
+2025-05-26 21:24:23,806 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,807 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,808 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 21:24:23,808 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,809 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,810 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,810 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,811 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,812 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,813 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,813 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 21:24:23,814 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,815 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,816 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,816 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 有中学生在网上展示如何借助AI学习外语，...
+2025-05-26 21:24:23,817 - AIPoliDoc - DEBUG - 处理第 16/17 个元素
+2025-05-26 21:24:23,818 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '一级标题', 'content': '未来已来。', 'format': {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}}
+2025-05-26 21:24:23,819 - AIPoliDoc - DEBUG - 元素内容: 未来已来。...
+2025-05-26 21:24:23,820 - AIPoliDoc - DEBUG - 元素类型: 一级标题
+2025-05-26 21:24:23,821 - AIPoliDoc - DEBUG - 格式信息: {'font': 'Microsoft YaHei', 'size': '五号', 'bold': True, 'line_spacing': 1.5, 'font_display_name': '微软雅黑'}
+2025-05-26 21:24:23,821 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,823 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,824 - AIPoliDoc - DEBUG - 原始字体名称: Microsoft YaHei
+2025-05-26 21:24:23,824 - AIPoliDoc - DEBUG - 字体 'Microsoft YaHei' 没有映射，使用原始名称
+2025-05-26 21:24:23,825 - AIPoliDoc - DEBUG - 用于文档的字体名称: Microsoft YaHei
+2025-05-26 21:24:23,826 - AIPoliDoc - DEBUG - 成功设置中文字体: Microsoft YaHei
+2025-05-26 21:24:23,827 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,828 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,829 - AIPoliDoc - DEBUG - 设置粗体: True
+2025-05-26 21:24:23,830 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,831 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,832 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,833 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,834 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,836 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,837 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,837 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,838 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,839 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,840 - AIPoliDoc - DEBUG - 完成元素处理: 一级标题, 内容: 未来已来。...
+2025-05-26 21:24:23,841 - AIPoliDoc - DEBUG - 处理第 17/17 个元素
+2025-05-26 21:24:23,842 - AIPoliDoc - DEBUG - 开始处理元素: {'type': '正文', 'content': '在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、迷茫，不如坚持学习学习再学习，在AI的助力下抵达远方。', 'format': {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}}
+2025-05-26 21:24:23,843 - AIPoliDoc - DEBUG - 元素内容: 在技术飞快发展、科技日新月异的今天要想不掉队、占据主动，学习是不二法门。与其在技术的滚滚洪流中困惑、...
+2025-05-26 21:24:23,845 - AIPoliDoc - DEBUG - 元素类型: 正文
+2025-05-26 21:24:23,845 - AIPoliDoc - DEBUG - 格式信息: {'font': '宋体', 'size': '五号', 'bold': False, 'line_spacing': 1.5, 'font_display_name': '宋体'}
+2025-05-26 21:24:23,847 - AIPoliDoc - DEBUG - 成功添加段落
+2025-05-26 21:24:23,848 - AIPoliDoc - DEBUG - 成功添加文本运行
+2025-05-26 21:24:23,849 - AIPoliDoc - DEBUG - 原始字体名称: 宋体
+2025-05-26 21:24:23,850 - AIPoliDoc - DEBUG - 字体 '宋体' 映射为 'SimSun'
+2025-05-26 21:24:23,851 - AIPoliDoc - DEBUG - 用于文档的字体名称: SimSun
+2025-05-26 21:24:23,852 - AIPoliDoc - DEBUG - 成功设置中文字体: SimSun
+2025-05-26 21:24:23,853 - AIPoliDoc - DEBUG - 原始字体大小: 五号
+2025-05-26 21:24:23,854 - AIPoliDoc - DEBUG - 映射后的字体大小: 133350
+2025-05-26 21:24:23,855 - AIPoliDoc - DEBUG - 设置粗体: False
+2025-05-26 21:24:23,856 - AIPoliDoc - DEBUG - 设置斜体: False
+2025-05-26 21:24:23,858 - AIPoliDoc - DEBUG - 设置下划线: False
+2025-05-26 21:24:23,858 - AIPoliDoc - DEBUG - 成功应用字体格式
+2025-05-26 21:24:23,859 - AIPoliDoc - DEBUG - 设置行间距: 1.5
+2025-05-26 21:24:23,860 - AIPoliDoc - DEBUG - 设置1.5倍行间距
+2025-05-26 21:24:23,861 - AIPoliDoc - DEBUG - 设置对齐方式: left
+2025-05-26 21:24:23,862 - AIPoliDoc - DEBUG - 首行缩进设置: None
+2025-05-26 21:24:23,862 - AIPoliDoc - DEBUG - 设置正文默认首行缩进: 21磅
+2025-05-26 21:24:23,863 - AIPoliDoc - DEBUG - 段前间距设置: None
+2025-05-26 21:24:23,864 - AIPoliDoc - DEBUG - 段后间距设置: None
+2025-05-26 21:24:23,865 - AIPoliDoc - DEBUG - 成功应用段落格式
+2025-05-26 21:24:23,866 - AIPoliDoc - DEBUG - 完成元素处理: 正文, 内容: 在技术飞快发展、科技日新月异的今天要想不...
+2025-05-26 21:24:23,867 - AIPoliDoc - DEBUG - 使用自定义保存路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版
+2025-05-26 21:24:23,867 - AIPoliDoc - DEBUG - 生成输出文件路径: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526212423.docx
+2025-05-26 21:24:23,868 - AIPoliDoc - DEBUG - 生成输出文件名: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526212423.docx
+2025-05-26 21:24:23,895 - AIPoliDoc - INFO - 成功应用排版格式并保存到: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526212423.docx
+2025-05-26 21:24:48,997 - AIPoliDoc - INFO - 已打开文档: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526212423.docx
+2025-05-26 21:24:52,715 - AIPoliDoc - INFO - 排版任务成功完成，输出文件: /Users/chennl/Desktop/AI_coding/python_tool/AIPoliDoc/已排版/AI时代,该怎_已排版_20250526212423.docx
+2025-05-26 21:31:17,330 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:31:17,364 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:31:17,365 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:31:17,443 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:31:17,445 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:31:17,446 - AIPoliDoc - DEBUG - 字体 'Alimama DaoLiTi' 直接可用
+2025-05-26 21:31:17,447 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-26 21:31:17,448 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:31:17,449 - AIPoliDoc - DEBUG - 字体 'PingFang SC' 直接可用
+2025-05-26 21:31:17,452 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:31:17,454 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:31:17,455 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-26 21:31:17,457 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:31:37,886 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:31:37,887 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:31:37,895 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:31:37,896 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-26 21:31:37,897 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:31:50,622 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:31:50,624 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-26 21:31:50,626 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:31:50,627 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:31:50,629 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:32:08,340 - AIPoliDoc - INFO - 添加字体映射: 微软雅黑 -> 苹方-简
+2025-05-26 21:32:08,351 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:32:08,352 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:32:08,353 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:32:15,228 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:32:19,007 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:32:20,316 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:32:21,666 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 21:32:21,668 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 21:32:21,669 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 21:32:21,671 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 21:32:21,672 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 21:32:23,339 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:32:23,354 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:32:23,364 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:32:23,365 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 21:32:31,545 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:32:31,564 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:32:31,565 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:32:31,577 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:32:31,578 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:32:31,579 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-26 21:32:31,579 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-26 21:32:31,580 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:32:31,581 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:32:31,581 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:32:31,582 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:32:31,583 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:32:48,866 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:32:50,603 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:32:51,433 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:32:52,327 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 21:32:52,329 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 21:32:52,330 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 21:32:52,331 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 21:32:52,332 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 21:32:53,805 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:32:53,819 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:32:53,821 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:32:53,822 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 21:32:57,380 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:32:57,391 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:32:57,392 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:32:57,396 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:32:57,397 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:32:57,397 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-26 21:32:57,398 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-26 21:32:57,398 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:32:57,399 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:32:57,400 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:32:57,401 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:32:57,401 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:33:07,125 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:33:07,127 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:33:07,134 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:33:08,695 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:33:10,251 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:33:11,399 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:33:12,187 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 21:33:12,188 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 21:33:12,189 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 21:33:12,190 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 21:33:12,191 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 21:33:13,059 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:33:13,074 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:33:13,077 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:33:13,080 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 21:33:47,338 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:33:47,356 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:33:47,357 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:33:47,375 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:33:47,376 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:33:47,376 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:33:47,377 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:33:47,378 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:33:47,379 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:33:47,382 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:33:47,383 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:33:47,384 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:33:53,591 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:33:55,152 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:33:55,912 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:33:56,798 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 21:33:56,799 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 21:33:56,801 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 21:33:56,802 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 21:33:56,803 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 21:33:58,162 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:33:58,175 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:33:58,177 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:33:58,178 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 21:34:06,097 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:34:06,108 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:34:06,109 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:34:06,114 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:34:06,115 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:34:06,116 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-26 21:34:06,116 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-26 21:34:06,118 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:34:06,119 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:34:06,120 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:34:06,121 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:34:06,122 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:34:11,884 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:34:11,895 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:34:11,896 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:34:11,900 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:34:11,900 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:34:11,901 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-26 21:34:11,902 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-26 21:34:11,903 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:34:11,903 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:34:11,904 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:34:11,905 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:34:11,906 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:36:45,045 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:36:46,922 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:36:47,822 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:36:48,628 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 21:36:48,630 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 21:36:48,633 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 21:36:48,634 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 21:36:48,636 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 21:36:49,939 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:36:49,957 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:36:49,963 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:36:49,964 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 21:36:57,125 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:36:57,136 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:36:57,138 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:36:57,146 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:36:57,148 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:36:57,150 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-26 21:36:57,151 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-26 21:36:57,152 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:36:57,153 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:36:57,155 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:36:57,156 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:36:57,158 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:37:05,853 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:37:05,856 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:37:05,866 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:37:09,886 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:37:11,682 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:37:13,369 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:37:14,337 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 21:37:14,338 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 21:37:14,339 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 21:37:14,340 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 21:37:14,341 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 21:37:15,895 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:37:15,913 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:37:15,915 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:37:15,916 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 21:37:22,089 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:37:26,398 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:37:34,293 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:37:34,309 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:37:34,311 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:37:34,329 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:37:34,331 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:37:34,333 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-26 21:37:34,334 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-26 21:37:34,335 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:37:34,337 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:37:34,338 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:37:34,340 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:37:34,342 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:40:30,468 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:40:32,012 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:40:32,817 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:40:33,762 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 21:40:33,765 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 21:40:33,769 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 21:40:33,770 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 21:40:33,772 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 21:40:35,386 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:40:35,402 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:40:35,406 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:40:35,407 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 21:40:41,743 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:40:41,758 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:40:41,760 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:40:41,767 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:40:41,768 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:40:41,769 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-26 21:40:41,770 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-26 21:40:41,771 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:40:41,772 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:40:41,774 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:40:41,775 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:40:41,776 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:40:47,931 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-26 21:40:47,938 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:40:47,939 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:40:47,941 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:40:49,231 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-26 21:40:50,922 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:40:51,721 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:40:52,696 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:40:53,727 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-26 21:40:53,728 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-26 21:40:53,730 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-26 21:40:53,730 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-26 21:40:53,731 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-26 21:40:55,299 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:40:55,316 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:40:55,319 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 21:40:55,322 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-26 21:41:00,486 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-26 21:41:00,495 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-26 21:41:00,496 - AIPoliDoc - INFO - 排版规则管理器初始化完成，加载了 2 个模板
+2025-05-26 21:41:00,503 - AIPoliDoc - DEBUG - 字体 '宋体' 直接可用
+2025-05-26 21:41:00,504 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:41:00,505 - AIPoliDoc - DEBUG - 字体 '楷体' 直接可用
+2025-05-26 21:41:00,506 - AIPoliDoc - DEBUG - 字体 '黑体' 直接可用
+2025-05-26 21:41:00,508 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 21:41:00,509 - AIPoliDoc - DEBUG - 字体 '苹方-简' 直接可用
+2025-05-26 21:41:00,510 - AIPoliDoc - DEBUG - 使用中文字体名称 '宋体' 替代英文名称 'SimSun'
+2025-05-26 21:41:00,512 - AIPoliDoc - DEBUG - 使用中文字体名称 '楷体' 替代英文名称 'KaiTi'
+2025-05-26 21:41:00,513 - AIPoliDoc - DEBUG - 使用中文字体名称 '黑体' 替代英文名称 'SimHei'
+2025-05-26 21:41:00,517 - AIPoliDoc - INFO - 字体 'FangSong' 被Qt映射到系统字体 'FangSong'
+2025-05-26 22:00:02,229 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-26 22:00:02,252 - AIPoliDoc - INFO - 应用程序正常关闭
