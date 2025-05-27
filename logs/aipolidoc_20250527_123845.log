@@ -515,3 +515,19 @@ AI时代，该怎样看待学习？（青年观）
 2025-05-27 12:43:05,620 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
 2025-05-27 12:43:05,622 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
 2025-05-27 12:43:05,623 - AIPoliDoc - INFO - 字体 'Microsoft YaHei' 被Qt映射到系统字体 'Microsoft YaHei'
+2025-05-27 12:55:29,035 - AIPoliDoc - INFO - 字体 '仿宋' 被Qt映射到系统字体 '仿宋'
+2025-05-27 12:55:31,285 - AIPoliDoc - INFO - 字体 '仿宋' 被Qt映射到系统字体 '仿宋'
+2025-05-27 12:55:31,985 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-27 12:55:32,788 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-27 12:55:33,863 - AIPoliDoc - INFO - 字体 '微软雅黑' 使用别名 'PingFang SC' 替代
+2025-05-27 12:55:34,747 - AIPoliDoc - DEBUG - 模板保存路径: config/templates/默认模板.json
+2025-05-27 12:55:34,754 - AIPoliDoc - DEBUG - 删除原模板文件: config/templates/默认模板.json
+2025-05-27 12:55:34,759 - AIPoliDoc - INFO - 保存模板: 默认模板
+2025-05-27 12:55:34,761 - AIPoliDoc - DEBUG - 模板文件写入成功: config/templates/默认模板.json
+2025-05-27 12:55:34,763 - AIPoliDoc - INFO - 模板 '默认模板' 已保存
+2025-05-27 12:55:36,221 - AIPoliDoc - DEBUG - 加载模板: 默认模板
+2025-05-27 12:55:36,234 - AIPoliDoc - DEBUG - 加载模板: 研究论文格式
+2025-05-27 12:55:36,249 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-27 12:55:36,251 - AIPoliDoc - INFO - 模板 '默认模板' 已更新
+2025-05-27 14:14:11,636 - AIPoliDoc - DEBUG - 保存配置文件: config/app_config.json
+2025-05-27 14:14:11,667 - AIPoliDoc - INFO - 应用程序正常关闭

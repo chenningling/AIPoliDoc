@@ -256,8 +256,8 @@ class TemplateEditorDialog(QDialog):
         
         # 创建表格
         self.rules_table = QTableWidget()
-        self.rules_table.setColumnCount(5)
-        self.rules_table.setHorizontalHeaderLabels(["元素类型", "字体", "字号", "粗体", "行间距"])
+        self.rules_table.setColumnCount(6)
+        self.rules_table.setHorizontalHeaderLabels(["元素类型", "字体", "字号", "粗体", "行间距", "对齐方式"])
         self.rules_table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
         self.rules_table.setSelectionBehavior(QTableWidget.SelectionBehavior.SelectRows)
         
@@ -414,6 +414,17 @@ class TemplateEditorDialog(QDialog):
             # 行间距
             spacing_item = QTableWidgetItem(str(rule.get("line_spacing", 1.5)))
             self.rules_table.setItem(i, 4, spacing_item)
+            
+            # 对齐方式
+            alignment = rule.get("alignment", "left")
+            alignment_display = {
+                "left": "左对齐",
+                "center": "居中",
+                "right": "右对齐",
+                "justify": "两端对齐"
+            }.get(alignment, "左对齐")
+            alignment_item = QTableWidgetItem(alignment_display)
+            self.rules_table.setItem(i, 5, alignment_item)
         
         # 更新预览
         self.update_preview()
@@ -442,9 +453,10 @@ class TemplateEditorDialog(QDialog):
             size = self.rules_table.item(row, 2).text()
             bold = self.rules_table.item(row, 3).text()
             spacing = self.rules_table.item(row, 4).text()
+            alignment = self.rules_table.item(row, 5).text()
             
             # 创建带格式的预览文本
-            rule_text = f"- {element_type}: {font_display_name} {size} {bold} 行距{spacing}"
+            rule_text = f"- {element_type}: {font_display_name} {size} {bold} 行距{spacing} {alignment}"
             
             # 应用字体预览
             cursor = self.preview_text.textCursor()
@@ -472,6 +484,22 @@ class TemplateEditorDialog(QDialog):
             self.preview_text.append("")
             self.preview_text.setCurrentCharFormat(format)
             self.preview_text.insertPlainText(rule_text)
+            
+            # 设置对齐方式（仅用于预览效果）
+            block_format = self.preview_text.textCursor().blockFormat()
+            if alignment == "左对齐":
+                block_format.setAlignment(Qt.AlignmentFlag.AlignLeft)
+            elif alignment == "居中":
+                block_format.setAlignment(Qt.AlignmentFlag.AlignCenter)
+            elif alignment == "右对齐":
+                block_format.setAlignment(Qt.AlignmentFlag.AlignRight)
+            elif alignment == "两端对齐":
+                block_format.setAlignment(Qt.AlignmentFlag.AlignJustify)
+            
+            # 应用对齐方式到当前段落
+            cursor = self.preview_text.textCursor()
+            cursor.movePosition(cursor.MoveOperation.End)
+            cursor.setBlockFormat(block_format)
     
     def add_rule(self):
         """
@@ -482,11 +510,12 @@ class TemplateEditorDialog(QDialog):
         self.rules_table.setRowCount(row_count + 1)
         
         # 设置默认值
-        self.rules_table.setItem(row_count, 0, QTableWidgetItem(f"新规则{row_count+1}"))
+        self.rules_table.setItem(row_count, 0, QTableWidgetItem("自定义"))
         self.rules_table.setItem(row_count, 1, QTableWidgetItem("宋体"))
         self.rules_table.setItem(row_count, 2, QTableWidgetItem("五号"))
         self.rules_table.setItem(row_count, 3, QTableWidgetItem("否"))
         self.rules_table.setItem(row_count, 4, QTableWidgetItem("1.5"))
+        self.rules_table.setItem(row_count, 5, QTableWidgetItem("左对齐"))
         
         # 更新预览
         self.update_preview()
@@ -550,6 +579,16 @@ class TemplateEditorDialog(QDialog):
                 spacing = 1.5
                 QMessageBox.warning(self, "输入错误", f"规则 '{element_type}' 的行间距格式无效，已设为默认值1.5。")
             
+            # 获取对齐方式
+            alignment_display = self.rules_table.item(row, 5).text().strip()
+            alignment_map = {
+                "左对齐": "left",
+                "居中": "center",
+                "右对齐": "right",
+                "两端对齐": "justify"
+            }
+            alignment = alignment_map.get(alignment_display, "left")
+            
             # 使用用户选择的字体名称，不进行自动映射
             system_font = font
             
@@ -576,6 +615,7 @@ class TemplateEditorDialog(QDialog):
                 "size": size,
                 "bold": bold,
                 "line_spacing": spacing,
+                "alignment": alignment,
                 "font_display_name": font  # 保存显示名称，便于后续显示
             }
         
@@ -646,6 +686,8 @@ class TemplateEditorDialog(QDialog):
             self.edit_bold(row, column)
         elif column == 4:  # 行间距列
             self.edit_spacing(row, column)
+        elif column == 5:  # 对齐方式列
+            self.edit_alignment(row, column)
     
     def edit_font(self, row, column):
         """
@@ -782,6 +824,49 @@ class TemplateEditorDialog(QDialog):
         if dialog.exec():
             selected_spacing = str(spacing_spin.value())
             self.rules_table.setItem(row, column, QTableWidgetItem(selected_spacing))
+            self.update_preview()
+            
+    def edit_alignment(self, row, column):
+        """
+        编辑对齐方式
+        
+        Args:
+            row: 行索引
+            column: 列索引
+        """
+        current_alignment = self.rules_table.item(row, column).text()
+        
+        # 创建对齐方式编辑对话框
+        dialog = QDialog(self)
+        dialog.setWindowTitle("设置对齐方式")
+        dialog.setMinimumWidth(250)
+        
+        layout = QVBoxLayout(dialog)
+        
+        # 创建对齐方式下拉框
+        alignment_combo = QComboBox()
+        alignment_options = ["左对齐", "居中", "右对齐", "两端对齐"]
+        for option in alignment_options:
+            alignment_combo.addItem(option)
+        
+        # 设置当前对齐方式
+        index = alignment_combo.findText(current_alignment)
+        if index >= 0:
+            alignment_combo.setCurrentIndex(index)
+        
+        # 按钮
+        button_box = QDialogButtonBox(QDialogButtonBox.StandardButton.Ok | QDialogButtonBox.StandardButton.Cancel)
+        button_box.accepted.connect(dialog.accept)
+        button_box.rejected.connect(dialog.reject)
+        
+        # 添加到布局
+        layout.addWidget(QLabel("选择对齐方式:"))
+        layout.addWidget(alignment_combo)
+        layout.addWidget(button_box)
+        
+        if dialog.exec():
+            selected_alignment = alignment_combo.currentText()
+            self.rules_table.setItem(row, column, QTableWidgetItem(selected_alignment))
             self.update_preview()
     
     def closeEvent(self, event):

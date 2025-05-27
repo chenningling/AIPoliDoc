@@ -7,6 +7,7 @@
             "size": "小二",
             "bold": true,
             "line_spacing": 1.0,
+            "alignment": "center",
             "font_display_name": "仿宋"
         },
         "一级标题": {
@@ -14,6 +15,7 @@
             "size": "五号",
             "bold": true,
             "line_spacing": 1.5,
+            "alignment": "center",
             "font_display_name": "仿宋"
         },
         "二级标题": {
@@ -21,6 +23,7 @@
             "size": "五号",
             "bold": true,
             "line_spacing": 1.5,
+            "alignment": "center",
             "font_display_name": "楷体"
         },
         "正文": {
@@ -28,6 +31,7 @@
             "size": "五号",
             "bold": false,
             "line_spacing": 1.5,
+            "alignment": "left",
             "font_display_name": "微软雅黑"
         },
         "三级标题": {
@@ -35,6 +39,7 @@
             "size": "五号",
             "bold": false,
             "line_spacing": 1.5,
+            "alignment": "center",
             "font_display_name": "微软雅黑"
         },
         "摘要": {
@@ -42,6 +47,7 @@
             "size": "五号",
             "bold": false,
             "line_spacing": 1.5,
+            "alignment": "left",
             "font_display_name": "微软雅黑"
         }
     }
