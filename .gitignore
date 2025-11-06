@@ -5,6 +5,8 @@ __pycache__/
 *.so
 .Python
 env/
+venv/
+ENV/
 build/
 develop-eggs/
 dist/
@@ -20,18 +22,58 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
+*.sublime-project
+*.sublime-workspace
 
-# 项目特定
+# 项目特定 - 敏感信息
 config/api_config.json
+config/app_config.json
 *.log
+logs/
 已排版/
+
+# 开发文档（开发过程中的说明文档）
+dev_docs/
+
+# 备份文件
+*.bak
+*.backup
+*.tmp
 
 # 系统文件
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+Desktop.ini
+
+# 测试文件
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 打包文件
+*.exe
+*.dmg
+*.pkg
+*.app
+build_windows.py
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# 启动脚本（可选，如果需要可以注释掉）
+# 启动应用.command
+# start.sh

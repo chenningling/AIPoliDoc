@@ -28,9 +28,9 @@ class ApiConfigDialog(QDialog):
         super().__init__(parent)
         
         # 设置窗口属性
-        self.setWindowTitle("模型配置")
-        self.setMinimumWidth(500)
-        self.setMinimumHeight(300)
+        self.setWindowTitle("API配置")
+        self.setMinimumWidth(500)  # 恢复原来的宽度
+        self.setMinimumHeight(350)
         self.setModal(True)
         
         # 加载当前配置
@@ -57,22 +57,34 @@ class ApiConfigDialog(QDialog):
         # API URL
         self.api_url_label = QLabel("API URL:")
         self.api_url_edit = QLineEdit()
-        self.api_url_edit.setPlaceholderText("例如: https://api.deepseek.com/chat/completions")
+        self.api_url_edit.setMinimumWidth(600)  # 设置最小宽度
+        self.api_url_edit.setText("https://api.deepseek.com/chat/completions")  # 设置默认值
+        self.api_url_edit.setPlaceholderText("请输入 API URL，例如：https://api.deepseek.com/chat/completions")
         form_layout.addRow(self.api_url_label, self.api_url_edit)
         
         # API Key
         self.api_key_label = QLabel("API Key:")
         self.api_key_edit = QLineEdit()
-        self.api_key_edit.setPlaceholderText("输入您的API密钥")
+        self.api_key_edit.setMinimumWidth(600)  # 设置最小宽度
+        self.api_key_edit.setPlaceholderText("请输入您的 API Key")
         self.api_key_edit.setEchoMode(QLineEdit.EchoMode.Password)  # 密码模式
         form_layout.addRow(self.api_key_label, self.api_key_edit)
         
         # 模型选择
-        self.model_label = QLabel("模型:")
-        self.model_combo = QComboBox()
-        self.model_combo.addItems(["deepseek-chat", "deepseek-coder", "gpt-3.5-turbo", "gpt-4", "custom"])
-        self.model_combo.setEditable(True)  # 允许自定义输入
-        form_layout.addRow(self.model_label, self.model_combo)
+        self.model_label = QLabel("模型名称:")
+        self.model_edit = QLineEdit()
+        self.model_edit.setMinimumWidth(600)  # 设置最小宽度
+        self.model_edit.setText("deepseek-chat")  # 设置默认值
+        self.model_edit.setPlaceholderText("请输入模型名称，例如：deepseek-chat")
+        form_layout.addRow(self.model_label, self.model_edit)
+        
+        # 添加说明文本
+        info_text = "推荐使用DeepSeek模型，也可更换其他AI模型。"
+        link_text = "点击获取DeepSeek API key"
+        info_label = QLabel(f"{info_text} 👉 <a href='https://platform.deepseek.com/api_keys'>{link_text}</a>")
+        info_label.setOpenExternalLinks(True)  # 允许打开外部链接
+        info_label.setStyleSheet("color: #666; margin-top: 5px;")
+        form_layout.addRow("", info_label)
         
         # 最后更新时间
         self.last_updated_label = QLabel("最后更新:")
@@ -82,16 +94,66 @@ class ApiConfigDialog(QDialog):
         # 添加API配置组
         main_layout.addWidget(api_group)
         
+        # 按钮布局
+        button_layout = QHBoxLayout()
+        button_layout.setSpacing(10)
+        
         # 测试连接按钮
         self.test_btn = QPushButton("测试连接")
+        self.test_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                padding: 5px 15px;
+                min-width: 100px;
+            }
+            QPushButton:hover { background-color: #45a049; }
+            QPushButton:pressed { background-color: #3d8b40; }
+        """)
         self.test_btn.clicked.connect(self.test_connection)
-        main_layout.addWidget(self.test_btn)
         
-        # 按钮区域
-        button_box = QDialogButtonBox(QDialogButtonBox.StandardButton.Ok | QDialogButtonBox.StandardButton.Cancel)
-        button_box.accepted.connect(self.accept)
-        button_box.rejected.connect(self.reject)
-        main_layout.addWidget(button_box)
+        # 确定按钮
+        ok_btn = QPushButton("确定")
+        ok_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #2196F3;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                padding: 5px 15px;
+                min-width: 100px;
+            }
+            QPushButton:hover { background-color: #1976D2; }
+            QPushButton:pressed { background-color: #1565C0; }
+        """)
+        ok_btn.clicked.connect(self.accept)
+        
+        # 取消按钮
+        cancel_btn = QPushButton("取消")
+        cancel_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #9E9E9E;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                padding: 5px 15px;
+                min-width: 100px;
+            }
+            QPushButton:hover { background-color: #757575; }
+            QPushButton:pressed { background-color: #616161; }
+        """)
+        cancel_btn.clicked.connect(self.reject)
+        
+        # 添加按钮到布局
+        button_layout.addStretch()
+        button_layout.addWidget(self.test_btn)
+        button_layout.addWidget(ok_btn)
+        button_layout.addWidget(cancel_btn)
+        button_layout.addStretch()
+        
+        main_layout.addLayout(button_layout)
         
         # 设置样式
         self.set_style()
@@ -114,18 +176,11 @@ class ApiConfigDialog(QDialog):
                 padding: 0 5px;
                 color: #1976D2;
             }
-            QPushButton {
-                background-color: #2196F3;
-                color: white;
-                border: none;
-                border-radius: 4px;
-                padding: 5px 15px;
-            }
-            QPushButton:hover {
-                background-color: #0D8AEE;
-            }
-            QPushButton:pressed {
-                background-color: #0A6EBD;
+            QLineEdit, QComboBox {
+                border: 1px solid #BBDEFB;
+                border-radius: 3px;
+                padding: 5px;
+                min-width: 350px;
             }
             QLineEdit, QComboBox {
                 border: 1px solid #BBDEFB;
@@ -146,11 +201,7 @@ class ApiConfigDialog(QDialog):
         
         # 设置模型
         model = self.api_config.get("model", "deepseek-chat")
-        index = self.model_combo.findText(model)
-        if index >= 0:
-            self.model_combo.setCurrentIndex(index)
-        else:
-            self.model_combo.setEditText(model)
+        self.model_edit.setText(model)
         
         # 设置最后更新时间
         last_updated = self.api_config.get("last_updated", "")
@@ -164,19 +215,22 @@ class ApiConfigDialog(QDialog):
         # 获取输入值
         api_url = self.api_url_edit.text().strip()
         api_key = self.api_key_edit.text().strip()
-        model = self.model_combo.currentText().strip()
+        model = self.model_edit.text().strip()
         
         # 验证输入
         if not api_url:
-            QMessageBox.warning(self, "输入错误", "API URL不能为空！")
+            QMessageBox.warning(self, "输入错误", "API URL 不能为空！")
+            self.api_url_edit.setFocus()
             return
         
         if not api_key:
-            QMessageBox.warning(self, "输入错误", "API Key不能为空！")
+            QMessageBox.warning(self, "输入错误", "API Key 不能为空！")
+            self.api_key_edit.setFocus()
             return
         
         if not model:
             QMessageBox.warning(self, "输入错误", "模型名称不能为空！")
+            self.model_edit.setFocus()
             return
         
         # 更新配置
@@ -199,7 +253,7 @@ class ApiConfigDialog(QDialog):
         # 获取当前输入的配置
         api_url = self.api_url_edit.text().strip()
         api_key = self.api_key_edit.text().strip()
-        model = self.model_combo.currentText().strip()
+        model = self.model_edit.text().strip()
         
         # 验证输入
         if not api_url or not api_key or not model:

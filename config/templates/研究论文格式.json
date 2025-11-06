@@ -65,6 +65,14 @@
             "line_spacing": 1.5,
             "alignment": "left",
             "font_display_name": "楷体"
+        },
+        "三级标题": {
+            "font": "方正小标宋_GBK",
+            "size": "五号",
+            "bold": false,
+            "line_spacing": 1.5,
+            "alignment": "left",
+            "font_display_name": "方正小标宋_GBK"
         }
     }
 }
