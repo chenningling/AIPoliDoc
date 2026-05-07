@@ -185,9 +185,8 @@ class AIConnector:
         app_logger.info(f"发送请求到AI API: {self.api_url}")
         app_logger.debug(f"请求头信息: {headers}")
         
-        # 记录提示词的前200个字符，避免日志过大
-        prompt_preview = prompt[:200] + "..." if len(prompt) > 200 else prompt
-        app_logger.debug(f"提示词预览: {prompt_preview}")
+        # 完整提示词写入日志文件（DEBUG级别，仅写文件不进UI）
+        app_logger.debug(f"完整提示词（{len(prompt)}字符）:\n{prompt}")
         
         # 记录模型参数
         app_logger.debug(f"使用模型: {self.model}")
@@ -211,8 +210,7 @@ class AIConnector:
                     first_choice = response_json["choices"][0]
                     if "message" in first_choice and "content" in first_choice["message"]:
                         content = first_choice["message"]["content"]
-                        content_preview = content[:200] + "..." if len(content) > 200 else content
-                        app_logger.debug(f"响应内容预览: {content_preview}")
+                        app_logger.debug(f"完整响应内容（{len(content)}字符）:\n{content}")
                 
                 # 记录响应的其他元数据
                 if "model" in response_json:
@@ -240,6 +238,181 @@ class AIConnector:
             
             return False, error_msg
     
+    def generate_classification_prompt(self, paragraphs, template_rules):
+        """
+        生成Token高效的分类Prompt（优化模式）。
+        
+        只发送段落编号+前80字预览，AI只返回类型标签，
+        格式参数完全在本地从模板查表组装，大幅减少Token消耗。
+        
+        Args:
+            paragraphs: 段落文本列表
+            template_rules: 模板规则字典（用于告知AI有哪些可用类型）
+            
+        Returns:
+            str: 分类提示词
+        """
+        non_empty_paras = [
+            {"id": i, "text": p[:80] + ("..." if len(p) > 80 else "")}
+            for i, p in enumerate(paragraphs)
+            if p.strip()
+        ]
+
+        element_types = list(template_rules.keys())
+        types_str = "、".join(element_types)
+
+        prompt = f"""你是文档结构分类助手。请按顺序分析以下段落预览，识别每个段落的语义类型。
+
+【可用类型】：{types_str}
+
+【段落列表】（按文档顺序排列，每段仅显示前80字）：
+{json.dumps(non_empty_paras, ensure_ascii=False, indent=2)}
+
+【分类规则】：
+1. 文档最开头的短句（通常少于30字且无标点）是"标题"
+2. "摘要"关键词本身或其后紧随的段落属于"摘要"类型，直到"关键词"或章节编号出现为止
+3. 带数字或中文编号的短句（如"1."、"1.1"、"一、"、"（一）"）是各级标题
+4. "关键词"或"Keywords"开头的段落是"关键词"类型
+5. "参考文献"之后的条目是"参考文献"类型
+6. 其余段落一般属于"正文"类型
+7. 请结合段落的顺序和上下文判断，前面段落的类型会影响后续段落的判断
+
+【返回格式】只返回JSON数组，不要有任何说明文字：
+[{{"id": 0, "type": "标题"}}, {{"id": 1, "type": "摘要"}}, ...]"""
+
+        # 估算旧模式总字符数（输入+输出）：
+        #   输入 = 固定系统提示(~600) + 完整文档正文 + 排版规则JSON(~500)
+        #   输出 = AI需逐段重复正文内容(content字段) + 各类型/字体/字号等格式字段(每段约60字符)
+        doc_text_length = sum(len(p) for p in paragraphs if p.strip())
+        old_input_estimate = 600 + doc_text_length + 500
+        old_output_estimate = doc_text_length + len(non_empty_paras) * 60
+        old_mode_total = old_input_estimate + old_output_estimate
+
+        # 估算新模式总字符数（输入+输出）：
+        #   输入 = 分类Prompt（含80字预览）
+        #   输出 = 每段只返回 {"id":X,"type":"类型"} 约30字符
+        new_input_estimate = len(prompt)
+        new_output_estimate = len(non_empty_paras) * 30
+        new_mode_total = new_input_estimate + new_output_estimate
+
+        saving_pct = max(0, 100 - int(new_mode_total / max(old_mode_total, 1) * 100))
+
+        app_logger.info(
+            f"[Token优化] 段落数: {len(non_empty_paras)}, 文档正文字符: {doc_text_length}"
+        )
+        app_logger.info(
+            f"[Token优化] 旧模式估算(输入+输出): {old_mode_total}字符 "
+            f"(输入{old_input_estimate} + 输出{old_output_estimate})"
+        )
+        app_logger.info(
+            f"[Token优化] 新模式估算(输入+输出): {new_mode_total}字符 "
+            f"(输入{new_input_estimate} + 输出{new_output_estimate})"
+        )
+        app_logger.info(f"[Token优化] 预计节省约 {saving_pct}% (主要节省来自输出token减少，直接提升响应速度)")
+
+        # 完整提示词写入日志文件（DEBUG级别不进UI，文件可查）
+        app_logger.debug(f"[Token优化] 完整分类Prompt如下：\n{prompt}")
+
+        return prompt
+
+    def parse_classification_response(self, response):
+        """
+        解析AI分类响应（优化模式专用）。
+        
+        AI只返回类型标签数组：[{"id": 0, "type": "标题"}, ...]
+        
+        Args:
+            response: AI API的响应内容
+            
+        Returns:
+            (bool, list/str): 是否成功及分类结果列表/错误信息
+        """
+        try:
+            content = response.get("choices", [{}])[0].get("message", {}).get("content", "")
+
+            if not content:
+                return False, "AI响应内容为空"
+
+            app_logger.debug(f"[优化模式] 完整分类响应（{len(content)}字符）:\n{content}")
+
+            json_start = content.find('[')
+            json_end = content.rfind(']')
+
+            if json_start < 0 or json_end < 0:
+                app_logger.error("响应中未找到JSON数组")
+                return False, "响应中未找到有效的JSON数组"
+
+            json_content = content[json_start:json_end + 1]
+
+            try:
+                classification = json.loads(json_content)
+            except json.JSONDecodeError as e:
+                app_logger.warning(f"JSON解析失败，尝试修复: {e}")
+                fixed = self._fix_json(json_content)
+                try:
+                    classification = json.loads(fixed)
+                except json.JSONDecodeError as e2:
+                    return False, f"JSON解析失败: {e2}"
+
+            if not isinstance(classification, list):
+                return False, "分类结果不是数组类型"
+
+            valid_items = []
+            for item in classification:
+                if isinstance(item, dict) and 'id' in item and 'type' in item:
+                    valid_items.append({'id': int(item['id']), 'type': str(item['type'])})
+
+            from collections import Counter
+            type_counts = Counter(item['type'] for item in valid_items)
+            app_logger.info(f"[优化模式] 分类完成，共识别 {len(valid_items)} 个段落，类型分布: {dict(type_counts)}")
+
+            return True, valid_items
+
+        except Exception as e:
+            import traceback
+            app_logger.error(f"解析分类响应异常: {traceback.format_exc()}")
+            return False, f"解析分类响应异常: {str(e)}"
+
+    def build_formatting_instructions(self, paragraphs, classification_results, template_rules):
+        """
+        本地组装完整排版指令（优化模式专用，无需额外AI调用）。
+        
+        根据AI返回的类型标签 + 模板规则，在本地生成与旧模式相同格式的排版指令。
+        
+        Args:
+            paragraphs: 原始段落文本列表（完整内容）
+            classification_results: AI返回的分类结果 [{id, type}, ...]
+            template_rules: 模板规则字典
+            
+        Returns:
+            dict: 与旧模式完全兼容的排版指令 {"elements": [...]}
+        """
+        type_map = {item['id']: item['type'] for item in classification_results}
+
+        default_format = template_rules.get('正文', {
+            'font': '宋体',
+            'size': '五号',
+            'line_spacing': 1.5,
+            'alignment': 'left'
+        })
+
+        elements = []
+        for i, para in enumerate(paragraphs):
+            if not para.strip():
+                continue
+
+            element_type = type_map.get(i, '正文')
+            format_rule = dict(template_rules.get(element_type, default_format))
+
+            elements.append({
+                'type': element_type,
+                'content': para,
+                'format': format_rule
+            })
+
+        app_logger.info(f"[优化模式] 本地组装排版指令完成，共 {len(elements)} 个元素（格式参数从模板查表，无需AI输出）")
+        return {'elements': elements}
+
     def _fix_json(self, json_str):
         """
         尝试修复JSON格式错误

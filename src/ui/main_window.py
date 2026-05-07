@@ -134,30 +134,47 @@ class FormattingWorker(QThread):
                 self.log_message.emit(f"模板 '{self.template_name}' 不存在，使用默认模板")
                 template = self.format_manager.create_default_template()
             
-            # 构建AI提示词
+            # ── 优化模式：只发段落预览做分类，格式参数本地组装 ──────────────
             self.progress_updated.emit(35)
-            self.log_message.emit("正在生成AI提示词...")
-            prompt = self.ai_connector.generate_prompt(doc_content, template.get('rules', {}))
-            
-            # 发送请求到AI API
+            self.log_message.emit("【Token优化模式】正在生成分类Prompt（仅发送段落预览，不发全文）...")
+            template_rules = template.get('rules', {})
+            prompt = self.ai_connector.generate_classification_prompt(doc_content, template_rules)
+
             self.progress_updated.emit(45)
-            self.log_message.emit("正在发送请求到AI API...")
+            self.log_message.emit("正在发送分类请求到AI API...")
             success, response = self.ai_connector.send_request(prompt)
-            
+
             if not success:
                 self.log_message.emit(f"AI API请求失败: {response}")
                 self.task_completed.emit(False, "AI API请求失败")
                 return
-            
-            # 解析AI响应
-            self.progress_updated.emit(65)
-            self.log_message.emit("AI响应成功，正在解析响应...")
-            success, formatting_instructions = self.ai_connector.parse_response(response)
-            
+
+            # 解析AI返回的类型标签列表
+            self.progress_updated.emit(60)
+            self.log_message.emit("AI响应成功，正在解析段落分类结果...")
+            success, classification_results = self.ai_connector.parse_classification_response(response)
+
             if not success:
-                self.log_message.emit(f"解析AI响应失败: {formatting_instructions}")
-                self.task_completed.emit(False, "解析AI响应失败")
-                return
+                self.log_message.emit(f"解析分类响应失败: {classification_results}，回退到全文模式...")
+                # 回退：使用旧的全文模式
+                prompt_fallback = self.ai_connector.generate_prompt(doc_content, template_rules)
+                success, response = self.ai_connector.send_request(prompt_fallback)
+                if not success:
+                    self.task_completed.emit(False, "AI API请求失败")
+                    return
+                success, formatting_instructions = self.ai_connector.parse_response(response)
+                if not success:
+                    self.log_message.emit(f"解析AI响应失败: {formatting_instructions}")
+                    self.task_completed.emit(False, "解析AI响应失败")
+                    return
+            else:
+                # 本地组装排版指令，无需AI再次输出全文内容
+                self.progress_updated.emit(65)
+                self.log_message.emit("本地查表组装排版指令（格式参数来自模板，不消耗额外Token）...")
+                formatting_instructions = self.ai_connector.build_formatting_instructions(
+                    doc_content, classification_results, template_rules
+                )
+            # ── 优化模式结束 ──────────────────────────────────────────────────
             
             # 验证结构
             self.progress_updated.emit(75)

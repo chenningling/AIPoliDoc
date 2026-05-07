@@ -2,10 +2,21 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyo
 *.so
 .Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.hypothesis/
+pytestdebug.log
+pip-log.txt
+pip-delete-this-directory.txt
 env/
 venv/
+.venv/
 ENV/
 build/
 develop-eggs/
@@ -24,28 +35,35 @@ wheels/
 *.egg
 MANIFEST
 
-# IDE
+# IDE / 编辑器
 .idea/
 .vscode/
 *.swp
 *.swo
 *.sublime-project
 *.sublime-workspace
+*.code-workspace
+.cursor/
 
-# 项目特定 - 敏感信息
+# 项目特定 - 敏感信息与用户配置
 config/api_config.json
 config/app_config.json
 *.log
 logs/
 已排版/
 
-# 开发文档（开发过程中的说明文档）
+# 开发文档（本地说明、迭代计划等，非应用运行所需）
 dev_docs/
 
-# 备份文件
+# 仓库维护清单（与程序运行无关；详细说明见 dev_docs/）
+GIT_SECURITY_CHECK.md
+
+# 备份与临时文件
 *.bak
 *.backup
 *.tmp
+*.temp
+.cache/
 
 # 系统文件
 .DS_Store
@@ -57,23 +75,26 @@ ehthumbs.db
 Thumbs.db
 Desktop.ini
 
-# 测试文件
-.pytest_cache/
+# 测试与覆盖率
 .coverage
+.coverage.*
 htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
 
-# 打包文件
+# 打包与本地构建脚本产物
 *.exe
 *.dmg
 *.pkg
 *.app
 build_windows.py
 
-# 临时文件
-*.tmp
-*.temp
-.cache/
+# 环境变量文件（若后续使用）
+.env
+.env.local
+.env.*.local
 
-# 启动脚本（可选，如果需要可以注释掉）
-# 启动应用.command
-# start.sh
+# Office 打开文档时的临时锁文件
+~$*.doc*
+~$*.docx*

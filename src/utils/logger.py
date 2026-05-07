@@ -86,7 +86,7 @@ class Logger:
                 self.callback(log_entry, record.levelname)
         
         handler = UIHandler(callback)
-        handler.setLevel(logging.DEBUG)  # 修改为调试级别，以显示更多日志
+        handler.setLevel(logging.INFO)  # UI handler 只处理 INFO+，DEBUG 由文件/控制台处理
         formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         
